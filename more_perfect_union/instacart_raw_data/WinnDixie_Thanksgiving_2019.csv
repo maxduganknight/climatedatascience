@@ -1,0 +1,315 @@
+Year,Page,Brand,Product,Size,Base_Price,Promo_Price,Promo_Type,Promo_Details,Digital_Req,Non_Digital_Price,Member_Req,Savings,Discount_Depth,Net_Price,Core_Item
+2019,1,Honeysuckle,Grade A Frozen Turkey,10 lbs & up,,0.49/lb,SPEND_GET,When you spend $30 or more - Limit 2,NO,,YES,,51%,0.49/lb,YES
+2019,1,Smithfield,Shank Portion Smoked Ham,per lb,,1.99/lb,STRAIGHT_PRICE,Butt Portion $2.19/lb,NO,,YES,,,1.99/lb,NO
+2019,1,Smithfield,Half Spiral Sliced Ham,per lb,,0.69/lb,SPEND_GET,When you spend $30 or more - Limit 2,NO,,YES,,,0.69/lb,NO
+2019,1,Private Label,Sweet Potatoes,per lb,,0.29/lb,STRAIGHT_PRICE,,NO,,YES,,,0.29/lb,NO
+2019,1,Private Label,Asparagus,per lb,,1.79/lb,STRAIGHT_PRICE,,NO,,YES,,,1.79/lb,NO
+2019,1,Private Label,8 Inch Sweet Potato Pumpkin or Fruit Pies,each,,3.99,STRAIGHT_PRICE,Save up to $1,NO,,YES,1.00,,3.99,NO
+2019,1,Private Label,Boneless Skinless Chicken Breast,per lb,,1.79/lb,STRAIGHT_PRICE,,NO,,YES,,,1.79/lb,NO
+2019,1,Jimmy Dean,Bacon or Sausage Rolls Links Patties,9.6-16 oz,,3.33/ea,MULTIBUY,3 for $10 - Save up to $16.97 on 3,NO,,YES,,,3.33,NO
+2019,1,Private Label,Mixed Fried or Baked Chicken,8-10 pc,,6.99,STRAIGHT_PRICE,Save up to $1,NO,,YES,1.00,,6.99,NO
+2019,1,Private Label,Jumbo Headless Raw Shrimp,per lb,,8.99/lb,STRAIGHT_PRICE,,NO,,YES,,,8.99/lb,NO
+2019,1,Wright,Bacon,24 oz,,9.99,STRAIGHT_PRICE,Rest of week $9.99,NO,,YES,,,9.99,NO
+2019,1,Private Label,100% All Natural Fresh Chicken Wings Value Pack,per lb,,2.49/lb,STRAIGHT_PRICE,Rest of week $2.99/lb,NO,,YES,,,2.49/lb,NO
+2019,1,WD Brand,Angus Choice Boneless Chuck Roast,per lb,,3.99/lb,STRAIGHT_PRICE,,NO,,YES,,,3.99/lb,NO
+2019,1,Private Label,California Mandarin Halos,3 lb bag,,3.99,STRAIGHT_PRICE,Rest of week $4.99,NO,,YES,,,3.99,NO
+2019,1,Domino,Granulated Sugar,4 lb,,varies,BOGO_FREE,Mix & Match Buy 1 Get 1 Free with McCormick Red Cap Spices or Crisco Oil - Save up to $6.29 on 2,NO,,YES,,,varies,NO
+2019,1,Mrs. Smith's,Flaky Crust Pies,37 oz,,varies,BOGO_FREE,Mix & Match Buy 1 Get 1 Free with Edwards Pies Breyers Ice Cream or Cool Whip - Save up to $7.99 on 2,NO,,YES,,,varies,NO
+2019,1,Cool Whip,Whipped Topping,8 oz,,varies,BOGO_FREE,Mix & Match Buy 1 Get 1 Free - Save up to $7.99 on 2,NO,,YES,,,varies,YES
+2019,1,Philadelphia,Cream Cheese,8 oz,,1.67/ea,MULTIBUY,3 for $5 - Save up to $4.87 on 3,NO,,YES,,,1.67,YES
+2019,1,Land O'Lakes,Butter Spreadable,13-15 oz,,2.50/ea,MULTIBUY,2 for $5 - Save up to $4.98 on 2,NO,,YES,,,2.50,NO
+2019,1,Frito-Lay,Party Size Bags,10-20 oz,,varies,BOGO_FREE,Mix & Match Buy 1 Get 1 Free - Save up to $5.29 on 2,NO,,YES,,,varies,NO
+2019,1,Hellmann's,Mayonnaise,30 oz,,varies,BOGO_FREE,Mix & Match Buy 1 Get 1 Free - Save up to $5.99 on 2,NO,,YES,,,varies,NO
+2019,1,Nabisco,Ritz Crackers Nilla Wafers,7.5-13.7 oz,,varies,BOGO_FREE,Mix & Match Buy 1 Get 1 Free - Save up to $4.99 on 2,NO,,YES,,,varies,NO
+2019,1,Del Monte,Canned Vegetables,11-15.3 oz,,varies,BOGO_FREE,Mix & Match Buy 1 Get 1 Free - Save up to $1.49 on 2,NO,,YES,,,varies,NO
+2019,1,Coca-Cola Products,Soda,8 or 12 pk 12 oz,,3.00/ea,MULTIBUY,Must buy in multiples of 4 - Lesser qty $5.79 ea - Limit 8,NO,,YES,,,3.00,NO
+2019,1,Yuengling,Beer,24 pk 12 oz cans,,17.99,STRAIGHT_PRICE,Budweiser Miller Coors - Limit 4,NO,,YES,,,17.99,NO
+2019,1,Folgers,K-Cups,6-12 ct,,5.00,STRAIGHT_PRICE,Rest of week $5.99,NO,,YES,,,5.00,NO
+2019,1,Simply Juice,Juice,52 oz,,varies,BOGO_FREE,Mix & Match Buy 1 Get 1 Free with International Delight or Baileys Creamer - Save up to $5.49 on 2,NO,,YES,,,varies,NO
+2019,1,Chinet,Plates Platters or Bowls,8-70 ct,,varies,BOGO_FREE,Mix & Match Buy 1 Get 1 Free - Save up to $6.79 on 2,NO,,YES,,,varies,NO
+2019,1,Pet-Ritz,Pie Crust Twin Pack,10 ct,,varies,BOGO_FREE,Mix & Match Buy 1 Get 1 Free - Save up to $5.39 on 3,NO,,YES,,,varies,NO
+2019,2,WD Brand,Angus Choice T-Bone or Boneless New York Strip Steak Value Pack,per lb,13.99/lb,9.99/lb,STRAIGHT_PRICE,Ribeye Value Pack $13.99/lb,NO,,YES,,,9.99/lb,NO
+2019,2,WD Brand,80% Lean Fresh Ground Chuck Value Pack,per lb,,3.99/lb,STRAIGHT_PRICE,,NO,,YES,,,3.99/lb,NO
+2019,2,Private Label,T-Bone Steak Value Pack,per lb,,3.99/lb,STRAIGHT_PRICE,USDA Inspected,NO,,YES,,,3.99/lb,NO
+2019,2,WD Brand,Angus Choice Boneless Chuck Top or Bottom Round Steak,per lb,,5.49/lb,STRAIGHT_PRICE,,NO,,YES,,,5.49/lb,NO
+2019,2,WD Brand,Angus Boneless Top Round London Broil,per lb,,4.99/lb,STRAIGHT_PRICE,,NO,,YES,,,4.99/lb,NO
+2019,2,Private Label,90% Lean Fresh Ground Sirloin,per lb,,6.49/lb,STRAIGHT_PRICE,,NO,,YES,,,6.49/lb,NO
+2019,2,Private Label,100% All Natural Fresh Boneless Skinless Chicken Breast Tenders or Thighs,per lb,,2.99/lb,STRAIGHT_PRICE,,NO,,YES,,,2.99/lb,NO
+2019,2,Private Label,Bone-In Ribeye or Boneless New York Strip Steak,per lb,,4.99/lb,STRAIGHT_PRICE,,NO,,YES,,,4.99/lb,NO
+2019,2,Private Label,Boneless Center Cut Pork Chops Value Pack,per lb,,3.99/lb,STRAIGHT_PRICE,,NO,,YES,,,3.99/lb,NO
+2019,2,Smithfield,Smoked Center Sliced Ham Steaks,19-20 oz,,varies,BOGO_FREE,Mix & Match Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,2,Carando,Meatballs or Premio Mild or Hot Italian Sausage,16 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,2,Smithfield,1/4 Boneless Sliced Hams,per lb,,4.99/lb,STRAIGHT_PRICE,,NO,,YES,,,4.99/lb,NO
+2019,2,Hillshire Farm,Lit'l Smokies,12-14 oz,,13.99,STRAIGHT_PRICE,,NO,,YES,,,13.99,NO
+2019,2,Gwaltney,Bacon,3 lb,,10.99,STRAIGHT_PRICE,Save up to $2,NO,,YES,2.00,,10.99,NO
+2019,2,Jimmy Dean,Family Size Breakfast Sandwiches,34-36 oz,,9.99,STRAIGHT_PRICE,Save up to $2.50,NO,,YES,2.50,,9.99,NO
+2019,2,Hillshire Farm,Smoked Sausage,12-14 oz,,3.33/ea,MULTIBUY,3 for $10,NO,,YES,,,3.33,NO
+2019,2,Barber,Stuffed Chicken Breast,10 oz,,3.33/ea,MULTIBUY,3 for $10,NO,,YES,,,3.33,NO
+2019,2,Armour,Margherita Pepperoni,5 oz,,3.50/ea,MULTIBUY,2 for $7,NO,,YES,,,3.50,NO
+2019,2,Claussen,Pickles,20-30 oz,,3.50/ea,MULTIBUY,2 for $7,NO,,YES,,,3.50,NO
+2019,2,Bubba,Burger,32 oz,,10.99,STRAIGHT_PRICE,Save up to $3,NO,,YES,3.00,,10.99,NO
+2019,2,Fisherman's Wharf,Jumbo Cooked Shrimp,16 oz 16-20 ct,,9.99,STRAIGHT_PRICE,Save up to $13,NO,,YES,13.00,,9.99,NO
+2019,2,Private Label,Cold Water Lobster Tail,3 oz,,5.99,STRAIGHT_PRICE,Wild caught,NO,,YES,,,5.99,NO
+2019,2,Fisherman's Wharf,Cooked Shrimp or Shrimp Ring,16 oz/11 oz,,6.99,STRAIGHT_PRICE,Save up to $16,NO,,YES,16.00,,6.99,NO
+2019,2,Jack's Catch,Can Claw Crabmeat,16 oz,,12.99,STRAIGHT_PRICE,Save up to $4,NO,,YES,4.00,,12.99,NO
+2019,2,Fisherman's Wharf,Raw Shrimp,16 oz varies,,varies,BOGO_FREE,Mix & Match Buy 1 Get 1 Free - Save up to $20.99 on 2,NO,,YES,,,varies,NO
+2019,2,Private Label,Large Sea Scallops,per lb,,12.99/lb,STRAIGHT_PRICE,Prev Frozen,NO,,YES,,,12.99/lb,NO
+2019,2,Hilton's,Fresh Shucked Oysters,8 oz,,5.99,STRAIGHT_PRICE,,NO,,YES,,,5.99,NO
+2019,2,Private Label,Snow Crab Clusters or Dungeness Crab Legs,per lb,,12.99/lb,STRAIGHT_PRICE,Wild caught Frozen bagged,NO,,YES,,,12.99/lb,NO
+2019,2,Private Label,Wings and Riblets Bucket,min 20 oz,,12.99,STRAIGHT_PRICE,Save up to $5,NO,,YES,5.00,,12.99,NO
+2019,2,Private Label,Pot Pies,each,,4.00,STRAIGHT_PRICE,,NO,,YES,,,4.00,NO
+2019,2,Private Label,Rotisserie Chicken Salad,per lb,,4.99/lb,STRAIGHT_PRICE,,NO,,YES,,,4.99/lb,NO
+2019,2,Snack Factory,Pretzel Drizzlers,5.5 oz,,3.50/ea,MULTIBUY,2 for $7,NO,,YES,,,3.50,NO
+2019,2,Hormel,Cooked Ham,per lb,,2.99/lb,STRAIGHT_PRICE,,NO,,YES,,,2.99/lb,NO
+2019,2,Private Label,Sandwich Loaf or Rye Bread,30 oz,,2.99,STRAIGHT_PRICE,,NO,,YES,,,2.99,NO
+2019,2,Private Label,12 Ct Glazed or Cake Donuts,each,,4.00,STRAIGHT_PRICE,,NO,,YES,,,4.00,NO
+2019,2,Private Label,Bread Pudding,each,,2.99,STRAIGHT_PRICE,,NO,,YES,,,2.99,NO
+2019,2,Private Label,9 Ct Fudge,each,,2.99,STRAIGHT_PRICE,,NO,,YES,,,2.99,NO
+2019,2,Private Label,9 Ct Gourmet Cookies,each,,4.50,STRAIGHT_PRICE,,NO,,YES,,,4.50,NO
+2019,2,Private Label,Creme Cake,32 oz,,5.99,STRAIGHT_PRICE,,NO,,YES,,,5.99,NO
+2019,3,Private Label,Family Size Pumpkin Sweet Potato or Apple Pie,each,,7.99,STRAIGHT_PRICE,In the bakery - Save up to $1,NO,,YES,1.00,,7.99,NO
+2019,3,Private Label,12 Ct Mini Cupcakes or Lofthouse Cookies,8-13.9 oz,,2.99,STRAIGHT_PRICE,,NO,,YES,,,2.99,NO
+2019,3,Private Label,Message Brownies or 12 Inch Decorated Message Cookie,each,,8.99,STRAIGHT_PRICE,Save up to $2,NO,,YES,2.00,,8.99,NO
+2019,3,Private Label,6 Ct Hand Decorated Cupcakes,each,,varies,BOGO_FREE,Buy 1 Get 1 Free - Save up to $6 on 2,NO,,YES,,,varies,NO
+2019,3,Private Label,8 Inch Single Layer Dessert Cake,each,,6.99,STRAIGHT_PRICE,,NO,,YES,,,6.99,NO
+2019,3,Private Label,Hand Decorated Bar Cake,each,,varies,BOGO_FREE,Buy 1 Get 1 Free - Save up to $4.49 on 2,NO,,YES,,,varies,NO
+2019,3,Land O'Lakes,Heavy Whipping Cream,16 oz,,3.50/ea,MULTIBUY,2 for $7,NO,,YES,,,3.50,NO
+2019,3,Reddi-Wip,Whipped Topping,6.5 oz,,2.00/ea,MULTIBUY,2 for $4,NO,,YES,,,2.00,NO
+2019,3,Dairy Pure,Milk,64 oz,,3.00/ea,MULTIBUY,2 for $6,NO,,YES,,,3.00,NO
+2019,3,Crystal Springs,Large Eggs,2.5 dozen,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,3,Pillsbury,Pie Crust,14.1 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,3,SE Grocers,Pie Filling,20-31 oz,,2.00/ea,MULTIBUY,Mix & Match 2 for $4,NO,,YES,,,2.00,NO
+2019,3,Diamond,Chopped Pecans or Walnuts,8 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free - Save up to $7.99 on 2,NO,,YES,,,varies,NO
+2019,3,Eagle Brand,Sweetened Condensed Milk,14 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,3,Jell-O,Pudding or Gelatin,6-8 servings,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,3,Nestle,Toll House Chips or Morsels,10-12 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,3,Libby's,Canned Pineapple,15-20 oz,,1.25/ea,MULTIBUY,Mix & Match 4 for $5 with SE Grocers Cranberry Sauce,NO,,YES,,,1.25,NO
+2019,3,SE Grocers,Cranberry Sauce,14 oz,,1.25/ea,MULTIBUY,Mix & Match 4 for $5,NO,,YES,,,1.25,YES
+2019,3,Libby's,Pumpkin Filling,15 oz,,1.67/ea,MULTIBUY,3 for $5,NO,,YES,,,1.67,NO
+2019,3,Crisco,Baking Sticks,20 oz,,3.50/ea,MULTIBUY,2 for $7,NO,,YES,,,3.50,NO
+2019,3,Pam,Cooking Spray,5-6 oz,,varies,BOGO_FREE,Mix & Match Buy 1 Get 1 Free with Gold Medal Flour,NO,,YES,,,varies,NO
+2019,3,Domino,Confectioners or Brown Sugar,16 oz,,1.00/ea,MULTIBUY,10 for $10,NO,,YES,,,1.00,NO
+2019,3,Pillsbury,Flour,5 lb,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,3,Betty Crocker,Premium Brownie Mix or Cookie Mix,16.5-22.25 oz,,2.00/ea,MULTIBUY,2 for $4,NO,,YES,,,2.00,YES
+2019,3,Duncan Hines,Family Brownie Mix or Signature Cake Mix,18-18.3 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,YES
+2019,3,Duncan Hines,Frosting,16 oz,,1.50/ea,MULTIBUY,2 for $3,NO,,YES,,,1.50,NO
+2019,3,Private Label,Metal or Glass Bakeware or Cookware,varies,,varies,PERCENT_OFF,25% Off,NO,,YES,25%,,varies,NO
+2019,4,Butterball,Grade A Frozen Turkey,10 lbs & up,,0.99/lb,STRAIGHT_PRICE,Price Match Promise - Limit 2,NO,,YES,,,0.99/lb,YES
+2019,4,Reynolds,Oven Bags,2 ct,,2.49,STRAIGHT_PRICE,,NO,,YES,,,2.49,NO
+2019,4,Prestige,Carver Ham with Apple Bourbon Brown Sugar Glaze,per lb,,3.49/lb,STRAIGHT_PRICE,,NO,,YES,,,3.49/lb,NO
+2019,4,Private Label,Bone-In Pork Shoulder Boston Butt Roast,per lb,,1.99/lb,STRAIGHT_PRICE,,NO,,YES,,,1.99/lb,NO
+2019,4,Meiomi,Pinot Noir,750 mL,19.99,15.99,MULTIBUY,When you buy any 12 - Buy 1 for $19.99,NO,,YES,5.00,,15.99,NO
+2019,4,Ocean Spray,Fresh Cranberries,12 oz,,1.99,STRAIGHT_PRICE,In produce,NO,,YES,,,1.99,YES
+2019,4,Private Label,Whole Pineapples,each,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,4,Pepperidge Farm,Stuffing,12-16 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,4,Stove Top,Stuffing,6 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,YES
+2019,4,Swanson,Broth,14-14.5 oz,,varies,BOGO_FREE,Mix & Match Buy 1 Get 1 Free with Progresso Broth,NO,,YES,,,varies,YES
+2019,4,SE Grocers,Brown N Serve Flake Rolls,12 ct,,1.69,STRAIGHT_PRICE,,NO,,YES,,,1.69,NO
+2019,4,Private Label,Yeast Rolls,each,,varies,BOGO_FREE,Buy 1 Get 1 Free - In the bakery,NO,,YES,,,varies,NO
+2019,4,King's Hawaiian,Dinner Rolls,24 ct,,6.49,STRAIGHT_PRICE,In the bakery,NO,,YES,,,6.49,NO
+2019,4,Country Crock,Spread,45 oz,,2.99,STRAIGHT_PRICE,,NO,,YES,,,2.99,NO
+2019,4,Breakstone's,Cottage Cheese or Sour Cream,16 oz/4 ct,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,4,SE Grocers,Shredded or Chunk Cheese,16 oz,,4.99,STRAIGHT_PRICE,,NO,,YES,,,4.99,NO
+2019,4,PictSweet Farms,Clear Bag Vegetables,22-28 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,4,Jiffy,Corn Muffin Mix,8.5 oz,,0.50/ea,MULTIBUY,2 for $1,NO,,YES,,,0.50,NO
+2019,4,Mueller's,Lasagna or Jumbo Shells or Noodles,9-16 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,4,Kraft,Deluxe or Velveeta Shells & Cheese,9.4-14 oz,,3.00/ea,MULTIBUY,2 for $6,NO,,YES,,,3.00,NO
+2019,4,Idahoan,Family Size Potatoes,8-8.2 oz,,3.00/ea,MULTIBUY,2 for $6,NO,,YES,,,3.00,NO
+2019,4,College Inn,Broth or Kitchen Basics Stock,32 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,YES
+2019,4,Progresso,Plain or Flavored Bread Crumbs,15 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,4,Ocean Spray,Cranberry Sauce,14 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,YES
+2019,4,Mezzetta,Stuffed Olives or Mt. Olive Pickles,5.75-24 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,4,Pompeian,Vinegar or Cooking Wine,16 oz,,1.99,STRAIGHT_PRICE,,NO,,YES,,,1.99,NO
+2019,5,Sister Schubert's,Parker House Rolls,16 oz,,3.00/ea,MULTIBUY,2 for $6,NO,,YES,,,3.00,NO
+2019,5,Private Label,Whole Semi-Boneless Lamb Legs,per lb,,5.99/lb,STRAIGHT_PRICE,,NO,,YES,,,5.99/lb,NO
+2019,5,Private Label,Bone-In Turkey Breast,per lb,,1.49/lb,STRAIGHT_PRICE,100% All Natural Fresh,NO,,YES,,,1.49/lb,YES
+2019,5,Savannah Classics,Sides,2 lb,,5.99,STRAIGHT_PRICE,In the deli,NO,,YES,,,5.99,NO
+2019,5,McCormick,Brown Gravy,0.87-0.88 oz,,0.50/ea,MULTIBUY,2 for $1,NO,,YES,,,0.50,NO
+2019,5,Le Sueur,Peas or Varieties,15 oz,,1.25/ea,MULTIBUY,4 for $5,NO,,YES,,,1.25,NO
+2019,5,Jet-Puffed,Marshmallows,16 oz,,2.00/ea,MULTIBUY,2 for $4,NO,,YES,,,2.00,NO
+2019,5,Bruce's,Yams,40 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,5,SE Grocers,Canned Vegetables Tomatoes or Beans,14-15.5 oz,,0.70/ea,MULTIBUY,10 for $7,NO,,YES,,,0.70,NO
+2019,5,Campbell's,Cream of Mushroom or Chicken Soup,10.5 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,YES
+2019,5,French's,Fried Onions,5-6 oz,,3.49,STRAIGHT_PRICE,,NO,,YES,,,3.49,NO
+2019,5,SE Grocers,Lemonade,78 oz,,3.00/ea,MULTIBUY,2 for $6,NO,,YES,,,3.00,NO
+2019,5,Korbel,Champagne,750 mL,11.99,9.59,STRAIGHT_PRICE,Save $4 on 1,NO,,YES,4.00,,9.59,NO
+2019,5,Coca-Cola Products,2 L,each,,varies,BOGO_FREE,Buy 2 Get 1 Free - When you buy any 3,NO,,YES,,,varies,NO
+2019,5,Martinelli's,Sparkling Cider,25.4 oz,,3.00/ea,MULTIBUY,2 for $6,NO,,YES,,,3.00,NO
+2019,5,McCormick,Simply Gravy,12 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,5,Campbell's,Gravy,10.5 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,5,Heinz,Gravy,12 oz,,1.50/ea,MULTIBUY,2 for $3,NO,,YES,,,1.50,NO
+2019,5,SE Grocers,Designer Plates or Bowls,24-48 ct,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,5,SE Grocers,Cutlery or Napkins,24-100 ct,,1.50/ea,MULTIBUY,2 for $3,NO,,YES,,,1.50,NO
+2019,5,LouAna,Peanut Oil,3 gal,,29.99,STRAIGHT_PRICE,,NO,,YES,,,29.99,NO
+2019,5,Blue Rhino,Propane Tank Exchange,15 lb,,16.99,STRAIGHT_PRICE,,NO,,YES,,,16.99,NO
+2019,5,Kingsford,Original Charcoal Briquets,8 lb,,5.99,STRAIGHT_PRICE,,NO,,YES,,,5.99,NO
+2019,5,Handi-Foil,Pans,varies,,varies,BOGO_FREE,Buy 2 Get 1 Free,NO,,YES,,,varies,NO
+2019,5,Reynolds Wrap,Aluminum Foil,35-75 sq ft,,3.99,STRAIGHT_PRICE,,NO,,YES,,,3.99,NO
+2019,6,Smithfield,Bacon,16 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,6,Folgers,Large Can Coffee,24.2-33.9 oz,,5.99,STRAIGHT_PRICE,Classic Roast,NO,,YES,,,5.99,NO
+2019,6,Eggland's Best,Large Eggs,18 ct,,2.99,STRAIGHT_PRICE,,NO,,YES,,,2.99,NO
+2019,6,Simply Potatoes,Potatoes,20 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,6,Johnsonville,Fresh or Fully Cooked Sausage Links or Patties,9.6-12 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,6,Pillsbury,Grands Biscuits,8 ct,,1.67/ea,MULTIBUY,3 for $5,NO,,YES,,,1.67,YES
+2019,6,Silk,Almond Creamer,32 oz,,3.50/ea,MULTIBUY,2 for $7,NO,,YES,,,3.50,NO
+2019,6,Eggo,Waffles or Pancakes,10.7-16.4 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,6,Hungry Jack,Syrup,27.6 oz,,2.99,STRAIGHT_PRICE,,NO,,YES,,,2.99,NO
+2019,6,Hungry Jack,Pancake or Waffle Mix,28-32 oz,,1.99,STRAIGHT_PRICE,,NO,,YES,,,1.99,NO
+2019,6,Mott's,Apple Juice,64 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,6,Pillsbury,Crescents or Cinnamon Rolls,8 ct,,2.00/ea,MULTIBUY,3 for $6,NO,,YES,,,2.00,YES
+2019,6,Private Label,4 Ct Muffins,each,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,6,Thomas',Bagels,13-22 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,6,SE Grocers,Orange Juice,78 oz,,3.99,STRAIGHT_PRICE,,NO,,YES,,,3.99,NO
+2019,6,Eight O'Clock,Coffee,11-12 oz,4.00,2.00,DIGITAL_ONLY,Digital coupon $2 - Final price $2,YES,4.00,YES,,,2.00,NO
+2019,6,Tetley,Family Size Tea Bags,24 ct,,varies,BOGO_FREE,Buy 1 Get 1 Free with Lipton Tea Bags,NO,,YES,,,varies,NO
+2019,6,General Mills,Large Size Cereals,22-30.6 oz,,1.20/ea,MULTIBUY,5 for $6,NO,,YES,,,1.20,NO
+2019,6,Carnation,Evaporated Milk,12 oz,,1.37/ea,MULTIBUY,Must buy in multiples of 3,NO,,YES,,,1.37,NO
+2019,6,Kellogg's,Pop-Tarts or Rice Krispies Treats,8 ct,,2.00/ea,MULTIBUY,2 for $4,NO,,YES,,,2.00,NO
+2019,6,Quaker,Cereals Oatmeal,7.9-18 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,6,Campbell's,Chunky Soup,15.2-19 oz,,1.00/ea,MULTIBUY,5 for $5,NO,,YES,,,1.00,YES
+2019,6,Smucker's,Variety Fruit Spread,10-32 oz,,2.00/ea,MULTIBUY,2 for $4,NO,,YES,,,2.00,NO
+2019,6,Jif,Peanut Butter,12-16 oz,,2.00/ea,MULTIBUY,2 for $4,NO,,YES,,,2.00,NO
+2019,6,Nature's Own,Honey Wheat Bread,each,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,6,Heinz,Ketchup or Mustard,20 oz,,2.00/ea,MULTIBUY,2 for $4,NO,,YES,,,2.00,NO
+2019,6,Classico,Pasta Sauce,15-24 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,6,Kraft or Velveeta,Macaroni & Cheese Cups,4 ct,,3.50/ea,MULTIBUY,2 for $7,NO,,YES,,,3.50,NO
+2019,6,Armour,Vienna Sausage,4.6 oz,,0.55/ea,MULTIBUY,10 for $5.50,NO,,YES,,,0.55,NO
+2019,6,Lipton,Onion Soup Mix,2 ct,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,6,SE Grocers,Skillet Dinners,varies,,1.00/ea,MULTIBUY,10 for $10,NO,,YES,,,1.00,NO
+2019,7,Keebler or Murray,Cookies,5.5-17.2 oz,,varies,BOGO_FREE,Buy 2 Get 1 Free,NO,,YES,,,varies,NO
+2019,7,Lay's,Potato Chips,5-8 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,7,Welch's,Grape Juice,64 oz,,3.00/ea,MULTIBUY,2 for $6,NO,,YES,,,3.00,NO
+2019,7,Kool-Aid,Jammers or Crystal Light Drink Mix,10-12 ct,,2.00/ea,MULTIBUY,2 for $4,NO,,YES,,,2.00,NO
+2019,7,V8,Red,46 oz,,2.99,STRAIGHT_PRICE,,NO,,YES,,,2.99,NO
+2019,7,Cheez-It,Crackers,9-12.4 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,7,Pringles,Super Stack,5-5.5 oz,,2.00/ea,MULTIBUY,2 for $4,NO,,YES,,,2.00,NO
+2019,7,Zephyrhills,Water,24 pk 16.9 oz btls,,varies,BOGO_FREE,Buy 2 Get 1 Free,NO,,YES,,,varies,NO
+2019,7,Arizona Tea or Fruit Juice,Beverages,128 oz,,2.50/ea,MULTIBUY,4 for $10,NO,,YES,,,2.50,NO
+2019,7,Pepsi Products,2 L,,varies,BOGO_FREE,Buy 2 Get 2 Free,NO,,YES,,,varies,NO
+2019,7,Orville Redenbacher's,Popcorn,6-30 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,7,Blue Diamond,Almonds,6 oz,,3.49,STRAIGHT_PRICE,,NO,,YES,,,3.49,NO
+2019,7,Cape Cod,Party Size Kettle Cooked Potato Chips,12-14 oz,,3.50/ea,MULTIBUY,2 for $7,NO,,YES,,,3.50,NO
+2019,7,Diet Rite RC Cola or Sun Drop,2 L,,varies,BOGO_FREE,Buy 2 Get 2 Free,NO,,YES,,,varies,NO
+2019,7,Lipton Tea,12 pk 0.5 L btls,,2.50/ea,MULTIBUY,4 for $10,NO,,YES,,,2.50,NO
+2019,7,Hershey's,Assorted Cookies Share Size,7.7-15 oz,,3.50/ea,MULTIBUY,2 for $7,NO,,YES,,,3.50,NO
+2019,7,Town House,Crackers,9-13.8 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,7,Voortman,Cookies or Wafers,8.3-14 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,7,LaCroix,Sparkling Water,12 pk 12 oz cans,,4.50/ea,MULTIBUY,2 for $9,NO,,YES,,,4.50,NO
+2019,7,Chek,Soda,12 pk 12 oz cans,,2.75/ea,MULTIBUY,4 for $11,NO,,YES,,,2.75,NO
+2019,7,Starbucks,Frappuccino,4 pk 13 oz btls,,5.00/ea,MULTIBUY,2 for $10,NO,,YES,,,5.00,NO
+2019,7,Butterball,Turkey Bundle with Wine,each,,varies,BUNDLE,Save $6 on 1 Butterball Turkey when you buy any 2 Ava Grace or Trapiche Wines,NO,,YES,6.00,,varies,YES
+2019,7,Private Label,8 Inch Bakery Fruit Pie,each,9.99,7.99,BUNDLE,Save $4 when you buy 1,NO,,YES,4.00,,7.99,NO
+2019,7,Menage a Trois Red or Prophecy,Wine,750 mL,11.99,9.99,MULTIBUY,When you buy any 12,NO,,YES,5.00,,9.99,NO
+2019,7,Kim Crawford Sauvignon Blanc or Joel Gott Cabernet,Wine,750 mL,14.99,11.99,MULTIBUY,When you buy any 12,NO,,YES,3.00,,11.99,NO
+2019,7,Chloe,Wine,750 mL,,8.99,STRAIGHT_PRICE,,NO,,YES,,,8.99,NO
+2019,7,Clifford Bay Sauvignon Blanc or Apothic,Wine,750 mL,10.99,8.99,MULTIBUY,When you buy any 12,NO,,YES,5.00,,8.99,NO
+2019,7,Kendall-Jackson Vintner's Reserve Chardonnay or Josh Cellars Cabernet,Wine,750 mL,10.79,8.79,MULTIBUY,When you buy any 12,NO,,YES,6.00,,8.79,NO
+2019,7,Santa Rita or Ranko,Wine,750 mL,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,7,La Marca,Prosecco,750 mL,13.99,11.99,MULTIBUY,When you buy any 12,NO,,YES,3.00,,11.99,NO
+2019,7,Nobilo Sauvignon Blanc or Cupcake Sparkling,Wine,750 mL,10.79,8.79,MULTIBUY,When you buy any 12,NO,,YES,4.00,,8.79,NO
+2019,7,Moet & Chandon Imperial Brut or Veuve Clicquot Yellow Label,Champagne,750 mL,47.99,38.39,MULTIBUY,When you buy any 12,NO,,YES,15.00,,38.39,NO
+2019,7,Wine,20% Off Mix & Match,varies,,varies,PERCENT_OFF,20% Off when you buy any 12 bottles,NO,,YES,20%,,varies,NO
+2019,7,Jack Daniel's,Whiskey,750 mL,,19.99,STRAIGHT_PRICE,Spirits sold in liquor stores only,NO,,YES,,,19.99,NO
+2019,7,Woodford Reserve Whiskey or Johnnie Walker Black Label,Whisky,750 mL,,29.99,STRAIGHT_PRICE,Spirits sold in liquor stores only,NO,,YES,,,29.99,NO
+2019,7,White Claw Truly or Smirnoff Ice,Seltzer,6 pk,,8.99,STRAIGHT_PRICE,,NO,,YES,,,8.99,NO
+2019,7,New Belgium Sierra Nevada or Natural Light,Beer,12-15 pk,,8.99,STRAIGHT_PRICE,,NO,,YES,,,8.99,NO
+2019,7,LandShark,Lager,6 pk,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,7,12 Pk Corona Heineken Stella Artois or Michelob Ultra Gold,Beer,11-12 oz,,14.99,STRAIGHT_PRICE,,NO,,YES,,,14.99,NO
+2019,7,12 Pk Blue Moon Samuel Adams SweetWater,Beer,12 oz,,14.99,STRAIGHT_PRICE,,NO,,YES,,,14.99,NO
+2019,7,Bota Box,Wine,3 L,29.99,23.99,DIGITAL_ONLY,Digital $6 Cashback,YES,29.99,YES,,,23.99,NO
+2019,7,Natural Light Spiked Seltzer Bon & Viv or Bud Light Ritas,Seltzer,12 pk,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Lipton Tea,128 oz,,1.99,STRAIGHT_PRICE,,NO,,YES,,,1.99,NO
+2019,8,SE Grocers,Chicken Breasts Wings or Tenders Frozen,40-48 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Birds Eye,Selects Steamfresh Vegetables,9.3-16 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Zatarain's,Cajun Injector Marinade,17 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Ocean Spray,Juice,64 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,YES
+2019,8,Pompeian,Olive Oil,4-48 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free with Ronzoni Pasta,NO,,YES,,,varies,NO
+2019,8,Hefty,Foam Plates or Bowls or Cups,28-50 ct,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Busch or Natural,Beer,24 pk 12 oz cans,18.99,8.99,DIGITAL_ONLY,Digital $4 Cashback - Final price $8.99,YES,18.99,YES,,,8.99,NO
+2019,8,Angel Sweet or One Sweet or Kumato,Tomatoes,pint,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Private Label,100% All Natural Fresh Chicken Drumsticks or Thighs,per lb,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Fisherman's Wharf,Imitation Crab Meat,8-16 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Private Label,Bone-In or Boneless Pork Shoulder Steaks,per lb,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Lagunitas,IPA,12 pk,18.99,12.99,DIGITAL_ONLY,Digital $3 Cashback,YES,18.99,YES,,,12.99,NO
+2019,8,Smithfield,Diced or Cubed Ham or Boneless Ham Steaks,8 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Stacy's,Pita Chips or Sabra Hummus,8-10 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Borden,Singles,12 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Cabot,Shreds Cheese Bar or Cracker Cuts,7-8 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Founders,Beer,15 pk,17.99,14.99,DIGITAL_ONLY,Digital $3 Cashback,YES,17.99,YES,,,14.99,NO
+2019,8,Prestige or SE Grocers,Organic Ice Cream,16 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Kellogg's,Cereals,10-13.7 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Bugles or Chex Mix,Snacks,7.5-8.7 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Quaker,Quick or Old Fashioned Oatmeal,42 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Gnarly Head,Wine,750 mL,17.99,12.99,DIGITAL_ONLY,Digital $6 Cashback,YES,17.99,YES,,,12.99,NO
+2019,8,Entenmann's,Boxed Donuts,8.25-22 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Mueller's,Traditional or Organic Pasta,12-17.6 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free with Prego Pasta Sauce,NO,,YES,,,varies,NO
+2019,8,Chi-Chi's,Tacos Tortillas or Salsa,12-18 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free with Herdez Salsa,NO,,YES,,,varies,NO
+2019,8,Kraft,Barbecue Sauce or French's Yellow Mustard,18 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Noble Vines,Wine,750 mL,23.99,17.99,DIGITAL_ONLY,Digital $6 Cashback,YES,23.99,YES,,,17.99,NO
+2019,8,Planters,Peanuts,16 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Arizona,Tea,23 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,6 Pk 7-Up A&W Diet Rite RC Cola or Sun Drop,0.5 L,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Keebler,Club Crackers,8.8-13.7 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Dark Horse Sparkling or Chateau Souverain,Wine,750 mL,23.99,17.99,DIGITAL_ONLY,Digital $6 Cashback,YES,23.99,YES,,,17.99,NO
+2019,8,Dixie,Heavy Duty or Ultra Plates or Bowls,20-45 ct,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Hefty,Slider Bags,12-40 ct,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,8,Purex,Liquid Laundry Detergent,75 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,9,Stouffer's,Entrees,9.2-9.76 oz,,4.50/ea,MULTIBUY,2 for $9,NO,,YES,,,4.50,NO
+2019,9,Silk or Oat Yeah,Oatmilk Almondmilk,64 oz,,3.00/ea,MULTIBUY,2 for $6,NO,,YES,,,3.00,NO
+2019,9,SE Grocers,Natural Sliced Cheese,6.6-8 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,9,SE Grocers,Shredded or Chunk Cheese,6-8 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,9,Tyson,Frozen Breaded Chicken Tenders Patties or Nuggets,25.5-32 oz,,4.99,STRAIGHT_PRICE,,NO,,YES,,,4.99,NO
+2019,9,SeaPak,Shrimp,9-18 oz,,5.00/ea,MULTIBUY,2 for $10,NO,,YES,,,5.00,NO
+2019,9,Red Baron,Single Serve Pizza,10.8-12 oz,,5.00/ea,MULTIBUY,2 for $10,NO,,YES,,,5.00,NO
+2019,9,Kemps,Frozen Yogurt,48 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,9,Sara Lee,Pound Cake,10.7 oz,,3.50/ea,MULTIBUY,2 for $7,NO,,YES,,,3.50,NO
+2019,9,Yoplait,Yogurt,4-6 oz,,0.50/ea,MULTIBUY,10 for $5,NO,,YES,,,0.50,NO
+2019,9,TGI Fridays,Appetizers,7.6-11 oz,,3.50/ea,MULTIBUY,2 for $7,NO,,YES,,,3.50,NO
+2019,9,SE Grocers,Frozen Fruit,16 oz,,3.50/ea,MULTIBUY,2 for $7,NO,,YES,,,3.50,NO
+2019,9,Kerrygold,Butter Sticks or Tubs,8 oz,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,9,Activia or YoCrunch,Yogurt,4 ct,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,9,Danimals,Smoothie,6 ct,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,9,Prestige,Premium Ice Cream,1.5 qt,,3.99,STRAIGHT_PRICE,,NO,,YES,,,3.99,NO
+2019,9,Jimmy Dean,Pancakes & Sausage on a Stick,30 oz,,6.99,STRAIGHT_PRICE,,NO,,YES,,,6.99,NO
+2019,9,Simply Lemonade,Lemonade,52 oz,,1.67/ea,MULTIBUY,3 for $5,NO,,YES,,,1.67,NO
+2019,9,Tropicana,Pure Premium Orange Juice,89 oz,,4.99,STRAIGHT_PRICE,,NO,,YES,,,4.99,NO
+2019,9,Dean's,French Onion Dip,16 oz,,2.00/ea,MULTIBUY,2 for $4,NO,,YES,,,2.00,NO
+2019,9,Energizer,Max or Lithium Batteries,1-16 ct,,varies,PERCENT_OFF,20% Off,NO,,YES,20%,,varies,NO
+2019,9,SE Grocers,Reclosable Quart or Gallon Bags,15-25 ct,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,9,Tide,Liquid Laundry Detergent,100 oz,,11.99,STRAIGHT_PRICE,,NO,,YES,,,11.99,NO
+2019,9,Purex,Liq Detergent or Pacs,150 oz/15-19 ct,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,9,Hefty,13 Gallon Trash Bags,40-80 ct,,6.99,STRAIGHT_PRICE,,NO,,YES,,,6.99,NO
+2019,9,Charmin,Bath Tissue 6 mega or 12 dbl rls or Bounty Paper Towels 6 big rls,varies,6.99,5.99,DIGITAL_ONLY,Digital coupon $1 - Final price $5.99,YES,6.99,YES,,,5.99,NO
+2019,9,Dawn or Ivory,Dishwashing Liquid,16.2-34 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,9,Febreze,Air Effects or Set & Refresh,5.5-8.8 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,9,Quilted Northern,Ultra Soft Bath Tissue,6 dbl rls,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,9,Huggies,Jumbo Pack Diapers or Pull-Ups,11-35 ct,,8.99,STRAIGHT_PRICE,,NO,,YES,,,8.99,NO
+2019,9,Olay,Skin Care All,varies,,varies,PERCENT_OFF,25% Off,NO,,YES,25%,,varies,NO
+2019,9,Crest,Toothpaste or Scope Mouthwash,5.1 oz,,3.99,STRAIGHT_PRICE,,NO,,YES,,,3.99,NO
+2019,9,Dove,Bar Soap,6 ct,,6.99,STRAIGHT_PRICE,,NO,,YES,,,6.99,NO
+2019,9,Gerber,2nd Foods,8 oz,,1.25/ea,MULTIBUY,4 for $5,NO,,YES,,,1.25,NO
+2019,9,Dove Axe or Degree,Dry Spray,3.8 oz,,5.99,STRAIGHT_PRICE,,NO,,YES,,,5.99,NO
+2019,9,Always,Discreet,10-66 ct,,11.99,STRAIGHT_PRICE,,NO,,YES,,,11.99,NO
+2019,9,TopCare,First Aid Digestive or Respiratory Care,varies,,varies,BOGO_FREE,Buy 2 Get 1 Free,NO,,YES,,,varies,NO
+2019,9,Free Turkey,Honeysuckle Frozen Turkey with Flu Shot,,FREE,FREE_WITH_PURCHASE,When you get your No Cost Flu Shot Today,NO,,NO,,,FREE,YES
+2019,9,Nature's Truth,Vitamins,varies,,varies,BOGO_FREE,Buy 1 Get 1 Free,NO,,YES,,,varies,NO
+2019,9,Purina One,Dry Dog Food,4.2 lb,,22.99,STRAIGHT_PRICE,,NO,,YES,,,22.99,NO
+2019,9,Purina One,Dry Cat Food or Tidy Cats Cat Litter,3.5 lb/14 lb,,6.99,STRAIGHT_PRICE,,NO,,YES,,,6.99,NO
+2019,9,Friskies,Wet Cat Food,5.5 oz,,0.55/ea,MULTIBUY,20 for $11,NO,,YES,,,0.55,NO
+2019,10,Dole,Salad Dressing Dips Salad Toppers or Packaged Salads,0.4-21 oz,,varies,BOGO_FREE,Buy 2 Get 1 Free,NO,,YES,,,varies,NO
+2019,10,Strawberries Blueberries Blackberries or Raspberries,Berries,16 oz/6 oz,,varies,BOGO_FREE,Buy 2 Get 1 Free,NO,,YES,,,varies,NO
+2019,10,All Fresh In-Store Cut Fruit,Cut Fruit,varies,,varies,BOGO_FREE,Buy 2 Get 1 Free,NO,,YES,,,varies,NO
+2019,10,Honeycrisp or Lady Alice,Apples,per lb,,1.99/lb,STRAIGHT_PRICE,,NO,,YES,,,1.99/lb,NO
+2019,10,All Produce Juice Smoothies or Functional Beverages,Beverages,1.7-64 oz,,varies,BOGO_FREE,Buy 2 Get 1 Free,NO,,YES,,,varies,NO
+2019,10,Hass Avocados from Mexico,Avocados,each,,1.50/ea,MULTIBUY,2 for $3,NO,,YES,,,1.50,NO
+2019,10,Colossal Bunch Collard Greens,Collard Greens,each,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,10,Private Label,Russet Potatoes,10 lb bag,,3.99,STRAIGHT_PRICE,,NO,,YES,,,3.99,YES
+2019,10,Razzle Dazzle,Grapes,per lb,,2.49/lb,STRAIGHT_PRICE,,NO,,YES,,,2.49/lb,NO
+2019,10,Private Label,3 lb Bag Gala Granny Smith or McIntosh Apples,3 lb bag,,3.99,STRAIGHT_PRICE,,NO,,YES,,,3.99,NO
+2019,10,SE Grocers,Yellow Onions,3 lb bag,,2.99,STRAIGHT_PRICE,,NO,,YES,,,2.99,NO
+2019,10,Celery or SE Grocers Baby Cut Carrots,each/1 lb bag,,1.50/ea,MULTIBUY,2 for $3,NO,,YES,,,1.50,NO
+2019,10,SE Grocers,Diced Vegetables,3.5-8 oz,,2.50/ea,MULTIBUY,2 for $5,NO,,YES,,,2.50,NO
+2019,10,Private Label,Organic Sweet Potatoes,3 lb bag,,2.99,STRAIGHT_PRICE,,NO,,YES,,,2.99,NO
+2019,10,Pecan Nation,Pecan Halves & Pieces,16 oz,,9.99,STRAIGHT_PRICE,,NO,,YES,,,9.99,NO
+2019,10,Private Label,6 Inch Holiday Poinsettia,each,,5.99,STRAIGHT_PRICE,,NO,,YES,,,5.99,NO
+2019,10,SE Grocers,Stuffing,6 oz,,1.00,STRAIGHT_PRICE,Deal of the Week,NO,,YES,,,1.00,YES

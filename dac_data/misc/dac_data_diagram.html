@@ -1,0 +1,137 @@
+<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="610" y="30" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">DAC Data Presentation Architecture</text>
+  
+  <!-- Data Pipeline Section -->
+  <g id="data-pipeline">
+    <!-- Pipeline Background -->
+    <rect x="50" y="80" width="1100" height="200" fill="#f0f4f8" stroke="#ddd" stroke-width="2" rx="10"/>
+    <text x="600" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#666">Data Pipeline</text>
+    
+    <!-- Sensors -->
+    <g transform="translate(100, 150)">
+      <circle cx="40" cy="40" r="35" fill="#4a5568" stroke="#2d3748" stroke-width="2"/>
+      <text x="40" y="45" text-anchor="middle" fill="white" font-size="14">Sensors</text>
+      <text x="40" y="95" text-anchor="middle" font-size="12" fill="#666">Real-time data</text>
+    </g>
+    
+    <!-- Arrow to Bronze -->
+    <path d="M 175 190 L 240 190" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Bronze Layer -->
+    <g transform="translate(250, 150)">
+      <rect x="0" y="0" width="120" height="80" fill="#cd7f32" stroke="#a0522d" stroke-width="2" rx="5"/>
+      <text x="60" y="30" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Bronze Layer</text>
+      <text x="60" y="50" text-anchor="middle" fill="white" font-size="12">Raw data</text>
+    </g>
+    
+    <!-- Arrow to Silver -->
+    <path d="M 370 190 L 470 190" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Silver Layer -->
+    <g transform="translate(480, 150)">
+      <rect x="0" y="0" width="120" height="80" fill="#c0c0c0" stroke="#a8a8a8" stroke-width="2" rx="5"/>
+      <text x="60" y="30" text-anchor="middle" fill="#333" font-size="14" font-weight="bold">Silver Layer</text>
+      <text x="60" y="50" text-anchor="middle" fill="#333" font-size="12">Cleansed data</text>
+    </g>
+    
+    <!-- Arrow to Gold -->
+    <path d="M 600 190 L 700 190" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Gold Layer -->
+    <g transform="translate(710, 150)">
+      <rect x="0" y="0" width="120" height="80" fill="#ffd700" stroke="#daa520" stroke-width="2" rx="5"/>
+      <text x="60" y="30" text-anchor="middle" fill="#333" font-size="14" font-weight="bold">Gold Layer</text>
+      <text x="60" y="50" text-anchor="middle" fill="#333" font-size="12">Aggregated</text>
+    </g>
+    
+    <!-- Arrow to Databricks -->
+    <path d="M 830 190 L 930 190" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Databricks -->
+    <g transform="translate(940, 150)">
+      <rect x="0" y="0" width="120" height="80" fill="#ff3621" stroke="#e62e00" stroke-width="2" rx="5"/>
+      <text x="60" y="30" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Databricks</text>
+      <text x="60" y="50" text-anchor="middle" fill="white" font-size="12">Analytics</text>
+    </g>
+  </g>
+  
+  <!-- Dashboards Section -->
+  <g id="dashboards">
+    <!-- Operator Dashboard -->
+    <g transform="translate(150, 350)">
+      <rect x="0" y="0" width="200" height="150" fill="#fff3e0" stroke="#ff6f00" stroke-width="2" rx="10"/>
+      <text x="100" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#e65100">Operator Dashboard</text>
+      <text x="100" y="55" text-anchor="middle" font-size="12" fill="#666">Technicians</text>
+      <text x="100" y="75" text-anchor="middle" font-size="12" fill="#666">Real-time alarms</text>
+      <text x="100" y="95" text-anchor="middle" font-size="12" fill="#666">Downtime tracking</text>
+      <rect x="20" y="110" width="160" height="30" fill="#ff9800" rx="5"/>
+      <text x="100" y="130" text-anchor="middle" font-size="12" fill="white">Live data</text>
+    </g>
+    
+    <!-- Customer Dashboard -->
+    <g transform="translate(400, 350)">
+      <rect x="0" y="0" width="200" height="150" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" rx="10"/>
+      <text x="100" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#6a1b9a">Customer Data</text>
+      <text x="100" y="55" text-anchor="middle" font-size="12" fill="#666">MRV reporting</text>
+      <text x="100" y="75" text-anchor="middle" font-size="12" fill="#666">Registry verification</text>
+      <text x="100" y="95" text-anchor="middle" font-size="12" fill="#666">Data export</text>
+      <rect x="20" y="110" width="160" height="30" fill="#ba68c8" rx="5"/>
+      <text x="100" y="130" text-anchor="middle" font-size="12" fill="white">On-demand</text>
+    </g>
+    
+    <!-- Internal Dashboard -->
+    <g transform="translate(650, 350)">
+      <rect x="0" y="0" width="200" height="150" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" rx="10"/>
+      <text x="100" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1565c0">Business Dashboard</text>
+      <text x="100" y="55" text-anchor="middle" font-size="12" fill="#666">Deep Sky team</text>
+      <text x="100" y="75" text-anchor="middle" font-size="12" fill="#666">Trend analysis</text>
+      <text x="100" y="95" text-anchor="middle" font-size="12" fill="#666">Financial tracking</text>
+      <rect x="20" y="110" width="160" height="30" fill="#64b5f6" rx="5"/>
+      <text x="100" y="130" text-anchor="middle" font-size="12" fill="white">Hourly</text>
+    </g>
+    
+    <!-- Public Dashboard -->
+    <g transform="translate(900, 350)">
+      <rect x="0" y="0" width="200" height="150" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="10"/>
+      <text x="100" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#2e7d32">Public Dashboard</text>
+      <text x="100" y="55" text-anchor="middle" font-size="12" fill="#666">Website visitors</text>
+      <text x="100" y="75" text-anchor="middle" font-size="12" fill="#666">Sales prospects</text>
+      <text x="100" y="95" text-anchor="middle" font-size="12" fill="#666">Policy makers</text>
+      <rect x="20" y="110" width="160" height="30" fill="#81c784" rx="5"/>
+      <text x="100" y="130" text-anchor="middle" font-size="12" fill="white">Hourly</text>
+    </g>
+  </g>
+  
+  <!-- Connections -->
+  <!-- Bronze Layer to Operator Dashboard -->
+  <path d="M 310 230 Q 310 290 250 290 Q 250 325 250 350" stroke="#ff6f00" stroke-width="2" fill="none" marker-end="url(#arrowhead-orange)"/>
+  
+  <!-- Gold Layer to Customer Dashboard -->
+  <path d="M 770 230 Q 770 290 500 290 Q 500 325 500 350" stroke="#9c27b0" stroke-width="2" fill="none" marker-end="url(#arrowhead-purple)"/>
+  
+  <!-- Databricks to Internal Dashboard -->
+  <path d="M 1000 230 Q 1000 300 750 300 Q 750 325 750 350" stroke="#2196f3" stroke-width="2" fill="none" marker-end="url(#arrowhead-blue)"/>
+  
+  <!-- Databricks to Public Dashboard -->
+  <path d="M 1000 230 Q 1000 310 1000 310 Q 1000 325 1000 350" stroke="#4caf50" stroke-width="2" fill="none" marker-end="url(#arrowhead-green)"/>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#666"/>
+    </marker>
+    <marker id="arrowhead-green" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#4caf50"/>
+    </marker>
+    <marker id="arrowhead-blue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#2196f3"/>
+    </marker>
+    <marker id="arrowhead-purple" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#9c27b0"/>
+    </marker>
+    <marker id="arrowhead-orange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#ff6f00"/>
+    </marker>
+  </defs>
+</svg>

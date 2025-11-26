@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Removal Visualizations</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Space Mono', monospace;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #00ff88;
+            font-weight: 300;
+            letter-spacing: 2px;
+            margin-bottom: 40px;
+        }
+        
+        .viz-section {
+            margin-bottom: 60px;
+            background: #111;
+            border-radius: 12px;
+            padding: 30px;
+            border: 1px solid #222;
+        }
+        
+        h2 {
+            color: #00ff88;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        
+        .metrics {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+        
+        .metric {
+            background: #1a1a1a;
+            padding: 15px 25px;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+        
+        .metric-label {
+            font-size: 12px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .metric-value {
+            font-size: 24px;
+            font-weight: 600;
+            color: #00ff88;
+            margin-top: 5px;
+        }
+        
+        canvas {
+            width: 100%;
+            height: 200px;
+            background: #050505;
+            border-radius: 8px;
+        }
+        
+        .bounds {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .current-rate {
+            text-align: center;
+            font-size: 14px;
+            color: #00ff88;
+            margin-top: 10px;
+        }
+        
+        .top-row {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .top-stat {
+            flex: 1;
+            text-align: center;
+            background: #111;
+            border-radius: 12px;
+            padding: 40px 30px;
+            border: 1px solid #222;
+        }
+        
+        .dac-status-container {
+            flex: 2;
+            background: #111;
+            border-radius: 12px;
+            padding: 30px;
+            border: 1px solid #222;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .dac-status-title {
+            color: #00ff88;
+            font-weight: 400;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        
+        .top-stat-label {
+            font-size: 16px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+        
+        .top-stat-value {
+            font-size: 48px;
+            font-weight: 600;
+            color: #00ff88;
+        }
+        
+        .dac-status {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex: 1;
+        }
+        
+        .status-column {
+            flex: 1;
+            background: #1a1a1a;
+            border-radius: 8px;
+            padding: 15px 15px 5px 15px;
+            border: 1px solid #333;
+            text-align: center;
+            min-height: 230px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .status-label {
+            font-size: 11px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+        
+        .status-count {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        
+        .operating .status-count { color: #00ff88; }
+        .operating .status-fill { background: #00ff88; }
+        
+        .construction .status-count { color: #F4B942; }
+        .construction .status-fill { background: #F4B942; }
+        
+        .maintenance .status-count { color: #F4B942; }
+        
+        .coming-soon .status-count { color: #3B82F6; }
+        
+        .co2-flow {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 30px 0;
+            position: relative;
+        }
+        
+        .process-stage {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 2;
+            position: relative;
+        }
+        
+        .stage-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #1a1a1a;
+            border: 2px solid #00ff88;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #00ff88;
+            font-weight: 600;
+        }
+        
+        .stage-label {
+            font-size: 10px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+            max-width: 80px;
+        }
+        
+        .flow-connection {
+            flex: 1;
+            height: 40px;
+            background: #333;
+            margin: 0 10px;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .flow-stream {
+            position: absolute;
+            top: 50%;
+            left: -20px;
+            width: 20px;
+            height: 6px;
+            background: linear-gradient(90deg, transparent, #00ff88, transparent);
+            border-radius: 3px;
+            animation: flowAnimation 2s linear infinite;
+        }
+        
+        .flow-rate {
+            color: #00ff88;
+            font-size: 11px;
+            font-weight: 600;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 2px 8px;
+            border-radius: 10px;
+            z-index: 1;
+        }
+        
+        @keyframes flowAnimation {
+            0% { left: -20px; opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { left: 100%; opacity: 0; }
+        }
+        
+        .annotation-line-start {
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 30px;
+            background: #00ff88;
+        }
+        
+        .annotation-line-vertical {
+            position: absolute;
+            top: -35px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 15px;
+            background: #00ff88;
+        }
+        
+        .annotation-line-horizontal {
+            position: absolute;
+            top: -20px;
+            left: 380px;
+            right: 380px;
+            height: 2px;
+            background: #00ff88;
+        }
+        
+        .methodology {
+            margin-top: 60px;
+            padding: 20px 0;
+            border-top: 1px solid #333;
+        }
+        
+        .methodology h3 {
+            color: #888;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            font-weight: 400;
+        }
+        
+        .methodology-content {
+            font-size: 11px;
+            color: #666;
+            line-height: 1.6;
+            max-width: 800px;
+        }
+        
+        .methodology-item {
+            margin-bottom: 8px;
+        }
+        
+        .metric-term {
+            color: #888;
+            font-weight: 600;
+        }
+        
+        .env-stat {
+            background: #1a1a1a;
+            padding: 25px 15px;
+            border-radius: 8px;
+            border: 1px solid #333;
+            text-align: center;
+            flex: 1;
+        }
+        
+        .env-stat-label {
+            font-size: 12px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .env-stat-value {
+            font-size: 32px;
+            font-weight: 600;
+            color: #00ff88;
+        }
+        
+        .tech-labels-container {
+            background: #111;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #222;
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+        
+        .tech-section {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+        
+        .tech-section.sorbent {
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .tech-section.regeneration {
+            padding: 10px;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+        }
+        
+        .tech-section-title {
+            color: #00ff88;
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.8;
+            text-align: right;
+        }
+        
+        .tech-row-label {
+            color: #888;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 4px 4px;
+            text-align: right;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-bottom: 8px;
+        }
+        
+        .tech-row-label.section-gap {
+            margin-bottom: 10px;
+        }
+        
+        .tech-table {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            flex: 1;
+            justify-content: flex-start;
+        }
+        
+        .tech-table-cell {
+            background: #0f0f0f;
+            border: 1px solid #444;
+            border-radius: 4px;
+            padding: 8px 6px;
+            text-align: center;
+            margin-bottom: 8px;
+            height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .tech-table-cell.section-gap {
+            margin-bottom: 60px;
+            position: relative;
+        }
+        
+        .tech-table-cell.section-gap::after {
+            content: '';
+            position: absolute;
+            bottom: -42px;
+            left: -15px;
+            right: -15px;
+            height: 1px;
+            background: #333;
+        }
+        
+        .tech-count {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1;
+        }
+        
+        .operating .tech-count { color: #00ff88; }
+        .operating .tech-table-cell { border-color: #00ff88; }
+        
+        .construction .tech-count { color: #F4B942; }
+        .construction .tech-table-cell { border-color: #F4B942; }
+        
+        .maintenance .tech-count { color: #F4B942; }
+        .maintenance .tech-table-cell { border-color: #F4B942; }
+        
+        .coming-soon .tech-count { color: #3B82F6; }
+        .coming-soon .tech-table-cell { border-color: #3B82F6; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DIRECT AIR CAPTURE DASHBOARD</h1>
+        
+        <!-- Environmental Metrics Row -->
+        <div class="viz-section" style="margin-bottom: 20px; padding: 20px 30px;">
+            <h2 style="font-size: 16px; margin-bottom: 20px;">ENVIRONMENTAL CONDITIONS - INNISFAIL, AB</h2>
+            <div class="top-row" style="margin-bottom: 0;">
+                <div class="env-stat">
+                    <div class="env-stat-label">Temperature</div>
+                    <div class="env-stat-value" id="temperature">16.3°C</div>
+                </div>
+                <div class="env-stat">
+                    <div class="env-stat-label">Humidity</div>
+                    <div class="env-stat-value" id="humidity">68%</div>
+                </div>
+                <div class="env-stat">
+                    <div class="env-stat-label">Air Quality</div>
+                    <div class="env-stat-value" id="aqi">24 AQI</div>
+                </div>
+                <div class="env-stat">
+                    <div class="env-stat-label">AMBIENT CO2</div>
+                    <div class="env-stat-value" id="co2-ppm">427 PPM</div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CO2 Flow Visualization -->
+        <div class="viz-section">
+            <h2>CO2 STREAM FLOW</h2>
+            <div class="co2-flow">
+                <div class="process-stage">
+                    <div class="stage-icon">CAP</div>
+                    <div class="stage-label">Capture</div>
+                </div>
+                
+                <div class="flow-connection">
+                    <div class="flow-stream"></div>
+                    <div class="flow-rate" id="flow-1">125 KG/H</div>
+                </div>
+                
+                <div class="process-stage">
+                    <div class="stage-icon">LIQ</div>
+                    <div class="stage-label">Liquifaction</div>
+                </div>
+                
+                <div class="flow-connection" id="liq-tnk-connection">
+                    <div class="flow-stream"></div>
+                    <div class="flow-rate" id="flow-2">118 KG/H</div>
+                    <div class="annotation-line-start"></div>
+                </div>
+                
+                <div class="process-stage">
+                    <div class="stage-icon">TNK</div>
+                    <div class="stage-label">Tank</div>
+                </div>
+                
+                <div class="flow-connection">
+                    <div class="flow-stream"></div>
+                    <div class="flow-rate" id="flow-3">115 KG/H</div>
+                </div>
+                
+                <div class="process-stage">
+                    <div class="stage-icon">STR</div>
+                    <div class="stage-label">Storage</div>
+                </div>
+            </div>
+            
+            <div class="flow-metrics-container" style="margin-top: 30px; position: relative;">
+                <div class="annotation-line-vertical"></div>
+                <div class="annotation-line-horizontal"></div>
+                <div class="metrics">
+                    <div class="metric">
+                        <div class="metric-label">24h Average</div>
+                        <div class="metric-value" id="flow-avg">118 KG/H</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">Daily Max</div>
+                        <div class="metric-value" id="flow-max">287 KG/H</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">Daily Min</div>
+                        <div class="metric-value" id="flow-min">67 KG/H</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Row: Tonnes Removed and DAC Status -->
+        <div class="top-row">
+            <!-- Left Column: Tonnes Removed and Technology Labels -->
+            <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
+                <!-- Tonnes Removed To Date -->
+                <div class="top-stat" style="padding: 25px 10px;">
+                    <div class="top-stat-label">Tonnes Removed To Date</div>
+                    <div class="top-stat-value" id="tonnes-removed">0.0000000</div>
+                </div>
+
+                <!-- Technology Labels -->
+                <div class="tech-labels-container">
+                    <div class="tech-section sorbent">
+                        <div class="tech-section-title">SORBENT TYPE</div>
+                        <div class="tech-row-label">SOLID</div>
+                        <div class="tech-row-label">LIQUID</div>
+                    </div>
+                    <div class="tech-section regeneration">
+                        <div class="tech-section-title">REGENERATION METHOD</div>
+                        <div class="tech-row-label">THERMAL</div>
+                        <div class="tech-row-label">ELECTROCHEMICAL</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- DAC Units Status -->
+            <div class="dac-status-container">
+                <h2 class="dac-status-title">DAC UNIT STATUS</h2>
+                <div class="dac-status">
+                    <div class="status-column coming-soon">
+                        <div class="status-label">Coming Soon</div>
+                        <div class="status-count" id="coming-soon-count">4</div>
+                        <div class="tech-table">
+                            <div class="tech-table-cell">
+                                <div class="tech-count" id="coming-soon-solid">3</div>
+                            </div>
+                            <div class="tech-table-cell section-gap">
+                                <div class="tech-count" id="coming-soon-liquid">1</div>
+                            </div>
+                            <div class="tech-table-cell">
+                                <div class="tech-count" id="coming-soon-thermal">3</div>
+                            </div>
+                            <div class="tech-table-cell">
+                                <div class="tech-count" id="coming-soon-electro">1</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="status-column maintenance">
+                        <div class="status-label">Maintenance</div>
+                        <div class="status-count" id="maintenance-count">1</div>
+                        <div class="tech-table">
+                            <div class="tech-table-cell">
+                                <div class="tech-count" id="maintenance-solid">0</div>
+                            </div>
+                            <div class="tech-table-cell section-gap">
+                                <div class="tech-count" id="maintenance-liquid">1</div>
+                            </div>
+                            <div class="tech-table-cell">
+                                <div class="tech-count" id="maintenance-thermal">0</div>
+                            </div>
+                            <div class="tech-table-cell">
+                                <div class="tech-count" id="maintenance-electro">1</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="status-column operating">
+                        <div class="status-label">Operation</div>
+                        <div class="status-count" id="operating-count">2</div>
+                        <div class="tech-table">
+                            <div class="tech-table-cell">
+                                <div class="tech-count" id="operating-solid">1</div>
+                            </div>
+                            <div class="tech-table-cell section-gap">
+                                <div class="tech-count" id="operating-liquid">1</div>
+                            </div>
+                            <div class="tech-table-cell">
+                                <div class="tech-count" id="operating-thermal">1</div>
+                            </div>
+                            <div class="tech-table-cell">
+                                <div class="tech-count" id="operating-electro">1</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Waveform Style Visualization -->
+        <div class="viz-section">
+            <h2>REMOVAL EFFICIENCY</h2>
+            <div class="metrics">
+                <div class="metric">
+                    <div class="metric-label">Current Rate</div>
+                    <div class="metric-value" id="rate1">0.00%</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">24h Average</div>
+                    <div class="metric-value">79.7%</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Daily Max</div>
+                    <div class="metric-value">85%</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Daily Min</div>
+                    <div class="metric-value">72%</div>
+                </div>
+            </div>
+            <canvas id="waveform"></canvas>
+            <div class="bounds">
+            </div>
+        </div>
+        
+        <!-- Methodology / Notes -->
+        <div class="methodology">
+            <h3>Methodology</h3>
+            <div class="methodology-content">
+                <div class="methodology-item">
+                    <span class="metric-term">Removal Efficiency:</span> Represents the net efficiency of the direct air capture process after accounting for facility operational emissions. Total facility CO2 removed / (total facility CO2 emissions + total facility CO2 removed). 
+                </div>
+                <div class="methodology-item">
+                    <span class="metric-term">Tonnes Removed To Date:</span> Refers to gross tonnes of CO2 captured from ambient air before accounting for process emissions or storage losses.
+                </div>
+                <div class="methodology-item">
+                    <span class="metric-term">CO2 Stream Flow:</span> Real-time flow rates measured at sensor points between each stage of the CO2 processing pipeline. Flow rates naturally decrease through the system due to process losses and energy requirements.
+                </div>
+                <div class="methodology-item">
+                    <span class="metric-term">DAC Unit Status:</span> Current operational status of individual direct air capture units across the facility. Units cycle between operational states based on maintenance schedules and deployment phases.
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script>
+        // Shared data generation
+        const minRate = 50;
+        const maxRate = 90;
+        let currentRate = 79.7;
+        
+        // Tonnes removed counter
+        let tonnesRemoved = 12.5000000; // Starting value
+        const tonnesPerWeek = 1.0; // 1 tonne per week
+        const incrementsPerWeek = 7 * 24 * 60 * 60 * 10; // Updates every 100ms (10 times per second)
+        const tonnesPerIncrement = tonnesPerWeek / incrementsPerWeek;
+        
+        function generateNewRate() {
+            const change = (Math.random() - 0.5) * 2;
+            currentRate = Math.max(minRate, Math.min(maxRate, currentRate + change));
+            return currentRate;
+        }
+        
+        function updateTonnesRemoved() {
+            tonnesRemoved += tonnesPerIncrement;
+            document.getElementById('tonnes-removed').textContent = tonnesRemoved.toFixed(7);
+        }
+        
+        // DAC Unit Status Data
+        const dacUnits = {
+            'coming-soon': 4,
+            maintenance: 1,
+            operating: 2
+        };
+        
+        // Technology breakdown data
+        const techBreakdown = {
+            'coming-soon': {
+                solid: 3, liquid: 1,
+                thermal: 3, electro: 1
+            },
+            maintenance: {
+                solid: 0, liquid: 1,
+                thermal: 0, electro: 1
+            },
+            operating: {
+                solid: 1, liquid: 1,
+                thermal: 1, electro: 1
+            }
+        };
+        
+        const totalUnits = Object.values(dacUnits).reduce((a, b) => a + b, 0);
+        
+        function updateDacStatus() {
+            Object.keys(dacUnits).forEach(status => {
+                // Update technology breakdown with checkmarks
+                const techData = techBreakdown[status];
+                if (techData) {
+                    document.getElementById(`${status}-solid`).textContent = techData.solid > 0 ? '✓' : '';
+                    document.getElementById(`${status}-liquid`).textContent = techData.liquid > 0 ? '✓' : '';
+                    document.getElementById(`${status}-thermal`).textContent = techData.thermal > 0 ? '✓' : '';
+                    document.getElementById(`${status}-electro`).textContent = techData.electro > 0 ? '✓' : '';
+                }
+            });
+        }
+        
+        // CO2 Flow Data
+        const co2FlowRates = {
+            flow1: { base: 51.23, current: 51.23 },
+            flow2: { base: 150.12, current: 150.12 },
+            flow3: { base: 61.29, current: 61.29 }
+        };
+        
+        function updateCO2Flows() {
+            Object.keys(co2FlowRates).forEach((flowKey, index) => {
+                const flowData = co2FlowRates[flowKey];
+                // Add some realistic variation (±5% around base value)
+                const variation = (Math.random() - 0.5) * 0.1;
+                flowData.current = Math.max(0, flowData.base + (flowData.base * variation));
+                
+                // Update the display
+                const elementId = `flow-${index + 1}`;
+                const element = document.getElementById(elementId);
+                if (element) {
+                    element.textContent = `${Math.round(flowData.current)} KG/H`;
+                }
+            });
+        }
+        
+        // Waveform Visualization
+        const waveformCanvas = document.getElementById('waveform');
+        const waveformCtx = waveformCanvas.getContext('2d');
+        const waveformData = Array(100).fill(2.5);
+        
+        function resizeCanvas(canvas) {
+            canvas.width = canvas.offsetWidth * window.devicePixelRatio;
+            canvas.height = canvas.offsetHeight * window.devicePixelRatio;
+            canvas.getContext('2d').scale(window.devicePixelRatio, window.devicePixelRatio);
+        }
+        
+        resizeCanvas(waveformCanvas);
+        
+        function drawWaveform() {
+            const width = waveformCanvas.offsetWidth;
+            const height = waveformCanvas.offsetHeight;
+            
+            waveformCtx.fillStyle = '#050505';
+            waveformCtx.fillRect(0, 0, width, height);
+            
+            // Grid lines
+            waveformCtx.strokeStyle = '#1a1a1a';
+            waveformCtx.lineWidth = 1;
+            for (let i = 0; i <= 4; i++) {
+                const y = (height / 4) * i;
+                waveformCtx.beginPath();
+                waveformCtx.moveTo(0, y);
+                waveformCtx.lineTo(width, y);
+                waveformCtx.stroke();
+            }
+            
+            // Draw bars
+            const barWidth = width / waveformData.length;
+            const gradient = waveformCtx.createLinearGradient(0, 0, 0, height);
+            gradient.addColorStop(0, '#00ff88');
+            gradient.addColorStop(1, '#006644');
+            
+            waveformData.forEach((value, i) => {
+                const normalized = (value - minRate) / (maxRate - minRate);
+                const barHeight = normalized * height * 0.8;
+                const x = i * barWidth;
+                const y = height - barHeight - height * 0.1;
+                
+                waveformCtx.fillStyle = gradient;
+                waveformCtx.fillRect(x + 1, y, barWidth - 2, barHeight);
+                
+            });
+            
+            // Update data
+            waveformData.shift();
+            waveformData.push(generateNewRate());
+            document.getElementById('rate1').textContent = currentRate.toFixed(2) + '%';
+            
+            // Update tonnes removed counter
+            updateTonnesRemoved();
+            
+            // Update CO2 flow rates
+            updateCO2Flows();
+        }
+        
+        // Initialize DAC status bars
+        updateDacStatus();
+        
+        // Animation loops
+        setInterval(drawWaveform, 100);
+        setInterval(drawOscilloscope, 50);
+        
+        // Handle resize
+        window.addEventListener('resize', () => {
+            resizeCanvas(waveformCanvas);
+            resizeCanvas(oscCanvas);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Reality Gap</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Space Mono', monospace;
+            background: linear-gradient(to bottom right, #0f0f0f, #1a0a0a, #0f0f0f);
+            color: #e0e0e0;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        
+        .chart-section {
+            background: rgba(17, 17, 17, 0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 32px;
+            border: 1px solid rgba(239, 68, 68, 0.5);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        
+        .chart-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 8px;
+            text-align: left;
+        }
+        
+        .chart-subtitle {
+            font-size: 16px;
+            color: #9ca3af;
+            margin-bottom: 24px;
+            text-align: left;
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 500px;
+            margin-bottom: 24px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .chart-legend {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 24px;
+            font-size: 14px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 2px;
+            background: linear-gradient(to bottom, #10b981, #dc2626);
+        }
+        
+        .legend-text {
+            color: #9ca3af;
+        }
+        
+        /* Custom tooltip styling */
+        .chartjs-tooltip {
+            background: rgba(17, 17, 17, 0.95) !important;
+            border: 1px solid #374151 !important;
+            border-radius: 8px !important;
+            color: #ffffff !important;
+            font-family: 'Space Mono', monospace !important;
+            font-size: 12px !important;
+            padding: 12px !important;
+            box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1) !important;
+        }
+        
+        .chartjs-tooltip-key {
+            color: #9ca3af !important;
+        }
+        
+        .custom-tooltip {
+            background: #1f2937;
+            border: 1px solid #374151;
+            border-radius: 8px;
+            padding: 16px;
+            font-family: 'Space Mono', monospace;
+            font-size: 12px;
+            color: #ffffff;
+            box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
+            pointer-events: none;
+            z-index: 1000;
+        }
+        
+        .tooltip-year {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+        
+        .tooltip-line {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 4px;
+        }
+        
+        .tooltip-market {
+            color: #10b981;
+        }
+        
+        .tooltip-climate {
+            color: #dc2626;
+        }
+        
+        .tooltip-gap {
+            color: #fbbf24;
+            font-weight: 600;
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px solid #374151;
+        }
+        
+        /* Chart Caption Styles */
+        .chart-caption {
+            margin-top: 32px;
+            padding-top: 24px;
+            border-top: 1px solid #374151;
+        }
+        
+        .citation {
+            margin-bottom: 24px;
+        }
+        
+        .citation-text {
+            font-size: 14px;
+            color: #9ca3af;
+            line-height: 1.5;
+            margin: 0;
+        }
+        
+        .citation-link {
+            color: #10b981;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+        
+        .citation-link:hover {
+            border-bottom-color: #10b981;
+        }
+        
+        .methodology-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 16px;
+            font-family: 'Space Mono', monospace;
+        }
+        
+        .line-explanations {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .line-explanation {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        
+        .line-color {
+            width: 20px;
+            height: 4px;
+            border-radius: 2px;
+            margin-top: 6px;
+            flex-shrink: 0;
+        }
+        
+        .line-color.theoretical {
+            background: #10b981;
+        }
+        
+        .line-color.climate-adjusted {
+            background: #dc2626;
+        }
+        
+        .line-color.historical {
+            background: #8b5cf6;
+        }
+        
+        .line-color.projection {
+            background: #fbbf24;
+        }
+        
+        .line-description {
+            font-size: 14px;
+            color: #d1d5db;
+            line-height: 1.5;
+            flex: 1;
+        }
+        
+        .line-description strong {
+            color: #ffffff;
+            font-weight: 600;
+        }
+        
+        /* Climate Corrections Styles */
+        .climate-corrections {
+            margin-top: 32px;
+            padding-top: 24px;
+            border-top: 1px solid #374151;
+        }
+        
+        .corrections-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 20px;
+            font-family: 'Space Mono', monospace;
+        }
+        
+        .correction-event {
+            margin-bottom: 24px;
+            padding: 16px;
+            background: rgba(239, 68, 68, 0.05);
+            border-left: 3px solid #dc2626;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .correction-event:last-child {
+            margin-bottom: 0;
+        }
+        
+        .correction-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        
+        .correction-marker {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        
+        .correction-marker.correction-1 {
+            background: #ef4444;
+            box-shadow: 0 0 6px rgba(239, 68, 68, 0.5);
+        }
+        
+        .correction-marker.correction-2 {
+            background: #dc2626;
+            box-shadow: 0 0 6px rgba(220, 38, 38, 0.5);
+        }
+        
+        .correction-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: #ef4444;
+            margin: 0;
+            font-family: 'Space Mono', monospace;
+        }
+        
+        .correction-description {
+            font-size: 14px;
+            color: #d1d5db;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+                /* Risk Dilution Section Styles */
+        .risk-dilution-section {
+            margin-top: 60px;
+            padding: 40px 0;
+            border-top: 2px solid #374151;
+        }
+        
+        .dilution-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 16px;
+            text-align: center;
+            font-family: 'Space Mono', monospace;
+        }
+        
+        .dilution-subtitle {
+            font-size: 16px;
+            color: #9ca3af;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+            line-height: 1.5;
+        }
+        
+        .dilution-pipeline {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            margin-bottom: 40px;
+        }
+        
+        .dilution-stage {
+            background: rgba(17, 17, 17, 0.4);
+            border: 1px solid #374151;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 16px;
+            margin-top: 16px;
+            position: relative;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .dilution-stage:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+        
+        .dilution-stage.final-stage {
+            border-color: #dc2626;
+            background: rgba(220, 38, 38, 0.05);
+        }
+        
+        .stage-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .stage-number {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #dc2626, #ef4444);
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        
+        .stage-info {
+            flex: 1;
+        }
+        
+        .stage-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #ffffff;
+            margin: 0 0 8px 0;
+            font-family: 'Space Mono', monospace;
+        }
+        
+        .risk-meter {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .risk-bar {
+            height: 8px;
+            border-radius: 4px;
+            width: 200px;
+            position: relative;
+            background: #374151;
+            overflow: hidden;
+        }
+        
+        .risk-bar::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            border-radius: 4px;
+            background: linear-gradient(90deg, #dc2626, #ef4444);
+        }
+        
+        .physical-risk::after { width: 100%; }
+        .science-risk::after { width: 75%; background: linear-gradient(90deg, #ea580c, #f97316); }
+        .economics-risk::after { width: 50%; background: linear-gradient(90deg, #d97706, #f59e0b); }
+        .consulting-risk::after { width: 30%; background: linear-gradient(90deg, #ca8a04, #eab308); }
+        .markets-risk::after { width: 15%; background: linear-gradient(90deg, #65a30d, #84cc16); }
+        .valuations-risk::after { width: 5%; background: linear-gradient(90deg, #059669, #10b981); }
+        
+        .risk-percentage {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ffffff;
+            min-width: 40px;
+        }
+        
+        .stage-content {
+            margin-bottom: 16px;
+        }
+        
+        .stage-content p {
+            font-size: 14px;
+            color: #d1d5db;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+        
+        .stage-content p:last-of-type {
+            margin-bottom: 0;
+        }
+        
+        .filter-removed {
+            background: rgba(220, 38, 38, 0.1);
+            border: 1px solid #dc2626;
+            border-radius: 6px;
+            padding: 12px;
+            margin-top: 16px;
+            font-size: 13px;
+            color: #fca5a5;
+        }
+        
+        .reality-gap-highlight {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid #10b981;
+            border-radius: 6px;
+            padding: 12px;
+            margin-top: 16px;
+            font-size: 13px;
+            color: #6ee7b7;
+        }
+        
+        .dilution-arrow {
+            text-align: center;
+            font-size: 24px;
+            color: #dc2626;
+            margin: 8px 0;
+            animation: pulse 2s infinite;
+        }
+        
+        .dilution-stage:last-child .dilution-arrow {
+            display: none;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 0.6; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.1); }
+            100% { opacity: 0.6; transform: scale(1); }
+        }
+        
+        /* Language Drift Example */
+        .language-drift-example {
+            background: rgba(17, 17, 17, 0.6);
+            border: 1px solid #374151;
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 16px;
+        }
+        
+        .drift-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: 'Space Mono', monospace;
+        }
+        
+        .drift-flow {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        
+        .drift-stage {
+            flex: 1;
+            min-width: 180px;
+            text-align: center;
+        }
+        
+        .drift-label {
+            font-size: 11px;
+            color: #9ca3af;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        
+        .drift-term {
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            border: 1px solid;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .drift-term.original {
+            background: rgba(220, 38, 38, 0.1);
+            border-color: #dc2626;
+            color: #fca5a5;
+        }
+        
+        .drift-term.moderate {
+            background: rgba(234, 88, 12, 0.1);
+            border-color: #ea580c;
+            color: #fed7aa;
+        }
+        
+        .drift-term.mild {
+            background: rgba(217, 119, 6, 0.1);
+            border-color: #d97706;
+            color: #fde68a;
+        }
+        
+        .drift-term.final {
+            background: rgba(16, 185, 129, 0.1);
+            border-color: #10b981;
+            color: #6ee7b7;
+        }
+        
+        .drift-arrow {
+            font-size: 20px;
+            color: #9ca3af;
+            flex-shrink: 0;
+        }
+        
+        /* Simplified responsive - focus on width only */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 0 10px;
+            }
+            
+            .chart-section {
+                padding: 20px;
+            }
+            
+            .drift-flow {
+                flex-direction: column;
+            }
+            
+            .stage-header {
+                flex-direction: column;
+                text-align: center;
+                gap: 12px;
+            }
+        }
+    </style>
+    </head>
+<body>
+    <div class="container">
+        <div class="chart-section">
+            <h2 class="chart-title">
+                Market Fantasy vs. Climate Reality
+            </h2>
+            <p class="chart-subtitle">Markets are on a collision course with the reality of climate crisis</p>
+            
+            <div class="chart-container">
+                <canvas id="climateChart"></canvas>
+            </div>
+            
+            <!-- Chart Caption and Methodology -->
+            <div class="chart-caption">
+                <div class="methodology">
+                    
+                    <div class="line-explanations">
+                        <div class="line-explanation">
+                            <div class="line-color theoretical"></div>
+                            <div class="line-description">
+                                <strong>Theoretical Growth:</strong> Market growth without climate disruption -- the assumption of ~2% annual growth is implicit in current asset valutions.
+                            </div>
+                        </div>
+                        
+                        <div class="line-explanation">
+                            <div class="line-color climate-adjusted"></div>
+                            <div class="line-description">
+                                <strong>Climate-Adjusted Growth:</strong> Incorporates economic impacts from climate change based on Kotz et al.'s findings of 19% GDP reduction by 2049. Includes temperature effects, precipitation changes, extreme weather damage, and productivity losses. Kotz et al. (2024) "The economic commitment of climate change" <em>Nature</em> 626, 551–557. <a href="https://www.nature.com/articles/s41586-024-07219-0" target="_blank" class="citation-link">doi.org/10.1038/s41586-024-07219-0</a>
+                            </div>
+                        </div>
+                        
+                        <div class="line-explanation">
+                            <div class="line-color historical"></div>
+                            <div class="line-description">
+                                <strong>Historical Performance:</strong> Simplified historical market performance (2000-2025) showing volatility from the 2008 financial crisis and the COVID pandemic.
+                            </div>
+                        </div>
+                        
+                        <div class="line-explanation">
+                            <div class="line-color projection"></div>
+                            <div class="line-description">
+                                <strong>Climate-Corrected Projection:</strong> Hypothesized market path (2025-2050) as markets are forced to reckon with climate reality through increasing volatility, corrections, and eventual convergence with climate-adjusted fundamentals.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="climate-corrections">
+                        <h4 class="corrections-title">Climate Correction Events</h4>
+                        
+                        <div class="correction-event">
+                            <div class="correction-header">
+                                <div class="correction-marker correction-1"></div>
+                                <h5 class="correction-name">Climate Correction 1 (2032)</h5>
+                            </div>
+                            <p class="correction-description">
+                                Rapidly accelerating physical risk is outpacing insurance markets and governments' ability to adapt. Extreme events on the scale of the 2025 LA wildfires and Hurricane Katrina will eventually occur simultaneously. Private and subsidized insurance markets will fail, billions of dollars of real estate value will be wiped out, and the shockwaves will ripple through the financial markets a la 2008. Except in this case, the underlying cause will not be financial, it will be physical, and it will only get worse.
+                            </p>
+                        </div>
+                        
+                        <div class="correction-event">
+                            <div class="correction-header">
+                                <div class="correction-marker correction-2"></div>
+                                <h5 class="correction-name">Climate Correction 2 (2045)</h5>
+                            </div>
+                            <p class="correction-description">
+                                It may well take more than one correction for markets to calibrate to new models of value on a less stable planet. At this point, the climate crisis will crash into the political realm as crop failure spreads, food security disappears for millions, emigration from the hardest hit areas soars, extreme weather disrupts global trade, and governments resort to conflict over scarce resources. Persistent global conflict at this stage would mean markets do not recover at all and the picture would look even bleaker than pictured.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Risk Dilution Explanation -->
+            <div class="risk-dilution-section">
+                <h2 class="dilution-title">Why The Gap Exists: The Climate Risk Dilution Pipeline</h2>
+                <p class="dilution-subtitle">
+                    Physical climate reality gets progressively filtered and diluted through multiple institutional barriers, 
+                    explaining why market valuations are so far from climate-adjusted reality.
+                </p>
+                
+                <div class="dilution-pipeline">
+                    <div class="dilution-stage" data-stage="physical">
+                        <div class="stage-header">
+                            <div class="stage-number">1</div>
+                            <div class="stage-info">
+                                <h3 class="stage-title">Physical Climate Reality</h3>
+                                <div class="risk-meter">
+                                    <div class="risk-bar physical-risk"></div>
+                                    <span class="risk-percentage">100%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stage-content">
+                            <p>The complete scope of climate risk includes tipping points, cascading failures, extreme weather events, infrastructure damage, supply chain disruptions, resource scarcity, and systemic economic breakdowns. This represents the actual physical reality of what climate change means for economic systems.</p>
+                            <p>At this stage, all risk factors that could impact economic value are present: ice sheet collapse, Amazon dieback, permafrost methane release, crop failures, mass migration, infrastructure destruction, and the compounding effects when multiple systems fail simultaneously.</p>
+                        </div>
+                        <div class="dilution-arrow">⬇</div>
+                    </div>
+                    
+                    <div class="dilution-stage" data-stage="science">
+                        <div class="stage-header">
+                            <div class="stage-number">2</div>
+                            <div class="stage-info">
+                                <h3 class="stage-title">Climate Science Filter</h3>
+                                <div class="risk-meter">
+                                    <div class="risk-bar science-risk"></div>
+                                    <span class="risk-percentage">75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stage-content">
+                            <p><strong>Scientific conservatism</strong> systematically excludes high-risk, low-probability events from climate models. As Simon Sharpe explains in <em>"Five Times Faster,"</em> scientists don't publish findings until proven beyond reasonable doubt. Proving highly uncertain outcomes like tipping points is nearly impossible, so these risks don't make it into most climate models.</p>
+                            <p>There's enormous pressure not to overstate climate risk. Fossil fuel interests attack any finding that appears to exaggerate, making conservatism a survival trait for career success in climate science. The result: published climate science systematically underestimates risk by excluding the most dangerous but uncertain scenarios.</p>
+                            <div class="filter-removed">
+                                <strong>Filtered out:</strong> Tipping point cascades, worst-case scenarios, deep uncertainty
+                            </div>
+                        </div>
+                        <div class="dilution-arrow">⬇</div>
+                    </div>
+                    
+                    <div class="dilution-stage" data-stage="economics">
+                        <div class="stage-header">
+                            <div class="stage-number">3</div>
+                            <div class="stage-info">
+                                <h3 class="stage-title">Climate Economics Translation</h3>
+                                <div class="risk-meter">
+                                    <div class="risk-bar economics-risk"></div>
+                                    <span class="risk-percentage">50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stage-content">
+                            <p><strong>Economics and climate science don't speak the same language.</strong> This creates a fundamental translation problem where the latest economic papers are (a) out of date with climate research, and (b) consistently underestimate climate's economic impact.</p>
+                            <p>Economists approach climate risk assuming a baseline economy that grows at consistent rates minus climate's negative impacts. But this misses the fundamental truth: <em>economic growth depends on the stable climate it has relied on until now.</em> The climate isn't some small external variable affecting the economy—the economy exists within and because of the climate.</p>
+                            <p>Economics hasn't developed compelling models for the climate-economy relationship. Most economic premises about how climate risk works are fundamentally flawed, treating climate as an external shock rather than the foundation that enables economic activity.</p>
+                            <div class="filter-removed">
+                                <strong>Filtered out:</strong> Climate-economy interdependence, system-level breakdowns, non-linear impacts
+                            </div>
+                        </div>
+                        <div class="dilution-arrow">⬇</div>
+                    </div>
+                    
+                    <div class="dilution-stage" data-stage="consulting">
+                        <div class="stage-header">
+                            <div class="stage-number">4</div>
+                            <div class="stage-info">
+                                <h3 class="stage-title">Consulting & Research Commercialization</h3>
+                                <div class="risk-meter">
+                                    <div class="risk-bar consulting-risk"></div>
+                                    <span class="risk-percentage">30%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stage-content">
+                            <p>A significant gap exists between cutting-edge academic research and how private markets assess climate risk. Research takes years to percolate into commercial climate modeling used by financial institutions.</p>
+                            <p><strong>Consulting companies have perverse incentives around model updates.</strong> What's the business incentive to update models faster? Updates only mean delivering worse news to clients who are paying for the analysis. Commercial pressures favor models that don't disrupt client planning or create uncomfortable conversations about fundamental business model risks.</p>
+                            <p>The result is systematically outdated risk models that lag academic research by years, miss recent climate developments, and tend toward conservative assumptions that won't alarm clients or trigger difficult strategic questions.</p>
+                            <div class="filter-removed">
+                                <strong>Filtered out:</strong> Latest research findings, model updates that worsen outlook, uncomfortable strategic implications
+                            </div>
+                        </div>
+                        <div class="dilution-arrow">⬇</div>
+                    </div>
+                    
+                    <div class="dilution-stage" data-stage="markets">
+                        <div class="stage-header">
+                            <div class="stage-number">5</div>
+                            <div class="stage-info">
+                                <h3 class="stage-title">Financial Market Incentives</h3>
+                                <div class="risk-meter">
+                                    <div class="risk-bar markets-risk"></div>
+                                    <span class="risk-percentage">15%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stage-content">
+                            <p>Even when financial institutions receive realistic climate risk modeling, they have little incentive to publicize or act on cautionary models because <strong>the stock market cares about short-term value.</strong></p>
+                            <p>Multiple institutional pressures work against incorporating long-term climate risks: quarterly earnings pressure, career incentives tied to short-term performance, competitive disadvantages from being "first mover" on climate concerns, and investor expectations for continuous growth regardless of long-term sustainability.</p>
+                            <p>The fundamental structure of financial markets—quarterly reporting, annual bonuses, multi-year investment cycles—systematically filters out risks that manifest over decades. Climate risk falls into this blind spot almost perfectly.</p>
+                            <div class="filter-removed">
+                                <strong>Filtered out:</strong> Long-term risks, scenarios that threaten growth assumptions, competitive disadvantages from climate honesty
+                            </div>
+                        </div>
+                        <div class="dilution-arrow">⬇</div>
+                    </div>
+                    
+                    <div class="dilution-stage final-stage" data-stage="valuations">
+                        <div class="stage-header">
+                            <div class="stage-number">6</div>
+                            <div class="stage-info">
+                                <h3 class="stage-title">Final Asset Valuations</h3>
+                                <div class="risk-meter">
+                                    <div class="risk-bar valuations-risk"></div>
+                                    <span class="risk-percentage">5%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stage-content">
+                            <p><strong>The end result: asset valuations that incorporate only a tiny fraction of actual climate risk.</strong> This massive gap between physical reality and market pricing creates the climate reality gap visible in the chart above.</p>
+                            <p>We can see this dilution everywhere: minimal climate attention in financial reporting, growth assumptions in 2050+ financial models that ignore climate uncertainty, and systematic "language drift" where climate scientists' "existential threats" become "growth headwinds" in financial reports.</p>
+                            <p>Each institutional filter has removed layers of risk, creating a financial system that prices assets as if climate change were a minor external factor rather than a fundamental threat to the economic foundations those assets depend on.</p>
+                            <div class="reality-gap-highlight">
+                                <strong>Result:</strong> Wide and growing gap between green and red lines in the chart above
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="language-drift-example">
+                    <h3 class="drift-title">Language Drift: How "Existential Threat" Becomes "Growth Headwind"</h3>
+                    <div class="drift-flow">
+                        <div class="drift-stage">
+                            <div class="drift-label">Climate Science</div>
+                            <div class="drift-term original">"Existential threat to civilization"</div>
+                        </div>
+                        <div class="drift-arrow">→</div>
+                        <div class="drift-stage">
+                            <div class="drift-label">Climate Economics</div>
+                            <div class="drift-term moderate">"Significant economic disruption"</div>
+                        </div>
+                        <div class="drift-arrow">→</div>
+                        <div class="drift-stage">
+                            <div class="drift-label">Consulting Reports</div>
+                            <div class="drift-term mild">"Long-term business challenge"</div>
+                        </div>
+                        <div class="drift-arrow">→</div>
+                        <div class="drift-stage">
+                            <div class="drift-label">Financial Reports</div>
+                            <div class="drift-term final">"Growth headwind"</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Simple debug - remove after fixing
+        window.addEventListener('load', () => {
+            console.log('Container width:', document.querySelector('.container').offsetWidth, 'Window width:', window.innerWidth);
+        });
+    </script>
+    <script>
+        // Historical market data points based on MSCI World Index (normalized to 100 in 2000)
+        const historicalMarketData = {
+            2000: 100,
+            2007: 120,
+            2009: 108,  // Financial crisis
+            2019: 150,
+            2020: 135, // COVID-19 dip
+            2021: 143,
+            2025: 165  // Current estimate
+        };
+        
+        // Linear interpolation function
+        function interpolate(x, x1, y1, x2, y2) {
+            return y1 + (x - x1) * (y2 - y1) / (x2 - x1);
+        }
+        
+        // Get market value for any year using interpolation
+        function getMarketValue(year) {
+            if (historicalMarketData[year]) {
+                return historicalMarketData[year];
+            }
+            
+            // Find the two closest data points
+            const years = Object.keys(historicalMarketData).map(y => parseInt(y)).sort((a, b) => a - b);
+            let lowerYear = years[0];
+            let upperYear = years[years.length - 1];
+            
+            for (let i = 0; i < years.length - 1; i++) {
+                if (year >= years[i] && year <= years[i + 1]) {
+                    lowerYear = years[i];
+                    upperYear = years[i + 1];
+                    break;
+                }
+            }
+            
+            return interpolate(year, lowerYear, historicalMarketData[lowerYear], 
+                             upperYear, historicalMarketData[upperYear]);
+        }
+        
+        // Generate smooth theoretical market data (constant growth rate)
+        function generateSmoothMarketData() {
+            const data = [];
+            const baseValue = 100; // Index starting at 100 in 2000
+            const target2025Value = 165; // Target value in 2025 (actual market level)
+            
+            // Calculate growth rate to reach target by 2025
+            const growthRate = Math.pow(target2025Value / baseValue, 1/25) - 1; // ~2.03% annually
+            
+            for (let year = 2000; year <= 2050; year++) {
+                const yearsFromBase = year - 2000;
+                const marketValue = baseValue * Math.pow(1 + growthRate, yearsFromBase);
+                
+                // Climate-adjusted value diverges smoothly from the start
+                let climateAdjusted = marketValue;
+                
+                if (year > 2000) {
+                    // Smooth exponential divergence that reaches target by 2050
+                    const targetDivergence2050 = 0.20; // 30% by 2050
+                    const progress = yearsFromBase / 50;
+                    
+                    // Use exponential function for smooth acceleration
+                    const divergence = targetDivergence2050 * Math.pow(progress, 1.4);
+                    climateAdjusted = marketValue * (1 - divergence);
+                }
+                
+                data.push({
+                    year,
+                    marketValue: Math.round(marketValue * 100) / 100,
+                    climateAdjusted: Math.round(climateAdjusted * 100) / 100
+                });
+            }
+            
+            return data;
+        }
+        
+        // Generate historical actual market data (2000-2025)
+        function generateHistoricalMarketData() {
+            const data = [];
+            
+            for (let year = 2000; year <= 2025; year++) {
+                const actualValue = getMarketValue(year);
+                data.push({
+                    year,
+                    actualValue: Math.round(actualValue * 100) / 100
+                });
+            }
+            
+            return data;
+        }
+        
+        // Generate future projection data (2025-2050)
+        function generateFutureProjectionData() {
+            const data = [];
+            const smoothData = generateSmoothMarketData();
+            
+            for (let year = 2025; year <= 2050; year++) {
+                const smoothDataPoint = smoothData.find(d => d.year === year);
+                const marketValue = smoothDataPoint.marketValue;
+                const climateValue = smoothDataPoint.climateAdjusted;
+                
+                let projectionValue;
+                
+                if (year === 2025) {
+                    // Start at actual 2025 value
+                    projectionValue = 165;
+                } else if (year <= 2029) {
+                    // Follow smooth growth until 2029
+                    projectionValue = marketValue;
+                } else if (year === 2030) {
+                    // Dip to halfway between green and red
+                    projectionValue = (marketValue + climateValue) / 2;
+                } else if (year === 2031) {
+                    // Slight upturn
+                    projectionValue = (marketValue + climateValue) / 2 + 10;
+                } else if (year === 2032) {
+                    // Big drop below red line
+                    projectionValue = climateValue - 15;
+                } else if (year === 2033) {
+                    projectionValue = climateValue - 10;
+                } else if (year === 2034) {
+                    projectionValue = climateValue - 5;
+                } else if (year === 2035) {
+                    projectionValue = climateValue - 2;
+                } else if (year === 2036) {
+                    projectionValue = climateValue + 2;
+                } else if (year === 2037) {
+                    projectionValue = climateValue + 5;  
+                } else if (year === 2038) {
+                    projectionValue = climateValue + 7;                      
+                } else if (year === 2039) {
+                    projectionValue = climateValue + 10;
+                } else if (year === 2040) {
+                    projectionValue = climateValue + 12;                    
+                } else if (year === 2041) {
+                    projectionValue = climateValue + 15;
+                } else if (year === 2042) {
+                    projectionValue = climateValue + 20;
+                } else if (year === 2043) {
+                    projectionValue = climateValue + 25;                                                                                                            
+                } else if (year === 2045) {
+                    projectionValue = climateValue - 40;
+                } else if (year === 2046) {
+                    projectionValue = climateValue - 25;
+                } else if (year === 2047) {
+                    projectionValue = climateValue - 15;
+                } else if (year === 2048) {
+                    projectionValue = climateValue - 5;                    
+                } else if (year === 2050) {
+                    // End equal to red line
+                    projectionValue = climateValue;
+                } else {
+                    // Gradually shift lower between 2033-2050
+                    const startYear = 2033;
+                    const endYear = 2050;
+                    const progress = (year - startYear) / (endYear - startYear);
+                    
+                    const startValue = climateValue;
+                    const endValue = climateValue;
+                    
+                    projectionValue = startValue + (endValue - startValue) * progress;
+                }
+                
+                data.push({
+                    year,
+                    projectionValue: Math.round(projectionValue * 100) / 100
+                });
+            }
+            
+            return data;
+        }
+        
+        // Generate projected data (2025-2050)
+        function generateProjectedData() {
+            const data = [];
+            const historicalData = generateHistoricalData();
+            const lastHistorical = historicalData[historicalData.length - 1];
+            
+            for (let year = 2025; year <= 2050; year++) {
+                const yearsFromStart = year - 2000; // Total years from 2000
+                const yearsFromBase = year - 2025;
+                
+                // Market continues growth trajectory
+                const marketValue = lastHistorical.marketValue * Math.pow(1.025, yearsFromBase);
+                
+                // Continue the smooth divergence pattern from historical data
+                // Target is to reach 32% total reduction by 2050
+                const targetReduction2050 = 0.30;
+                const currentReduction2025 = 1 - (lastHistorical.climateAdjusted / lastHistorical.marketValue);
+                
+                // Smooth continuation of the divergence pattern
+                const remainingYears = 2050 - 2025;
+                const remainingReduction = targetReduction2050 - currentReduction2025;
+                const yearsSince2025 = year - 2025;
+                
+                // Accelerating reduction rate
+                const progress = yearsSince2025 / remainingYears;
+                const climateReduction = currentReduction2025 + (remainingReduction * Math.pow(progress, 1.15));
+                
+                const climateAdjusted = marketValue * (1 - climateReduction);
+                
+                data.push({
+                    year,
+                    marketValue: Math.round(marketValue * 100) / 100,
+                    climateAdjusted: Math.round(climateAdjusted * 100) / 100,
+                    isHistorical: false,
+                    gap: Math.round((marketValue - climateAdjusted) * 100) / 100,
+                    gapPercent: Math.round(climateReduction * 100)
+                });
+            }
+            
+            return data;
+        }
+        
+        // Generate all data
+        const smoothData = generateSmoothMarketData();
+        const historicalData = generateHistoricalMarketData();
+        const futureProjectionData = generateFutureProjectionData();
+        
+        // Prepare data for Chart.js
+        const labels = smoothData.map(d => d.year);
+        const smoothMarketData = smoothData.map(d => d.marketValue);
+        const climateData = smoothData.map(d => d.climateAdjusted);
+        
+        // Create historical line data (2000-2025)
+        const historicalLineData = labels.map(year => {
+            const historicalPoint = historicalData.find(p => p.year === year);
+            return historicalPoint ? historicalPoint.actualValue : null;
+        });
+        
+        // Create future projection line data (2025-2050)
+        const futureLineData = labels.map(year => {
+            const futurePoint = futureProjectionData.find(p => p.year === year);
+            return futurePoint ? futurePoint.projectionValue : null;
+        });
+        
+        // Chart configuration
+        const config = {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: 'Theoretical Market Growth',
+                        data: smoothMarketData,
+                        borderColor: '#10b981',
+                        backgroundColor: 'rgba(16, 185, 129, 0.2)',
+                        borderWidth: 3,
+                        fill: '+1',
+                        tension: 0.1,
+                        pointRadius: 0,
+                        pointHoverRadius: 6
+                    },
+                    {
+                        label: 'Climate-Adjusted Reality',
+                        data: climateData,
+                        borderColor: '#dc2626',
+                        backgroundColor: 'rgba(220, 38, 38, 0.2)',
+                        borderWidth: 3,
+                        fill: 'origin',
+                        tension: 0.1,
+                        pointRadius: 0,
+                        pointHoverRadius: 6
+                    },
+                    {
+                        label: 'Historical Market Performance',
+                        data: historicalLineData,
+                        borderColor: '#8b5cf6',
+                        backgroundColor: 'transparent',
+                        borderWidth: 3,
+                        fill: false,
+                        tension: 0.2,
+                        pointRadius: 0,
+                        pointHoverRadius: 6,
+                        spanGaps: false
+                    },
+                    {
+                        label: 'Future Projection',
+                        data: futureLineData,
+                        borderColor: '#fbbf24',
+                        backgroundColor: 'transparent',
+                        borderWidth: 3,
+                        fill: false,
+                        tension: 0.3,
+                        pointRadius: 0,
+                        pointHoverRadius: 6,
+                        spanGaps: false
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: {
+                    mode: 'index',
+                    intersect: false,
+                },
+                plugins: {
+                    legend: {
+                        display: false,
+                        position: 'bottom',
+                        labels: {
+                            color: '#9ca3af',
+                            font: {
+                                size: 12,
+                                family: 'Space Mono'
+                            },
+                            usePointStyle: true,
+                            pointStyle: 'line',
+                            padding: 20
+                        }
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(17, 17, 17, 0.95)',
+                        titleColor: '#ffffff',
+                        bodyColor: '#ffffff',
+                        borderColor: '#374151',
+                        borderWidth: 1,
+                        cornerRadius: 8,
+                        displayColors: false,
+                        callbacks: {
+                            title: function(context) {
+                                return context[0].label;
+                            },
+                            beforeBody: function(context) {
+                                return '';
+                            },
+                            label: function(context) {
+                                const datasetLabel = context.dataset.label;
+                                const value = context.parsed.y.toFixed(1);
+                                
+                                if (datasetLabel.includes('Theoretical Market Growth')) {
+                                    return `Theoretical Growth: ${value}`;
+                                } else if (datasetLabel.includes('Climate-Adjusted Reality')) {
+                                    return `Climate Reality: ${value}`;
+                                } else if (datasetLabel.includes('Historical Market Performance')) {
+                                    return `Historical Markets: ${value}`;
+                                } else if (datasetLabel.includes('Future Projection')) {
+                                    return `Future Projection: ${value}`;
+                                }
+                            },
+                            afterBody: function(context) {
+                                if (context.length >= 2) {
+                                    const marketValue = context[0].parsed.y;
+                                    const climateValue = context[1].parsed.y;
+                                    const gap = ((marketValue - climateValue) / marketValue * 100).toFixed(1);
+                                    return `\nReality Gap: ${gap}%`;
+                                }
+                                return '';
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        display: true,
+                        title: {
+                            display: false
+                        },
+                        grid: {
+                            color: '#374151',
+                            drawTicks: true
+                        },
+                        ticks: {
+                            color: '#9ca3af',
+                            font: {
+                                size: 12,
+                                family: 'Space Mono'
+                            },
+                            maxRotation: 0,
+                            minRotation: 0,
+                            callback: function(value, index) {
+                                const year = this.getLabelForValue(value);
+                                // Show ticks every 5 years
+                                if (year % 5 === 0) {
+                                    return year;
+                                }
+                                return '';
+                            }
+                        }
+                    },
+                    y: {
+                        display: true,
+                        title: {
+                            display: true,
+                            text: 'Global GDP (2000 = 100)',
+                            color: '#9ca3af',
+                            font: {
+                                size: 12,
+                                family: 'Space Mono'
+                            }
+                        },
+                        grid: {
+                            color: '#374151',
+                            drawTicks: true
+                        },
+                        ticks: {
+                            color: '#9ca3af',
+                            font: {
+                                size: 12,
+                                family: 'Space Mono'
+                            }
+                        }
+                    }
+                }
+            }
+        };
+        
+        // Add reference lines for key years
+        const addAnnotations = (chart) => {
+            const chartArea = chart.chartArea;
+            const ctx = chart.ctx;
+            
+            if (!chartArea) return;
+            
+            // Get x positions for reference years using label indices
+            const labels = chart.data.labels;
+            const nowIndex = labels.indexOf(2025);
+            const crisis2008Index = labels.indexOf(2008);
+            const covid2020Index = labels.indexOf(2020);
+            const climateDip1Index = labels.indexOf(2032);
+            const climateDip2Index = labels.indexOf(2045);
+            
+            const nowX = chart.scales.x.getPixelForValue(nowIndex);
+            const crisis2008X = chart.scales.x.getPixelForValue(crisis2008Index);
+            const covid2020X = chart.scales.x.getPixelForValue(covid2020Index);
+            const climateDip2032X = chart.scales.x.getPixelForValue(climateDip1Index);
+            const climateDip2045X = chart.scales.x.getPixelForValue(climateDip2Index);
+            
+            ctx.save();
+            
+            // // NOW line
+            // ctx.strokeStyle = '#fbbf24';
+            // ctx.lineWidth = 2;
+            // ctx.setLineDash([5, 5]);
+            // ctx.beginPath();
+            // ctx.moveTo(nowX, chartArea.top);
+            // ctx.lineTo(nowX, chartArea.bottom);
+            // ctx.stroke();
+            
+            // Financial Crisis line
+            ctx.strokeStyle = '#94a3b8';
+            ctx.lineWidth = 1;
+            ctx.setLineDash([3, 3]);
+            ctx.beginPath();
+            ctx.moveTo(crisis2008X, chartArea.top);
+            ctx.lineTo(crisis2008X, chartArea.bottom);
+            ctx.stroke();
+            
+            // COVID line
+            ctx.strokeStyle = '#94a3b8';
+            ctx.lineWidth = 1;
+            ctx.setLineDash([3, 3]);
+            ctx.beginPath();
+            ctx.moveTo(covid2020X, chartArea.top);
+            ctx.lineTo(covid2020X, chartArea.bottom);
+            ctx.stroke();
+
+            // Climate Dip 1 line
+            ctx.strokeStyle = '#94a3b8';
+            ctx.lineWidth = 1;
+            ctx.setLineDash([3, 3]);
+            ctx.beginPath();
+            ctx.moveTo(climateDip2032X, chartArea.top);
+            ctx.lineTo(climateDip2032X, chartArea.bottom);
+            ctx.stroke();
+
+            // Climate Dip 2 Line
+            ctx.strokeStyle = '#94a3b8';
+            ctx.lineWidth = 1;
+            ctx.setLineDash([3, 3]);
+            ctx.beginPath();
+            ctx.moveTo(climateDip2045X, chartArea.top);
+            ctx.lineTo(climateDip2045X, chartArea.bottom);
+            ctx.stroke();
+            
+            // Add labels
+            ctx.setLineDash([]);
+            ctx.font = '12px Space Mono';
+            ctx.textAlign = 'center';
+            
+            // // NOW label
+            // ctx.fillStyle = '#fbbf24';
+            // ctx.fillText('NOW', nowX, chartArea.top + 20);
+            
+            // Financial Crisis label
+            ctx.fillStyle = '#94a3b8';
+            ctx.font = '10px Space Mono';
+            ctx.fillText('Financial Crisis', crisis2008X, chartArea.top + 20);
+            
+            // COVID label
+            ctx.fillStyle = '#94a3b8';
+            ctx.font = '10px Space Mono';
+            ctx.fillText('COVID', covid2020X, chartArea.top + 20);
+
+            // Climate Dip 1 Label
+            ctx.fillStyle = '#94a3b8';
+            ctx.font = '10px Space Mono';
+            ctx.fillText('Climate Correction 1', climateDip2032X, chartArea.top + 20);
+
+            // Climate Dip 2 Label
+            ctx.fillStyle = '#94a3b8';
+            ctx.font = '10px Space Mono';
+            ctx.fillText('Climate Correction 2', climateDip2045X, chartArea.top + 20);
+            
+            ctx.restore();
+        };
+        
+        // Create the chart first
+        const canvas = document.getElementById('climateChart');
+        const ctx = canvas.getContext('2d');
+        const chart = new Chart(ctx, config);
+        
+        // Function to extract canvas as image data URL
+        window.getChartImage = function() {
+            return canvas.toDataURL('image/png', 1.0);
+        };
+        
+        // Add plugin to draw annotations after chart is created
+        const annotationPlugin = {
+            id: 'annotations',
+            afterDraw: addAnnotations
+        };
+        
+        Chart.register(annotationPlugin);
+        
+        // Force chart update to trigger plugin
+        chart.update();
+    </script>
+</body>
+</html>

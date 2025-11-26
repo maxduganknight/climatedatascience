@@ -1,0 +1,274 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+require(UNSEEN)
+require(ggplot2)
+```
+
+
+```{r}
+# Convert the time class to Date format
+library(lubridate)
+
+SEAS5_events <- read.csv("../../data/UNSEEN/wildfire/preprocessed/SEAS5_CA_events.csv")
+ERA5_events <- read.csv("../../data/UNSEEN/wildfire/preprocessed/ERA5_CA_events.csv")
+
+ERA5_events$year <- ymd(paste0(ERA5_events$year, "-01-01"))
+SEAS5_events$year <- ymd(paste0(SEAS5_events$year, "-01-01"))
+```
+
+
+
+```{r}
+SEAS5_events_hindcast <- SEAS5_events[
+    SEAS5_events$year < '2017-02-01' &
+    SEAS5_events$number < 25,]
+
+SEAS5_events_forecasts <- SEAS5_events[
+    SEAS5_events$year > '2017-02-01',]
+
+```
+
+```{r}
+ERA5_events_hindcast <- ERA5_events[
+    ERA5_events$year > '1981-02-01' &
+    ERA5_events$year < '2017-02-01',]
+```
+
+
+```{r}
+Independence_t2m = independence_test(ensemble = SEAS5_events_hindcast, var_name = 't2m')
+
+Independence_t2m
+
+#ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/independence-test.png")
+
+```
+
+```{r}
+Stability_t2m = stability_test(ensemble = SEAS5_events_hindcast,
+                              lab = 'Temperature (K)',
+                              var_name = 't2m')
+
+
+Stability_t2m
+
+#ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/stability-test.png")
+```
+
+
+
+```{r}
+Fidelity = fidelity_test(
+    obs = ERA5_events_hindcast$t2m,
+    ensemble = SEAS5_events_hindcast$t2m,
+    units = 'C',
+    biascor = FALSE,
+    fontsize = 14
+)
+Fidelity
+
+ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/wildfire/t2m_fidelity-test.png")
+```
+
+```{r}
+obs = ERA5_events_hindcast$t2m
+ensemble = SEAS5_events_hindcast$t2m
+ensemble_biascor = ensemble + (mean(obs) - mean(ensemble))
+
+fidelity_test(
+    obs = obs,
+    ensemble = ensemble_biascor,
+    units = 'C',
+    biascor = TRUE,
+    fontsize = 14
+)
+
+ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/wildfire/t2m-fidelity-test-corrected.png")
+
+```
+
+```{r}
+Fidelity = fidelity_test(
+    obs = ERA5_events_hindcast$d2m,
+    ensemble = SEAS5_events_hindcast$d2m,
+    units = 'C',
+    biascor = FALSE,
+    fontsize = 14
+)
+Fidelity
+
+ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/wildfire/d2m-fidelity-test.png")
+```
+
+```{r}
+obs = ERA5_events_hindcast$d2m
+ensemble = SEAS5_events_hindcast$d2m
+ensemble_biascor = ensemble + (mean(obs) - mean(ensemble))
+
+fidelity_test(
+    obs = obs,
+    ensemble = ensemble_biascor,
+    units = 'C',
+    biascor = FALSE,
+    fontsize = 14
+)
+
+ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/wildfire/d2m-fidelity-test-corrected.png")
+
+
+```
+
+```{r}
+require('extRemes')
+source('../../../UNSEEN-open-Deep-Sky/src/evt_plot.R')
+```
+
+```{r}
+obs <- ERA5_events[
+    ERA5_events$year > '1981-02-01',]
+
+UNSEEN_bc <- SEAS5_events[SEAS5_events$number < 25,]
+```
+
+```{r}
+UNSEEN_bc$t2m <- (UNSEEN_bc$t2m +
+                  mean(ERA5_events_hindcast$t2m) - mean(SEAS5_events_hindcast$t2m)
+                               )
+
+UNSEEN_bc$d2m <- (UNSEEN_bc$d2m +
+                  mean(ERA5_events_hindcast$d2m) - mean(SEAS5_events_hindcast$d2m)
+                               )
+str(UNSEEN_bc)
+```
+```{r}
+timeseries = unseen_timeseries(
+    ensemble = UNSEEN_bc,
+    obs = obs,
+    ensemble_yname = "t2m",
+    ensemble_xname = "year",
+    obs_yname = "t2m",
+    obs_xname = "year",
+    ylab = "June, July, August California temperature (C)")
+
+timeseries + theme(text = element_text(size = 14))
+
+#ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/wildfire/t2m_timeseries.png")
+
+```
+```{r}
+timeseries = unseen_timeseries(
+    ensemble = UNSEEN_bc,
+    obs = obs,
+    ensemble_yname = "d2m",
+    ensemble_xname = "year",
+    obs_yname = "d2m",
+    obs_xname = "year",
+    ylab = "June, July, August California dewpoint temperature (C)")
+
+timeseries + theme(text = element_text(size = 14))
+
+#ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/wildfire/d2m_timeseries.png")
+
+```
+```{r}
+## Fit stationary distributions
+fit_obs_Gumbel <- fevd(x = obs$t2m,
+                    type = "Gumbel"
+                   )
+fit_obs_GEV <- fevd(x = obs$t2m,
+                    type = "GEV"
+                   )
+## And the nonstationary distribution
+fit_obs_GEV_nonstat <- fevd(x = obs$t2m,
+                            type = "GEV",
+                            location.fun = ~ c(1:length(obs$year)), ##Fitting the gev with a location and scale parameter linearly correlated to the covariate (years)
+                            scale.fun = ~ c(1:length(obs$year)),
+                            use.phi = TRUE
+                           )
+#And test the fit
+##1. Stationary Gumbel vs stationary GEV
+lr.test(fit_obs_Gumbel, fit_obs_GEV_nonstat)
+##2. Stationary GEV vs Nonstationary GEV
+lr.test(fit_obs_GEV, fit_obs_GEV_nonstat)
+
+```
+
+```{r}
+#Create the ensemble covariate
+year_vector = as.integer(format(UNSEEN_bc$year, format="%Y"))
+covariate_ens = year_vector - 1980
+
+# Fit the stationary distribution
+fit_unseen_GEV <- fevd(x = UNSEEN_bc$t2m,
+                       type = 'GEV',
+                       use.phi = TRUE)
+
+fit_unseen_Gumbel <- fevd(x = UNSEEN_bc$t2m,
+                          type = 'Gumbel',
+                          use.phi = TRUE)
+
+# Fit the nonstationary distribution
+fit_unseen_GEV_nonstat <- fevd(x = UNSEEN_bc$t2m,
+                               type = 'GEV',
+                               location.fun = ~ covariate_ens, ##Fitting the gev with a location and scale parameter linearly correlated to the covariate (years)
+                               scale.fun = ~ covariate_ens,
+                               use.phi = TRUE)
+```
+
+```{r}
+obs <- ERA5_events[
+    ERA5_events$year > '1982-02-01',]
+
+UNSEEN_1 <- SEAS5_events[SEAS5_events$number < 25 & 
+                          SEAS5_events$year < '1985-02-01' &
+                           SEAS5_events$year > '1982-02-01',]
+
+UNSEEN_2 <- SEAS5_events[SEAS5_events$number < 25 & 
+                          SEAS5_events$year > '2020-01-01',]
+
+UNSEEN <- SEAS5_events[SEAS5_events$number < 25 & 
+                          SEAS5_events$year > '1982-02-01',]
+
+```
+
+```{r}
+timeseries_temp = unseen_timeseries(
+    ensemble = SEAS5_events,
+    obs = ERA5_events,
+    ensemble_yname = "d2m",
+    ensemble_xname = "year",
+    obs_yname = "t2m",
+    obs_xname = "year",
+    ylab = "Temps")
+
+timeseries_temp + theme(text = element_text(size = 14))
+
+#ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/drought_timeseries_temp.png")
+
+```
+
+```{r}
+timeseries = unseen_timeseries(
+    ensemble = UNSEEN,
+    obs = obs,
+    ensemble_yname = "tprate",
+    ensemble_xname = "year",
+    obs_yname = "tp",
+    obs_xname = "year",
+    ylab = "Precipitation")
+
+timeseries + theme(text = element_text(size = 14))
+
+#ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/drought_timeseries_precipitation.png")
+
+
+```
+

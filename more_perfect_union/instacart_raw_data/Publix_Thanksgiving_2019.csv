@@ -1,0 +1,226 @@
+Year,Page,Brand,Product,Size,Base_Price,Promo_Price,Promo_Type,Promo_Details,Digital_Req,Non_Digital_Price,Member_Req,Savings,Discount_Depth,Net_Price,Core_Item
+2019,1,Private Label,Publix Young Turkey,10 to 24-lb,,0.39/lb,STRAIGHT_PRICE,Broad-Breasted USDA Grade A Frozen,NO,,NO,1.10/lb,,0.39/lb,YES
+2019,1,Chateau Ste. Michelle,Indian Wells Wine,750-mL,,17.39,STRAIGHT_PRICE,Chardonnay,NO,,NO,3.00,,17.39,NO
+2019,1,Private Label,Publix Bakery Dinner Rolls,12-ct,,1.99,STRAIGHT_PRICE,Or Potato Rolls 12 or 15-oz,NO,,NO,1.00,,1.99,NO
+2019,1,Private Label,Publix Cranberry-Orange Relish,16-oz,,3.79,STRAIGHT_PRICE,Limited Time Only,NO,,NO,,,3.79,NO
+2019,1,Private Label,Publix Premium Floral Bouquet,20-stems,,14.99,STRAIGHT_PRICE,Several Fall Colors,NO,,NO,,,14.99,NO
+2019,3,Private Label,Publix Gold Potatoes,5-lb bag,,3.49,STRAIGHT_PRICE,,NO,,NO,1.50,,3.49,YES
+2019,3,Private Label,Publix Whole Carrots,1-lb bag,,0.89,STRAIGHT_PRICE,,NO,,NO,,,0.89,NO
+2019,3,Eat Smart,Vegetables,10 or 12-oz,,3.33,MULTIBUY,3 for $10,NO,,NO,,,3.33,NO
+2019,3,Progresso,Bread Crumbs,15-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Italian or Plain,NO,,NO,2.49,,BOGO,NO
+2019,3,Better Than Bouillon,Bouillon Base,8-oz jar,,3.99,STRAIGHT_PRICE,,NO,,NO,1.00,,3.99,NO
+2019,3,Boursin,Gournay Cheese,5 to 6.5-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,5.99,,BOGO,NO
+2019,4,Kim Crawford,Sauvignon Blanc Wine,750-mL,,15.69,STRAIGHT_PRICE,Or Rosé,NO,,NO,2.70,,15.69,NO
+2019,4,Decoy,Pinot Noir Wine,750-mL,,19.59,STRAIGHT_PRICE,,NO,,NO,,,19.59,NO
+2019,4,Sonoma-Cutrer,Sonoma Coast Chardonnay Wine,750-mL,,22.59,STRAIGHT_PRICE,Or Russian River Valley Rosé,NO,,NO,4.00,,22.59,NO
+2019,4,Stella Artois,Premium Lager,12-pk 11.2-oz,,14.89,STRAIGHT_PRICE,Or Best of Belgium Sampler,NO,,NO,0.99,,14.89,NO
+2019,4,Private Label,Publix Deli Hoop Cheddar Cheese,per lb,,7.99/lb,STRAIGHT_PRICE,,NO,,NO,,,7.99/lb,NO
+2019,4,Private Label,Publix Deli Swiss Gruyère Cheese,per lb,,15.49/lb,STRAIGHT_PRICE,Imported From Switzerland,NO,,NO,,,15.49/lb,NO
+2019,4,Volpi,Nuggets,6-oz,,6.49,STRAIGHT_PRICE,Genoa Salame or Pepperoni,NO,,NO,,,6.49,NO
+2019,5,Cape Line,Sparkling Cocktails,12-pk 12-oz,,16.99,STRAIGHT_PRICE,,NO,,NO,1.00,,16.99,NO
+2019,5,Peroni,Nastro Azzurro Lager,6-pk 11.2-oz,,10.29,STRAIGHT_PRICE,,NO,,NO,0.70,,10.29,NO
+2019,5,Meiomi,Pinot Noir Wine,750-mL,,17.49,STRAIGHT_PRICE,Or Rosé,NO,,NO,2.49,,17.49,NO
+2019,5,Wellington,Water Crackers,4.4-oz,,2.50,MULTIBUY,2 for $5,NO,,NO,4.58 on 2,,2.50,NO
+2019,5,Private Label,Publix Deli Italian Meat Variety Pack,6-oz,,7.99,STRAIGHT_PRICE,,NO,,NO,,,7.99,NO
+2019,5,BelGioioso,Fresh Mozzarella Cheese,16-oz,,8.99,STRAIGHT_PRICE,,NO,,NO,,,8.99,NO
+2019,5,Private Label,Publix Deli Antipasti Platter,40-oz tray,,25.99,STRAIGHT_PRICE,Serves 8 to 12,NO,,NO,,,25.99,NO
+2019,6,GreenWise,Fresh Turkey,10 to 24-lb,,1.69/lb,STRAIGHT_PRICE,USDA Grade A Raised Without Antibiotics,NO,,NO,1.30/lb,,1.69/lb,YES
+2019,6,McCormick,Gourmet Spices,.12 to 2.62-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Gourmet Spice Line Only,NO,,NO,24.99,,BOGO,NO
+2019,6,Organic,Sweet Potatoes,per lb,,1.99/lb,STRAIGHT_PRICE,,NO,,NO,1.00/lb,,1.99/lb,NO
+2019,6,Private Label,Publix Small Shrimp Platter,10-oz tray,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Previously Frozen,NO,,NO,8.99,,BOGO,NO
+2019,6,Standing Rib Roast,Standing Rib Roast,per lb,,7.99/lb,STRAIGHT_PRICE,Publix Premium USDA Choice Beef,NO,,NO,5.44/lb,,7.99/lb,NO
+2019,6,Bob Evans,Side Dishes,12 to 24-oz,,3.00,MULTIBUY,2 for $6,NO,,NO,1.58 on 2,,3.00,NO
+2019,6,Colossal White Shrimp,Colossal White Shrimp,per lb,,9.99/lb,STRAIGHT_PRICE,Easy to Peel Previously Frozen,NO,,NO,4.00/lb,,9.99/lb,NO
+2019,6,Private Label,Publix Aprons Maple Mustard Pork Meal Kit,26.5-oz,,12.99,STRAIGHT_PRICE,,NO,,NO,3.00,,12.99,NO
+2019,6,Springer Mountain Farms,Chicken Breasts,per lb,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Boneless Grade A,NO,,NO,6.79/lb,,BOGO,NO
+2019,6,Salmon,Select Cuts,5.25-oz each,,5.99,STRAIGHT_PRICE,Fresh Farmed,NO,,NO,,,5.99,NO
+2019,6,GreenWise,Snow Crab Clusters,per lb,,9.99/lb,STRAIGHT_PRICE,Previously Frozen Wild,NO,,NO,,,9.99/lb,NO
+2019,6,Private Label,Publix Premium Mussels,16-oz,,BOGO,BOGO_FREE,Buy 2 Get 1 Free Frozen Farm-Raised,NO,,NO,5.99,,BOGO,NO
+2019,6,Bone-In Ribeye Steaks,Bone-In Ribeye Steaks,per lb,,8.99/lb,STRAIGHT_PRICE,Publix Premium USDA Choice Beef,NO,,NO,,,8.99/lb,NO
+2019,6,Lean Ground Beef,Lean Ground Beef,3-lb or more,,4.49/lb,STRAIGHT_PRICE,Publix Beef USDA-Inspected,NO,,NO,,,4.49/lb,NO
+2019,7,Private Label,Publix Premium Semi-Boneless Half Ham,per lb,,1.99/lb,STRAIGHT_PRICE,Or Whole Smoked Fully Cooked,NO,,NO,1.00/lb,,1.99/lb,NO
+2019,7,Private Label,Publix Premium Spiral-Sliced Ham Half,per lb,,2.49/lb,STRAIGHT_PRICE,Glazed With Honey or Brown Sugar,NO,,NO,1.10/lb,,2.49/lb,NO
+2019,7,Butterball,Frozen Young Turkey,10 to 24-lb,,0.99/lb,STRAIGHT_PRICE,USDA Grade A,NO,,NO,0.80/lb,,0.99/lb,YES
+2019,7,POM Wonderful,100% Pomegranate Juice,48-oz,,9.99,STRAIGHT_PRICE,,NO,,NO,1.00,,9.99,NO
+2019,7,Whole Beef Tenderloin,Whole Beef Tenderloin,per lb,,11.99/lb,STRAIGHT_PRICE,In the Bag Publix Premium USDA Choice,NO,,NO,3.00/lb,,11.99/lb,NO
+2019,7,Oscar Mayer,Bacon,12 or 16-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,6.70,,BOGO,NO
+2019,7,Jimmy Dean,Premium Pork Sausage,9.6 to 16-oz,,3.00,MULTIBUY,2 for $6,NO,,NO,1.98 on 2,,3.00,NO
+2019,7,Sirloin Tip Roast,Sirloin Tip Roast,per lb,,3.99/lb,STRAIGHT_PRICE,Publix Premium USDA Choice Beef,NO,,NO,,,3.99/lb,NO
+2019,7,Butterball,Fresh Turkey,10 to 24-lb,,1.89/lb,STRAIGHT_PRICE,USDA Grade A While Quantities Available,NO,,NO,,,1.89/lb,YES
+2019,7,Private Label,Publix Turkey Breast,per lb,,1.49/lb,STRAIGHT_PRICE,With Ribs With Gravy Packets Frozen,NO,,NO,,,1.49/lb,YES
+2019,7,Private Label,Publix Mild or Hot Italian Sausage,20-oz tray,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2019,7,Private Label,Publix Smoked Turkey,per lb,,2.99/lb,STRAIGHT_PRICE,Bone-In Whole Fully Cooked,NO,,NO,,,2.99/lb,YES
+2019,7,GreenWise,Young Turkey,10 to 16-lb,,1.49/lb,STRAIGHT_PRICE,Grade A Frozen Raised Without Antibiotics,NO,,NO,,,1.49/lb,YES
+2019,7,Nathan's Famous,Beef Franks,11 to 14-oz,,4.00,MULTIBUY,2 for $8,NO,,NO,,,4.00,NO
+2019,7,Oscar Mayer,Deli Fresh Lunchmeats,14 to 16-oz,,5.50,MULTIBUY,2 for $11,NO,,NO,,,5.50,NO
+2019,7,Aidells,Sausages or Meatballs,12-oz,,5.00,MULTIBUY,2 for $10,NO,,NO,,,5.00,NO
+2019,8,Private Label,Publix Peeled and Cored Pineapple,each,,2.99,STRAIGHT_PRICE,Or Del Monte Gold Whole Pineapple,NO,,NO,,,2.99,NO
+2019,8,Red Seedless Grapes,Red Seedless Grapes,per lb,,1.99/lb,STRAIGHT_PRICE,,NO,,NO,,,1.99/lb,NO
+2019,8,Southern Charm,Floral Arrangement,each,,11.99,STRAIGHT_PRICE,In Beautiful Fall Colors,NO,,NO,,,11.99,NO
+2019,8,Garden Delight,Floral Arrangement,each,,19.99,STRAIGHT_PRICE,Spectacular Styles and Colors,NO,,NO,,,19.99,NO
+2019,8,Vase Ready Bouquet,Vase Ready Bouquet,each,,24.99,STRAIGHT_PRICE,,NO,,NO,,,24.99,NO
+2019,8,Pelee Mums,Pelee Mums,6.5-in pot,,8.99,STRAIGHT_PRICE,In Vibrant Fall Color Blooms,NO,,NO,,,8.99,NO
+2019,8,Granny Smith Apples,Granny Smith Apples,per lb,,1.49/lb,STRAIGHT_PRICE,Or Organic Granny Smith Large,NO,,NO,1.50/lb,,1.49/lb,NO
+2019,8,Hass Avocados,Hass Avocados,each,,1.00,MULTIBUY,5 for $5,NO,,NO,,,1.00,NO
+2019,8,Pomegranates,Pomegranates,each,,2.50,MULTIBUY,2 for $5,NO,,NO,,,2.50,NO
+2019,8,Tropicana,Pure Premium Orange Juice,52-oz,,3.00,MULTIBUY,2 for $6,NO,,NO,,,3.00,NO
+2019,8,Blackberries or Red Raspberries,Blackberries or Red Raspberries,6-oz,,2.50,MULTIBUY,2 for $5,NO,,NO,,,2.50,NO
+2019,8,Large Bartlett Pears or Navel Oranges,Large Bartlett Pears or Navel Oranges,per lb,,1.49/lb,STRAIGHT_PRICE,,NO,,NO,,,1.49/lb,NO
+2019,8,Mandarins,Mandarins,3-lb bag,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2019,8,Snack Sensations,Vegetable Party Dip Tray,17 to 40-oz,,9.99,STRAIGHT_PRICE,,NO,,NO,,,9.99,NO
+2019,9,Cranberries,Cranberries,12-oz bag,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,2.50,,BOGO,NO
+2019,9,Celery,Celery,each pkg,,0.99,STRAIGHT_PRICE,,NO,,NO,0.70,,0.99,NO
+2019,9,Kraft,Jet-Puffed Miniature Marshmallows,10-oz bag,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,1.79,,BOGO,NO
+2019,9,Sweet Potatoes,Sweet Potatoes,per lb,,0.49/lb,STRAIGHT_PRICE,,NO,,NO,,,0.49/lb,NO
+2019,9,Asparagus,Asparagus,per lb,,2.99/lb,STRAIGHT_PRICE,,NO,,NO,,,2.99/lb,NO
+2019,9,Potato Inspirations,Potatoes,24-oz bag,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Ready in Minutes,NO,,NO,3.99,,BOGO,NO
+2019,9,Brussels Sprouts,Brussels Sprouts,per lb,,1.29/lb,STRAIGHT_PRICE,,NO,,NO,,,1.29/lb,NO
+2019,9,Fresh Attitude,Salad,5-oz,,2.00,MULTIBUY,2 for $4,NO,,NO,,,2.00,NO
+2019,9,Fresh Greens,Fresh Greens,16-oz pkg,,2.00,MULTIBUY,2 for $4 Collards Kale Mustard or Turnips,NO,,NO,,,2.00,NO
+2019,9,Organic Fresh Herbs,Organic Fresh Herbs,5-oz pkg,,1.79,STRAIGHT_PRICE,Or Culantro,NO,,NO,,,1.79,NO
+2019,9,Red N Tasty Tomatoes,Red N Tasty Tomatoes,per lb,,1.99/lb,STRAIGHT_PRICE,Vine-Ripened,NO,,NO,,,1.99/lb,NO
+2019,9,Green Scallion Onions,Green Scallion Onions,each bunch,,0.50,MULTIBUY,2 for $1,NO,,NO,,,0.50,NO
+2019,9,Private Label,Publix Idaho Russet Potatoes,5-lb bag,,3.49,STRAIGHT_PRICE,Great for Baking and Mashing,NO,,NO,,,3.49,YES
+2019,9,Green Beans Zucchini or Yellow Squash,Green Beans Zucchini or Yellow Squash,per lb,,1.49/lb,STRAIGHT_PRICE,,NO,,NO,,,1.49/lb,NO
+2019,10,Private Label,Publix Bakery Pumpkin Pie,22-oz,,3.99,STRAIGHT_PRICE,,NO,,NO,2.00,,3.99,NO
+2019,10,Reddi-wip,Dairy Whipped Topping,6.5 or 7-oz,,2.50,MULTIBUY,2 for $5,NO,,NO,0.90 on 2,,2.50,NO
+2019,10,Private Label,Publix Bakery Chocolate Ganache Supreme Cake,36 to 66-oz,,19.99,STRAIGHT_PRICE,,NO,,NO,4.00,,19.99,NO
+2019,10,Private Label,Publix Bakery Round Peanut Butter Tart,12-oz,,11.99,STRAIGHT_PRICE,,NO,,NO,1.00,,11.99,NO
+2019,10,Private Label,Publix Bakery Apple or Dutch Apple Pie,32 or 34-oz,,3.99,STRAIGHT_PRICE,,NO,,NO,2.00,,3.99,NO
+2019,10,Private Label,Publix Bakery Decorated Cupcakes 6-Count,12 or 16-oz,,3.99,STRAIGHT_PRICE,Decorated for Fall,NO,,NO,1.00,,3.99,NO
+2019,10,Private Label,Publix Bakery White Mountain Bread,16-oz,,2.99,STRAIGHT_PRICE,,NO,,NO,0.30,,2.99,NO
+2019,10,Private Label,Publix Bakery Cobbler Cake,20-oz,,7.99,STRAIGHT_PRICE,NEW Blackberries or Peaches and Cream Cheese,NO,,NO,1.00,,7.99,NO
+2019,10,Private Label,Publix Bakery Apple Coffee Cake,14 or 15-oz,,3.50,MULTIBUY,2 for $7,NO,,NO,2.98 on 2,,3.50,NO
+2019,10,Private Label,Publix Bakery Mini Croissants 13-Count,10-oz,,3.99,STRAIGHT_PRICE,,NO,,NO,1.00,,3.99,NO
+2019,11,Boar's Head,Cranberry Turkey Brioche,each,,4.99,STRAIGHT_PRICE,Made Daily Pre-Packaged,NO,,NO,1.00,,4.99,NO
+2019,11,Private Label,Publix Deli Cranberry Turkey Pinwheel,6.23-oz,,3.49,STRAIGHT_PRICE,,NO,,NO,0.50,,3.49,NO
+2019,11,Boar's Head,Sweet Slice Ham Dinner,each,,54.99,STRAIGHT_PRICE,Boneless With Sides Serves 7-10,NO,,NO,,,54.99,NO
+2019,11,Boar's Head,Sweet Slice Smoked Ham,per lb,,6.99/lb,STRAIGHT_PRICE,Uncured,NO,,NO,4.00/lb,,6.99/lb,NO
+2019,11,Private Label,Publix Deli Sweet and Spicy Oven Roasted Chicken,each,,6.59,STRAIGHT_PRICE,,NO,,NO,1.00,,6.59,NO
+2019,11,Sabra,Hummus,10-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,4.29,,BOGO,NO
+2019,11,Stacy's,Pita or Bagel Chips,6.75 to 7.33-oz,,2.50,MULTIBUY,2 for $5,NO,,NO,1.98 on 2,,2.50,NO
+2019,11,Private Label,Publix Deli Turkey Cranberry Whole Sub,each,,6.99,STRAIGHT_PRICE,Limited Time,NO,,NO,1.20,,6.99,NO
+2019,11,Private Label,Publix Deli Smoked Half Chicken Meal,each,,5.99,STRAIGHT_PRICE,With 2 Sides,NO,,NO,1.50,,5.99,NO
+2019,11,Private Label,Publix Deli Tea or Lemonade,1-gal,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,2.99,,BOGO,NO
+2019,12,Marie Callender's,Pie,24.5 to 42-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,7.99,,BOGO,NO
+2019,12,Cool Whip,Whipped Topping,16-oz bowl,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,,,BOGO,YES
+2019,12,Michael Angelo's,Family Size Dinners,20 to 32-oz,,4.99,STRAIGHT_PRICE,,NO,,NO,3.00,,4.99,NO
+2019,12,Starbucks,Iced Espresso,40-oz,,4.00,MULTIBUY,2 for $8,NO,,NO,1.98 on 2,,4.00,NO
+2019,12,Nestlé Coffee-mate,Coffee Creamer,32-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Excluding Natural Bliss,NO,,NO,3.79,,BOGO,NO
+2019,12,Breyers,Ice Cream,1.5-qt,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,5.49,,BOGO,NO
+2019,12,DiGiorno,Pizza,17.2 to 31.6-oz,,5.00,MULTIBUY,2 for $10,NO,,NO,7.98 on 2,,5.00,NO
+2019,12,Private Label,Publix Egg Nog,half-gal,,3.00,MULTIBUY,2 for $6,NO,,NO,2.98 on 2,,3.00,NO
+2019,12,Ben & Jerry's,Ice Cream,1-pt,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,5.49,,BOGO,NO
+2019,12,Sara Lee,Pound Cake,10.75 to 30-oz,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,8.59,,BOGO,NO
+2019,12,Birds Eye,Voila! Skillet Meal,21-oz,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,6.29,,BOGO,NO
+2019,12,Sister Schubert's,Yeast Dinner Rolls,11 or 15-oz,,3.00,MULTIBUY,2 for $6,NO,,NO,,,3.00,NO
+2019,12,Bob Evans,Frozen Breakfast Sandwiches,14.6 to 18-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,5.49,,BOGO,NO
+2019,12,Hot Pockets,Stuffed Sandwiches,8.5 or 9-oz,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,2.00,,BOGO,NO
+2019,13,Private Label,Publix Cheese Slices,6 or 8-oz,,2.50,MULTIBUY,2 for $5,NO,,NO,0.98 on 2,,2.50,NO
+2019,13,Pete And Gerry's,Organic Brown Eggs,12-ct Large,,3.99,STRAIGHT_PRICE,Free Range Grade A,NO,,NO,1.50,,3.99,NO
+2019,13,Kraft,Philadelphia Cream Cheese,7 to 8-oz,,2.00,MULTIBUY,2 for $4,NO,,NO,0.98 on 2,,2.00,YES
+2019,13,Buitoni,Filled Pasta or Sauce,7 to 15-oz,,3.50,MULTIBUY,2 for $7,NO,,NO,,,3.50,NO
+2019,13,Armour,Meatballs,11 to 25-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,7.99,,BOGO,NO
+2019,13,Blue Diamond,Almond Breeze Almondmilk,64-oz,,3.00,MULTIBUY,2 for $6,NO,,NO,,,3.00,NO
+2019,13,Pillsbury,Crescents Dinner Rolls,8-oz,,2.00,MULTIBUY,3 for $6,NO,,NO,,,2.00,YES
+2019,13,Private Label,Publix Cheese Party Tray,16-oz,,6.99,STRAIGHT_PRICE,,NO,,NO,,,6.99,NO
+2019,13,Tyson,Rock Cornish Game Hens,20-oz each,,3.50,MULTIBUY,2 for $7,NO,,NO,,,3.50,NO
+2019,13,Tyson,Chicken Strips,20 or 25-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,6.70,,BOGO,NO
+2019,13,Fage,Total Strained Greek Yogurt,35.3-oz,,5.00,MULTIBUY,2 for $10,NO,,NO,,,5.00,NO
+2019,13,Breakstone's,Sour Cream,16-oz cup,,BOGO,BOGO_FREE,Buy 2 Get 1 Free Or Cottage Cheese,NO,,NO,2.89,,BOGO,NO
+2019,13,GreenWise,Organic Milk,64-oz,,3.33,MULTIBUY,3 for $10 Or Lactose Free Milk,NO,,NO,,,3.33,NO
+2019,13,Kerrygold,Pure Irish Butter,8-oz,,3.00,MULTIBUY,2 for $6,NO,,NO,,,3.00,NO
+2019,13,Dannon,Greek Yogurt,5 or 5.3-oz,,1.00,MULTIBUY,10 for $10,NO,,NO,,,1.00,NO
+2019,13,Kozy Shack,Pudding,22-oz tub,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,3.29,,BOGO,NO
+2019,14,Hellmann's,Mayonnaise,24 or 30-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Or French's Yellow Mustard 14-oz,NO,,NO,2.79,,BOGO,NO
+2019,14,Del Monte,Vegetables,11 to 15.25-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,1.15,,BOGO,NO
+2019,14,Campbell's,Soup,10.5-oz can,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Cream of Chicken or Mushroom,NO,,NO,1.75,,BOGO,YES
+2019,14,Kraft,Dressing,14 or 16-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Or Rothbury Farms Croutons 5-oz,NO,,NO,1.99,,BOGO,NO
+2019,14,General Mills,Cheerios Cereal,18 to 19.5-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Or Cocoa Puffs Cinnamon Toast Crunch Lucky Charms Cookie Crisp,NO,,NO,5.59,,BOGO,NO
+2019,14,PAM,Cooking Spray,5 to 7-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Or Pure Wesson Oil 48-oz,NO,,NO,4.49,,BOGO,NO
+2019,14,Swanson,Broth or Cooking Stock,32-oz ctn,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Excluding Organic,NO,,NO,3.99,,BOGO,YES
+2019,14,Quaker,Oats,18-oz,,BOGO,BOGO_FREE,Buy 2 Get 1 Free Old Fashioned or Quick 1-Minute,NO,,NO,2.69,,BOGO,NO
+2019,14,Kellogg's,Special K Cereal,16.9 to 19.1-oz,,BOGO,BOGO_FREE,Buy 2 Get 1 Free Or Frosted Flakes Rice Krispies 24-oz Froot Loops 19.4-oz or Krave 17.3-oz,NO,,NO,5.75,,BOGO,NO
+2019,14,General Mills,Chex Cereal,12 to 14-oz,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,3.99,,BOGO,NO
+2019,14,Lindsay,California Ripe Pitted Olives,6-oz can,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,2.19,,BOGO,NO
+2019,14,Mt. Olive,Pickles,24 or 32-oz jar,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,2.99,,BOGO,NO
+2019,14,Pompeian,Imported Olive Oil,32-oz,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,15.99,,BOGO,NO
+2019,14,Barilla,Sauce,20 or 24-oz jar,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,5.99,,BOGO,NO
+2019,14,Mueller's,Pasta,8 to 16-oz box,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,2.39,,BOGO,NO
+2019,14,Dole,Pineapple,20-oz can,,1.00,MULTIBUY,5 for $5,NO,,NO,,,1.00,NO
+2019,15,Nestlé Toll House,Morsels,10 to 12-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Excluding Organic and Simply Delicious,NO,,NO,4.19,,BOGO,NO
+2019,15,Domino,Granulated Sugar,4-lb bag,,1.99,STRAIGHT_PRICE,Premium Pure Cane,NO,,NO,0.50,,1.99,NO
+2019,15,Pillsbury Best,All Purpose Flour,5-lb bag,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Bleached Unbleached Self-Rising or Bread,NO,,NO,9.99,,BOGO,NO
+2019,15,Duncan Hines,Brownie Mix,16.7 to 18-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Or Cake Mix 6.1 to 16-oz or Mug Cakes 13 to 13.3-oz,NO,,NO,3.19,,BOGO,NO
+2019,15,Ocean Spray,Juice Cocktail,64-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Or Juice Drink Blend or Beverage,NO,,NO,2.99,,BOGO,NO
+2019,15,Pepperidge Farm,Stuffing,12-oz bag,,2.50,MULTIBUY,2 for $5,NO,,NO,0.98 on 2,,2.50,YES
+2019,15,Starbucks,Coffee,9 to 12-oz bag or K-Cups 6 or 10-ct,,6.99,STRAIGHT_PRICE,,NO,,NO,2.50,,6.99,NO
+2019,15,Ocean Spray,Cranberry Sauce,14-oz can,,1.29,STRAIGHT_PRICE,,NO,,NO,,,1.29,YES
+2019,15,Private Label,Publix Extra Long Grain Rice,20-lb bag,,9.99,STRAIGHT_PRICE,Enriched,NO,,NO,,,9.99,NO
+2019,15,Maxwell House,Coffee,24.5 to 30.6-oz or K-Cups 12-ct,,6.99,STRAIGHT_PRICE,,NO,,NO,,,6.99,NO
+2019,15,Mott's,100% Apple Juice or Juice Blend,6-pk 8-oz,,2.33,MULTIBUY,3 for $7,NO,,NO,,,2.33,NO
+2019,15,Near East,or Rice-A-Roni Products,1.9 to 10-oz pkg,,BOGO,BOGO_FREE,Buy 2 Get 1 Free Or Pasta Roni,NO,,NO,2.39,,BOGO,NO
+2019,15,Progresso,Soup,14 to 19-oz can,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,2.99,,BOGO,NO
+2019,15,Powerade,Sports Drink,32-oz,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,1.33,,BOGO,NO
+2019,15,Idahoan,Potatoes,1.5 to 4.1-oz pkg,,BOGO,BOGO_FREE,Buy 2 Get 1 Free Excluding 4-Packs,NO,,NO,1.33,,BOGO,NO
+2019,15,La Famiglia DelGrosso,Pasta Sauce,16 or 26-oz jar,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,6.99,,BOGO,NO
+2019,16,Coca-Cola,12-Pack Products,12-oz cans,,BOGO,BOGO_FREE,Buy 2 Get 2 Free,NO,,NO,10.98 on 4,,BOGO,NO
+2019,16,Nabisco,Ritz Crackers,11.5 to 13.7-oz or Ritz Bits 8.8-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,4.29,,BOGO,NO
+2019,16,Canada Dry 7UP or A&W,12-Pack,12-oz can,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Or Diet Rite Excluding Seltzer Water,NO,,NO,5.49,,BOGO,NO
+2019,16,Frito-Lay,Simply Snacks,4.5 to 9-oz,,2.50,MULTIBUY,2 for $5,NO,,NO,2.98 on 2,,2.50,NO
+2019,16,Pepsi,8-Pack Products,12-oz bot or 6-pk 16.9-oz bot,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Excluding Aquafina,NO,,NO,4.99,,BOGO,NO
+2019,16,Pepperidge Farm,Milano Cookies,4.75 to 7.5-oz bag,,3.00,MULTIBUY,2 for $6 Or Milano Melts Milano Slices or Distinctive,NO,,NO,1.78 on 2,,3.00,NO
+2019,16,Keebler,Town House or Club Crackers,8 to 13.8-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,5.49,,BOGO,NO
+2019,16,Private Label,Publix Spring Water,24-pk 16.9-oz,,2.50,MULTIBUY,2 for $5 Or Publix Purified Water 32-pk 16.9-oz,NO,,NO,0.98 on 2,,2.50,NO
+2019,16,Arizona,Tea,1-gal,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,2.79,,BOGO,NO
+2019,16,Starbucks,Frappuccino Chilled Coffee Drink,4-pk 9.5-oz,,BOGO,BOGO_FREE,Buy 2 Get 1 Free Or Doubleshot Premium Coffee Drink 4-pk 6.5-oz can,NO,,NO,5.79,,BOGO,NO
+2019,16,Russell Stover,Chocolates,8.1 to 11-oz box,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,9.99,,BOGO,NO
+2019,16,Thomas',Bagels,10.5 to 20-oz bag,,BOGO,BOGO_FREE,Buy 2 Get 1 Free Excluding Thins and Minis,NO,,NO,4.49,,BOGO,NO
+2019,16,Planters,Cashews,8 to 10.3-oz can,,BOGO,BOGO_FREE,Buy 2 Get 1 Free Halves & Pieces or Mixed Nuts,NO,,NO,6.59,,BOGO,NO
+2019,16,Blue Diamond,Almonds,6-oz can,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,3.99,,BOGO,NO
+2019,17,Frito-Lay,Party Size Snacks,10.5 to 18-oz bag,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,5.29,,BOGO,NO
+2019,17,Pace,Salsa or Picante Sauce,15 or 16-oz jar,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Or Queso Dip,NO,,NO,3.49,,BOGO,NO
+2019,17,Locations,E-3 Wine,750-mL,,18.59,STRAIGHT_PRICE,,NO,,NO,,,18.59,NO
+2019,17,Josh Cellars,Cabernet Sauvignon Wine,750-mL,,11.99,STRAIGHT_PRICE,,NO,,NO,,,11.99,NO
+2019,17,Tostitos,Scoops Party Size,14.5-oz bag,,BOGO,BOGO_FREE,Buy 1 Get 1 Free with Party Size Snacks,NO,,NO,,,BOGO,NO
+2019,17,Cape Cod,Kettle Cooked Potato Chips,6.5 to 8.5-oz bag,,2.50,MULTIBUY,2 for $5,NO,,NO,2.58 on 2,,2.50,NO
+2019,17,Charles Krug,Cabernet Sauvignon Wine,750-mL,,28.99,STRAIGHT_PRICE,,NO,,NO,5.00,,28.99,NO
+2019,17,Kendall-Jackson,Chardonnay Wine,750-mL,,11.99,STRAIGHT_PRICE,,NO,,NO,,,11.99,NO
+2019,17,Nabisco,Wheat Thins or Good Thins Crackers,3.5 to 9.1-oz box,,2.50,MULTIBUY,2 for $5 Or Triscuit or Flavor Originals,NO,,NO,,,2.50,NO
+2019,17,Snyder's of Hanover,Pretzel Pieces,10 or 12-oz bag,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,3.89,,BOGO,NO
+2019,17,Orville Redenbacher's,Gourmet Popping Corn,6-ct box or Minis or Single Serve 10 or 12-ct 11.64 to 19.75-oz box or 30-oz jar,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,4.99,,BOGO,NO
+2019,17,Santa Margherita,Pinot Grigio Wine,750-mL,,19.99,STRAIGHT_PRICE,Or Chianti Classico,NO,,NO,,,19.99,NO
+2019,17,Francis Coppola,Diamond Collection Claret Wine,750-mL,,16.49,STRAIGHT_PRICE,,NO,,NO,,,16.49,NO
+2019,17,Moët & Chandon,Imperial Brut Champagne,750-mL,,43.99,STRAIGHT_PRICE,,NO,,NO,10.00,,43.99,NO
+2019,17,Robert Mondavi,Woodbridge Chardonnay Wine,1.5-L bot,,9.99,STRAIGHT_PRICE,Other 1.5-L Varieties Also on Sale,NO,,NO,,,9.99,NO
+2019,18,Heineken,Lager,12-pk 12-oz,,14.29,STRAIGHT_PRICE,Or Heineken Premium Light or Amstel Light,NO,,NO,0.53,,14.29,NO
+2019,18,Devils Backbone,Beer,12-pk 12-oz,,1.00,DOLLAR_OFF,$1 Off,NO,,NO,1.00,,varies,NO
+2019,18,Chinet,Classic White Plates,24 to 70-ct,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Or Bowls or Platters or Cut Crystal Plates 16 or 24-ct,NO,,NO,4.88,,BOGO,NO
+2019,18,Corona Extra or Corona Light,Beer,12-pk 12-oz,,13.99,STRAIGHT_PRICE,Or Corona Premier or Corona Familiar,NO,,NO,,,13.99,NO
+2019,18,Devil's Backbone,6-Pack Beer,12-oz can or bot,,1.00,DOLLAR_OFF,$1 Off Or Hardywood or 6-Pack Center of the Universe 12-oz can or 4-pk 16-oz can,NO,,NO,1.00,,varies,NO
+2019,18,Hefty,EZ Foil Roaster Pan,1-ct,,BOGO,BOGO_FREE,Buy 1 Get 1 Free Super Heavy Duty or With Handles,NO,,NO,2.99,,BOGO,NO
+2019,18,Guinness,Blonde American Lager,6-pk 12-oz,,8.99,STRAIGHT_PRICE,Or Guinness Draught Stout 11.2-oz Excluding Guinness Extra Stout,NO,,NO,0.70,,8.99,NO
+2019,18,Michelob Ultra,Beer,12-pk 12-oz can or bot,,12.99,STRAIGHT_PRICE,Or Bud Light Lime or Orange Excluding Michelob Ultra Pure Gold Ultra Infusions and Ultra Amber Max,NO,,NO,1.00,,12.99,NO
+2019,18,Reynolds Wrap,Aluminum Foil,75-sq ft regular or Heavy Duty 50-sq ft or Non-Stick 35-sq ft,,3.49,STRAIGHT_PRICE,,NO,,NO,0.50,,3.49,NO
+2019,18,Terrapin,Beer,12 or 15-pk 12-oz,,15.99,STRAIGHT_PRICE,,NO,,NO,,,15.99,NO
+2019,18,Budweiser Miller or Coors,Beer,24-pk 12-oz,,16.99,STRAIGHT_PRICE,,NO,,NO,,,16.99,NO
+2019,18,Hefty,Tall Kitchen Bags,18 to 45-ct,,5.99,STRAIGHT_PRICE,Or Strong Trash Bags Drawstring,NO,,NO,,,5.99,NO
+2019,18,Truly,Spiked & Sparkling,12-pk 12-oz can,,14.99,STRAIGHT_PRICE,Berry Variety or Variety Pack,NO,,NO,,,14.99,NO
+2019,18,Miller Lite,Beer,15-pk 16-oz,,16.99,STRAIGHT_PRICE,,NO,,NO,,,16.99,NO
+2019,18,Scott,Bath Tissue,18-roll pkg,,12.49,STRAIGHT_PRICE,Unscented 1000 Sheets per Roll 1-Ply,NO,,NO,,,12.49,NO
+2019,18,LandShark,Lager,6-pk 12-oz,,7.99,STRAIGHT_PRICE,Island Style,NO,,NO,,,7.99,NO
+2019,18,Yuengling,Beer,12-pk 12-oz,,10.49,STRAIGHT_PRICE,,NO,,NO,,,10.49,NO
+2019,18,Duracell,Batteries,6 to 24-ct,,25% Off,PERCENT_OFF,25% Off Coppertop or Optimum AA or AAA or Hearing Aid Batteries,NO,,NO,25%,,varies,NO
+2019,19,Charmin,Bathroom Tissue,Super Mega 8-roll or Mega 12-roll or Double 24-roll,,13.49,STRAIGHT_PRICE,,NO,,NO,4.90,,13.49,NO
+2019,19,Arm & Hammer,Laundry Detergent,61.25 or 75-oz bot or 24 or 32-ct bag,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,6.49,,BOGO,NO
+2019,19,Bounty,Paper Towels,Double Rolls 6-roll or Single Plus Rolls 8-roll,,10.49,STRAIGHT_PRICE,,NO,,NO,5.80,,10.49,NO
+2019,19,Gain Gain Flings or Tide Pods,Laundry Detergent,50 or 52-oz or 12 or 16-ct or Ariel Or Gain Fireworks In-Wash Scent Booster 7.2-oz or Gain Fabric Softener 44 or 51-oz or 120-ct,,5.00,MULTIBUY,2 for $10,NO,,NO,,,5.00,NO
+2019,19,Softsoap,Hand Soap,8 or 11.25-oz,,BOGO,BOGO_FREE,Buy 2 Get One Free Or Foaming Hand Soap,NO,,NO,2.49 on 3,,BOGO,NO
+2019,19,Finish,Automatic Dishwasher Detergent,36 43 or 54-ct or Palmolive Ultra Dish Liquid Detergent 32.5-oz,,BOGO,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,11.99,,BOGO,NO
+2019,19,St. Ives,Body Wash,13.5-oz,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,2.49,,BOGO,NO
+2019,19,Lysol,Disinfecting Wipes,75 or 80-ct,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,4.69,,BOGO,NO
+2019,19,Arm & Hammer,Toothpaste,4.3 to 6.3-oz,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,3.89,,BOGO,NO
+2019,19,Clorox,Toilet Bowl Cleaner,24-oz,,2.00,MULTIBUY,2 for $4 Or Cleaning Gel,NO,,NO,,,2.00,NO
+2019,19,Halls,Cough Drops,20 to 30-ct bag,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,2.19,,BOGO,NO
+2019,19,Easy-Off,Oven Cleaner,14.5-oz can,,BOGO,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,4.59,,BOGO,NO
+2019,20,Private Label,Publix Deli Fully Cooked Turkey Dinner,10 to 12-lb,,49.99,STRAIGHT_PRICE,With Dressing Mashed Potatoes Gravy Cranberry Orange Relish and Marshmallow Delight Serves 7 to 10,NO,,NO,,,49.99,YES

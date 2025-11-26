@@ -1,0 +1,29 @@
+# CDR Mapper - Application Settings
+
+app:
+  title: "CDR Mapper"
+  layout: "wide"
+  initial_region: "global"
+  page_icon: "🌍"
+
+data:
+  base_path: "../data/cdr_mapper"
+  cache_path: "data/cdr_mapper/cache"
+  cache_enabled: true
+
+processing:
+  geological:
+    simplify_tolerance: 0.3
+  geothermal:
+    grid_resolution: 2.0
+    smoothing_sigma: 0.5
+    interpolation_method: "linear"
+    buffer_degrees: 0
+  solar:
+    target_resolution: 0.5
+
+map:
+  default_tile_layer: "CartoDB positron"
+  attribution: "Deep Sky"
+  width: 1000
+  height: 700

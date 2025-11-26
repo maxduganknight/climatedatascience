@@ -1,0 +1,134 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+require(UNSEEN)
+require(ggplot2)
+```
+
+
+```{r}
+# Convert the time class to Date format
+library(lubridate)
+
+SEAS5_events <- read.csv("../../data/UNSEEN/heatwave/SEAS5_events.csv")
+ERA5_events <- read.csv("../../data/UNSEEN/heatwave/ERA5_events.csv")
+
+ERA5_events$year <- ymd(paste0(ERA5_events$year, "-01-01"))
+SEAS5_events$year <- ymd(paste0(SEAS5_events$year, "-01-01"))
+```
+
+
+
+```{r}
+SEAS5_events_hindcast <- SEAS5_events[
+    SEAS5_events$year < '2017-02-01' &
+    SEAS5_events$number < 25,]
+
+SEAS5_events_forecasts <- SEAS5_events[
+    SEAS5_events$year > '2017-02-01',]
+
+```
+
+```{r}
+ERA5_events_hindcast <- ERA5_events[
+    ERA5_events$year > '1981-02-01' &
+    ERA5_events$year < '2017-02-01',]
+```
+
+
+```{r}
+Independence_t2m = independence_test(ensemble = SEAS5_events_hindcast, var_name = 't2m', n_lds = 3)
+
+Independence_t2m
+
+ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/independence-test.png")
+
+```
+
+```{r}
+Stability_t2m = stability_test(ensemble = SEAS5_events_hindcast,
+                              lab = 'Temperature (K)',
+                              var_name = 't2m')
+
+
+Stability_t2m
+
+#ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/stability-test.png")
+```
+
+
+
+```{r}
+Fidelity = fidelity_test(
+    obs = ERA5_events_hindcast$t2m,
+    ensemble = SEAS5_events_hindcast$t2m,
+    units = 'C',
+    biascor = FALSE,
+    fontsize = 14
+)
+Fidelity
+
+ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/fidelity-test.png")
+```
+
+```{r}
+require('extRemes')
+source('../../../UNSEEN-open-Deep-Sky/src/evt_plot.R')
+```
+
+```{r}
+obs <- ERA5_events[
+    ERA5_events$year > '1982-02-01',]
+
+UNSEEN_1 <- SEAS5_events[SEAS5_events$number < 25 & 
+                          SEAS5_events$year < '1985-02-01' &
+                           SEAS5_events$year > '1982-02-01',]
+
+UNSEEN_2 <- SEAS5_events[SEAS5_events$number < 25 & 
+                          SEAS5_events$year > '2020-01-01',]
+
+UNSEEN <- SEAS5_events[SEAS5_events$number < 25 & 
+                          SEAS5_events$year > '1982-02-01',]
+
+```
+
+```{r}
+timeseries_temp = unseen_timeseries(
+    ensemble = UNSEEN,
+    obs = obs,
+    ensemble_yname = "t2m",
+    ensemble_xname = "year",
+    obs_yname = "t2m",
+    obs_xname = "year",
+    ylab = "Temps")
+
+timeseries + theme(text = element_text(size = 14))
+
+#ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/drought_timeseries_temp.png")
+
+```
+
+```{r}
+timeseries = unseen_timeseries(
+    ensemble = UNSEEN,
+    obs = obs,
+    ensemble_yname = "tprate",
+    ensemble_xname = "year",
+    obs_yname = "tp",
+    obs_xname = "year",
+    ylab = "Precipitation")
+
+timeseries + theme(text = element_text(size = 14))
+
+#ggsave(height = 5, width = 6,   filename = "../../figures/UNSEEN/drought_timeseries_precipitation.png")
+
+
+```
+

@@ -1,0 +1,324 @@
+Year,Page,Brand,Product,Size,Base_Price,Promo_Price,Promo_Type,Promo_Details,Digital_Req,Non_Digital_Price,Member_Req,Savings,Discount_Depth,Net_Price,Core_Item
+2025,1,Signature SELECT,Classic Ham Shank/Whole Bone-In,,,$0.87/lb,DIGITAL_ONLY,Member Price Digital Coupon Limit 1,YES,,YES,,,0.87,NO
+2025,1,Signature SELECT,Russet Potatoes,5 lb bag,,$0.97/ea,DIGITAL_ONLY,Member Price Digital Coupon Limit 2,YES,,YES,,,0.97,YES
+2025,1,Private Label,Celery,,,$0.27/ea,DIGITAL_ONLY,Member Price Digital Coupon Limit 2,YES,,YES,,,0.27,NO
+2025,1,Lucerne,Shredded/Sliced/Chunk Cheese or Sour Cream,6-16 oz,,$1.87/ea,DIGITAL_ONLY,Member Price Digital Coupon Limit 4,YES,,YES,,,1.87,NO
+2025,1,Reddi Wip/Coffee mate/Simply,Whipped Topping 6.5 oz/Creamer 28-32 oz/OJ 46 oz,,$2.97/ea,DIGITAL_ONLY,Member Price Digital Coupon Limit 4,YES,,YES,,,2.97,NO
+2025,1,Nabisco,Snack Crackers 3.5-9.1 oz/Ritz 8.8-13.7 oz/Toasted Chips 7-8.1 oz,,$2.47/ea,DIGITAL_ONLY,Member Price Digital Coupon Limit 4,YES,,YES,,,2.47,NO
+2025,1,Gold Medal,Flour,5 lb,,$2.97/ea,DIGITAL_ONLY,Member Price Digital Coupon Limit 4,YES,,YES,,,2.97,NO
+2025,1,C&H,Granulated Sugar,4 lb,,$2.97/ea,DIGITAL_ONLY,Member Price Digital Coupon Limit 4,YES,,YES,,,2.97,NO
+2025,1,Private Label,Homestyle Turkey Dinner,Serves 6-8,,$79.99/ea,BUNDLE,Turkey+Stuffing+Potatoes+Cranberry+Gravy,NO,,NO,,,79.99,NO
+2025,1,Private Label,Spiral Ham Dinner,Serves 8-10,,$89.99/ea,BUNDLE,Ham+Scalloped+Sweet Potatoes+Green Bean+Apples,NO,,NO,,,89.99,NO
+2025,1,Private Label,Prime Rib Dinner,Serves 5-6,,$99.99/ea,BUNDLE,Prime Rib+Scalloped+Sweet Potatoes+Green Bean+Apples,NO,,NO,,,99.99,NO
+2025,2,Private Label,Pinwheel Tray,Starting at,,$19.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,19.99,NO
+2025,2,Private Label,Croissant Sandwich Tray,Starting at,,$19.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,19.99,NO
+2025,2,Private Label,Spinach Dip Tray,12 inch,,$14.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,14.99,NO
+2025,2,Kick'd Up,Alaskan Snow Leg Sashimi Tray,2 lb,,$16.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,16.99,NO
+2025,2,Kick'd Up,Admiral's Feast Party Tray,44 ct,,$24.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,24.99,NO
+2025,2,Private Label,Muffins/Croissants Platter,16 ct,,$18.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,18.99,NO
+2025,2,Private Label,Fruit Pie,9 inch,,$10.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,10.99,NO
+2025,2,Private Label,Cheesecake Platter/Fruit Tart,9 inch,,$19.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,19.99,NO
+2025,2,Private Label,Cookie Platter,48 ct,,$14.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,14.99,NO
+2025,2,Fresh Cut Produce,Fruits/Veggies/Dips/Salsas/Parfaits/Trays,,,B2G1 Free,BOGO_FREE,Member Price When Buy 3,NO,,YES,,,varies,NO
+2025,2,Signature SELECT,Sunflower,,,$7.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,7.99,NO
+2025,2,Private Label,Rose and Sun Bouquet,,,$16.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,16.99,NO
+2025,2,Private Label,Fall Celebration Bouquet,,,$24.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,24.99,NO
+2025,2,La Marca/Josh/Coppola,Wine,750 ml,$12.99,$11.69/ea,MIX_MATCH,Member Price Buy 6+,NO,,YES,,,11.69,NO
+2025,2,Domaine Chandon/Mumm/Decoy Reds,Wine,750 ml,$16.65,$14.99/ea,MIX_MATCH,Member Price Buy 6+,NO,,YES,,,14.99,NO
+2025,2,Butter/Ferrari-Carano/Oyster Bay,Wine,750 ml,$14.43,$12.99/ea,MIX_MATCH,Member Price Buy 6+,NO,,YES,,,12.99,NO
+2025,3,Waterfront Bistro,Colossal Raw Shrimp,13-15 ct 2 lb,,$5.99/lb,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,3,Signature SELECT,Fresh Turkey,9-24 lb,,$0.87/lb,STRAIGHT_PRICE,Member Price Limit 1,NO,,YES,,,0.87,YES
+2025,3,Signature SELECT,Whole Turkey Frozen,Grade A,,$0.39/lb,STRAIGHT_PRICE,Member Price Limit 1,NO,,YES,,,0.39,YES
+2025,3,King's Hawaiian,Rolls,12 ct,,$3.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,3,Oscar Mayer,Bacon,12 oz,,$3.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,3,Signature SELECT,80% Lean Ground Beef Mega Pack,6 lb+,,$3.99/lb,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,3,Philadelphia,Cream Cheese,8 oz Brick,,B1G1 Free,BOGO_FREE,Member Price When Buy 2 Mix Match,NO,,YES,,,varies,YES
+2025,3,Challenge/Danish Creamery,Butter,12-16 oz,,B1G1 Free,BOGO_FREE,Member Price When Buy 2 Mix Match,NO,,YES,,,varies,NO
+2025,3,Signature SELECT,Mandarins,3 lb bag,,$2.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.49,NO
+2025,3,Coca-Cola/Pepsi/7UP/Dr Pepper,Soda,12 pk 12 oz/8 pk 12 oz,,B2G3 Free,BOGO_FREE,Member Price When Buy 5 Limit 3 Free,NO,,YES,,,varies,NO
+2025,3,Thomas',Bagels/English Muffins/Swirl Bread,12-20 oz,,$3.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,3,Dreyer's/Haagen-Dazs/Nestle Outshine,Bars/Ice Cream/Novelties/Fruit Bars,4-14 oz,$3.00,2/$6,MULTIBUY,Member Price Limit 4,NO,,YES,,,3.00,NO
+2025,3,Campbell's,Soup,15.25-19 oz,,B2G2 Free,BOGO_FREE,Member Price When Buy 4 Mix Match,NO,,YES,,,varies,YES
+2025,3,Green Giant,Frozen Boxed Vegetables,7-8 oz,$1.00,10/$10,MULTIBUY,Member Price,NO,,YES,,,1.00,NO
+2025,3,Del Monte,Canned Vegetables,13.5-15.25 oz,$1.00,10/$10,MULTIBUY,Member Price,NO,,YES,,,1.00,NO
+2025,3,Cheetos/Lays/Tostitos/SunChips/Kettle,Chips,4.75-13 oz,$5.99,B2G2 Free,BOGO_FREE,Member Price When Buy 4,NO,,YES,,,varies,NO
+2025,3,Peet's,Coffee,10-10.5 oz/10 ct K-Cup,,$7.99/ea,MULTIBUY,When Buy 2 Member Price,NO,,YES,,,7.99,NO
+2025,3,Coors/Bud Light/Modelo/Corona/Michelob/White Claw,Beer,18-30 pk 12 oz,,$19.99/ea,STRAIGHT_PRICE,Member Price Limit 2,NO,,YES,,,19.99,NO
+2025,3,Kendall-Jackson/Wente/Edna Valley,Wine,750 ml,$9.99,$8.99/ea,MIX_MATCH,Member Price Buy 6+,NO,,YES,,,8.99,NO
+2025,4,Daisy,Sour Cream,16 oz,$2.50,2/$5,MULTIBUY,Member Price,NO,,YES,,,2.50,NO
+2025,4,Martinelli's,Sparkling Cider,25.4 oz,$3.00,2/$6,MULTIBUY,When Buy 2 Member Price,NO,,YES,,,3.00,NO
+2025,4,Stove Top,Stuffing Mix,6 oz,$2.00,2/$4,MULTIBUY,Member Price,NO,,YES,,,2.00,YES
+2025,4,Hormel,Black Label Bacon,12-16 oz,,$7.99/ea,DIGITAL_ONLY,Member Price Digital Coupon,YES,,YES,,,7.99,NO
+2025,4,McCormick,Dry Gravy Mix,0.75-1 oz,,$0.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,0.99,NO
+2025,4,Heinz,Home Style Gravy,12 oz,,$2.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.99,NO
+2025,4,Crisco,Cooking Oil,40 oz,,$4.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.49,NO
+2025,4,Lucerne,Eggnog,Half gallon,,$4.99/ea,DIGITAL_ONLY,Member Price 4X Points Digital Coupon,YES,,YES,,,4.99,NO
+2025,4,Essentia,Water,12 pk,$3.00,2/$3,MULTIBUY,Member Price 4X Points Digital Coupon,YES,,YES,,,1.50,NO
+2025,4,Gatorade,Sports Drink,8 pk 20 oz,,$6.99/ea,DIGITAL_ONLY,Member Price 4X Points Digital Coupon,YES,,YES,,,6.99,NO
+2025,4,Chex,Cereal,12-14 oz,,$2.49/ea,DIGITAL_ONLY,Member Price 4X Points Digital Coupon,YES,,YES,,,2.49,NO
+2025,4,Quaker,Instant Oatmeal,8.4-14.1 oz,,$2.49/ea,DIGITAL_ONLY,Member Price 4X Points Digital Coupon,YES,,YES,,,2.49,NO
+2025,4,Signature SELECT,Salsa,24 oz,,$3.49/ea,DIGITAL_ONLY,Member Price 4X Points Digital Coupon,YES,,YES,,,3.49,NO
+2025,4,Kellogg's,Eggo Waffles,22.2-29.6 oz,,$5.99/ea,DIGITAL_ONLY,Member Price 4X Points Digital Coupon,YES,,YES,,,5.99,NO
+2025,4,Dixie,Tableware,40-90 ct,,$5.99/ea,DIGITAL_ONLY,Member Price 4X Points Digital Coupon,YES,,YES,,,5.99,NO
+2025,4,Cool Whip,Whipped Topping,8 oz,$2.00,2/$4,MULTIBUY,Member Price,NO,,YES,,,2.00,YES
+2025,4,French's,Fried French Onions,6 oz,,$3.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,4,Marie Callender's,Fruit or Cream Pie,25.6-40 oz,,$5.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,4,Boar's Head,OvenGold Turkey Breast/American Cheese,,,$12.99/lb,STRAIGHT_PRICE,Member Price,NO,,YES,,,12.99,NO
+2025,4,Signature SELECT,Roasted Bone-In Turkey Breast,24 oz,,$13.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,13.99,NO
+2025,4,Signature SELECT,Holiday Side,12-14 oz,,$4.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.99,NO
+2025,4,Private Label,Chicken/Turkey Pot Pie,14 oz,,$4.99/ea,MULTIBUY,When Buy 2 Member Price,NO,,YES,,,4.99,NO
+2025,4,Private Label,Hot Dinner for Two,Serves 2,,$21.99/ea,BUNDLE,Turkey Breast+2 Sides+Hawaiian Roll,NO,,NO,,,21.99,NO
+2025,4,Private Label,Pumpkin Pie,9 inch,,$9.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,9.99,NO
+2025,4,Private Label,Fresh Baked Dinner Rolls,30 ct,,$7.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,7.99,NO
+2025,4,Private Label,Muffins,4 ct,,$4.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.99,NO
+2025,4,Private Label,Mini Croissants,8 ct,,$4.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.99,NO
+2025,4,Signature SELECT,Lilies,,,$9.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,9.99,NO
+2025,4,Private Label,Seasons Harvest Bouquet,,,$11.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,11.99,NO
+2025,4,Overjoyed,Boutique Hydrangea,,,$9.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,9.99,NO
+2025,4,Private Label,Fall Splendor Bouquet,,,$25.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,25.99,NO
+2025,4,Korbel/Mark West/Hahn,Wine,750 ml,$11.10,$9.99/ea,MIX_MATCH,Member Price Buy 6+,NO,,YES,,,9.99,NO
+2025,4,Sonoma-Cutrer/Duckhorn/Alexander Valley,Wine,750 ml,$19.99,$17.99/ea,MIX_MATCH,Member Price Buy 6+,NO,,YES,,,17.99,NO
+2025,4,Tito's,Vodka,1.75 L,,$25.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,25.99,NO
+2025,4,Bulleit/Cazadores,Spirits,750 ml,,$25.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,25.99,NO
+2025,4,High Noon,Hard Seltzer,8 pk 355 ml,,$15.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,15.99,NO
+2025,4,Modelo/Corona/Pacifico/Stella Artois,Beer,12 pk 12 oz,,$15.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,15.99,NO
+2025,5,Signature SELECT,Cranberries,2 lb,,$5.00/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,5.00,NO
+2025,5,Sabra,Hummus,8-10 oz,,$3.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,3.99,NO
+2025,5,Oroweat,Stuffing,12 oz,,$3.49/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,3.49,NO
+2025,5,Oroweat,Variety Bread,Whole Wheat/Oats,,$3.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,3.99,NO
+2025,5,Jimmy Dean,Sausage Roll,16 oz,,$2.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,2.99,NO
+2025,5,Hillshire Farm,Lit'l Smokies,12-14 oz,,$3.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,3.99,NO
+2025,5,Perdue,Breaded Chicken,22-29 oz,,$5.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,5.99,NO
+2025,5,Waterfront Bistro,Crispy Calamari/Popcorn Shrimp,10-18 oz,,$5.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,5.99,NO
+2025,5,Velveeta,Cheese Loaf,48 oz,,$9.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,9.99,NO
+2025,5,Chobani,Creamer,24 oz,,$3.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,3.99,NO
+2025,5,Chobani,Greek/Zero Sugar Yogurt,4 pk 5.3 oz,,$3.49/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,3.49,NO
+2025,5,Yoplait,Fridge Pack/Go-Gurt,4 ct/8 pk,,$3.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,3.99,NO
+2025,5,Galbani,String/Stick Cheese,10-12 oz,,$3.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,3.99,NO
+2025,5,Philadelphia,Cream Cheese Frosting,10 oz,,$3.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,3.99,NO
+2025,5,Klondike/Magnum,Bars,4-6 ct,,$3.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,3.99,NO
+2025,5,Lean Cuisine/Stouffer's,Entree/Side,6.17-12.5 oz,,$2.49/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,2.49,NO
+2025,5,Freschetta,Pizza,17.26-30.88 oz,,$4.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,4.99,NO
+2025,5,Tate's,Bake Shop Cookies,6.2-7 oz,,$3.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,3.99,NO
+2025,5,Snyder's,Pretzels,10-16 oz,,$2.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,2.99,NO
+2025,5,Bundaberg/Snapple,Soda/Tea,4 pk/6 pk,,$5.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,5.99,NO
+2025,5,Crystal Geyser,Alpine Spring Water,24 pk,,$5.49/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,5.49,NO
+2025,5,Red Bull,Energy Drink,4 pk 8.4 oz,,$6.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,6.99,NO
+2025,5,Coca-Cola,Soda,2 L,,$1.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,1.99,NO
+2025,5,Kellogg's,Cereal,14.3-19.4 oz,,$2.49/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,2.49,NO
+2025,5,Hidden Valley,Ranch Dressing,10-16 oz,,$3.49/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,3.49,NO
+2025,5,Kinder's,Dry Rub,4.2-6.2 oz,,$3.49/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,3.49,NO
+2025,5,Rao's,Pasta Sauce,15.5-24 oz,,$6.99/ea,DIGITAL_ONLY,Member Price 4X Points Clip or Click,YES,,YES,,,6.99,NO
+2025,5,Signature SELECT,Cranberry Sauce/Knorr Rice or Pasta Side,14 oz/4.1-5.5 oz,,$0.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,0.99,NO
+2025,5,M&M's,Share Size Bag,7.44-10.56 oz,,$4.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,4.99,NO
+2025,5,Charmin,Bath Tissue,6-8 rolls,,$16.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,16.99,NO
+2025,5,Bounty,Paper Towels,4-6 rolls,,$16.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,16.99,NO
+2025,5,Arm & Hammer,Laundry Detergent,40-77.5 oz,,$6.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,6.99,NO
+2025,5,OxiClean,Laundry Stain Remover,3 lb/65 oz,,$6.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,6.99,NO
+2025,5,Sierra Nevada/Firestone Walker/Angry Orchard,Beer,6 pk 12 oz,,$16.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,16.99,NO
+2025,5,Vitali,Vodka,1.75 L,,$8.99/ea,DIGITAL_ONLY,Member Price Clip or Click,YES,,YES,,,8.99,NO
+2025,6,Jennie-O,Turkey,10-24 lb,,$2.99/lb,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.99,YES
+2025,6,Butterball,Turkey,10-24 lb,,$3.49/lb,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.49,YES
+2025,6,Signature SELECT,Spiral Sliced Ham Bone-In,,,$2.99/lb,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.99,NO
+2025,6,Signature SELECT,Turkey Breast Bone-In Frozen,,,$3.99/lb,STRAIGHT_PRICE,Every Day,NO,,NO,,,3.99,NO
+2025,6,USDA Choice,Beef Ribeye Roast Bone-In,,,$14.99/lb,STRAIGHT_PRICE,Member Price,NO,,YES,,,14.99,NO
+2025,6,Chef's Counter,Marinated Pork Chops,13 oz,,$4.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.99,NO
+2025,6,Waterfront Bistro,Atlantic Salmon Whole Fillet,,,$11.99/lb,STRAIGHT_PRICE,Every Day,NO,,NO,,,11.99,NO
+2025,6,Private Label,Large Cooked Shrimp,21-40 ct,,$5.99/lb,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,6,Private Label,Dungeness Crab Sections,,,$16.99/lb,STRAIGHT_PRICE,Member Price,NO,,YES,,,16.99,NO
+2025,6,Private Label,Tropical Shrimp Ceviche,,,$9.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,9.99,NO
+2025,6,Private Label,Sweet Potatoes/Red/Golden Yams,,,$1.49/lb,STRAIGHT_PRICE,Member Price,NO,,YES,,,1.49,NO
+2025,6,Private Label,Honeycrisp/Granny Smith Apples,,,$2.49/lb,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.49,NO
+2025,6,Private Label,Broccoli Crowns,,,$2.99/lb,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.99,NO
+2025,6,POM Wonderful,Pomegranate,$2.00,2/$4,MULTIBUY,Member Price,NO,,YES,,,2.00,NO
+2025,6,Taylor Farms,Chopped Salad Kit,9.25-13.5 oz,$3.99/ea,MULTIBUY,When Buy 3 Member Price,NO,,YES,,,3.99,NO
+2025,6,Fresh Express,Salad Kit,5.5-11.9 oz,$3.99/ea,MULTIBUY,When Buy 3 Member Price,NO,,YES,,,3.99,NO
+2025,6,Signature SELECT,Green Beans,28 oz,,$5.00/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,5.00,NO
+2025,6,Signature SELECT,Baby Peeled Carrots,1 lb,$2.50,2/$5,MULTIBUY,Member Price,NO,,YES,,,2.50,NO
+2025,6,O Organics,Fresh Herbs,5.5 oz,$1.50,2/$3,MULTIBUY,Member Price,NO,,YES,,,1.50,NO
+2025,6,Private Label,8-Piece Fried/Roasted Chicken,4 each,,$5.00/ea,STRAIGHT_PRICE,Member Price Friday Nov 21,NO,,YES,,,5.00,NO
+2025,6,Private Label,Macaroni and Cheese,,,$5.00/lb,STRAIGHT_PRICE,Member Price Friday Nov 21,NO,,YES,,,5.00,NO
+2025,6,Private Label,Tater Kegs,,,$5.00/ea,STRAIGHT_PRICE,Member Price Friday Nov 21,NO,,YES,,,5.00,NO
+2025,6,Open Nature,Semi-Boneless Leg of Lamb,,,$5.00/lb,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.00,NO
+2025,6,Wild Caught,Lobster Tail,3 oz,,$5.00/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.00,NO
+2025,6,Private Label,New York Style Sausage,18-26 oz,,$5.00/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.00,NO
+2025,6,Signature SELECT,Premium Bacon,12-16 oz,,$5.00/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.00,NO
+2025,6,Rosina,Meatballs,,,$5.00/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.00,NO
+2025,6,Private Label,Green/Red Seedless Grapes,3 lb,$1.67/lb,3 lb/$5,MULTIBUY,Member Price,NO,,YES,,,1.67,NO
+2025,6,Private Label,Hass Avocado,$1.25,4/$5,MULTIBUY,Member Price,NO,,YES,,,1.25,NO
+2025,6,Private Label,Fresh Sushi,,,$5.00/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.00,NO
+2025,6,Signature SELECT,Soup,28 oz,,$5.00/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.00,NO
+2025,6,La Croix,Sparkling Water,8 pk 12 oz,$2.50,2/$5,MULTIBUY,Member Price Limit 4,NO,,YES,,,2.50,NO
+2025,6,Smartfood/PopCorners/Doritos,Popcorn/Snacks/Chips,3-10.75 oz,$2.50,2/$5,MULTIBUY,Member Price,NO,,YES,,,2.50,NO
+2025,6,Private Label,Fresh Baked Coffee Cake/4-ct Danish,,,$5.00/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.00,NO
+2025,6,Barefoot Cellars/Overjoyed/Astronmeria,Wine/Bouquet,750 ml,,$5.00/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.00,NO
+2025,7,NatureSweet,Cherubs/D'Vines Tomatoes,9-10 oz,,$2.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.99,NO
+2025,7,Private Label,Fresh Gourmet Croutons,4-5 oz,$1.25,4/$5,MULTIBUY,Member Price,NO,,YES,,,1.25,NO
+2025,7,President,Brie,16 oz,,$11.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,11.99,NO
+2025,7,La Terra Fina,Quiche,23 oz,,$10.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,10.99,NO
+2025,7,San Luis,Sourdough Bread,24 oz,,$5.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,7,Svenhard's,Pastries,6 ct,,$5.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,7,Waterfront Bistro,Shrimp Ring,16 oz,,$7.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,7.99,NO
+2025,7,Echo Falls,Trio Pack,12 oz,,$18.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,18.99,NO
+2025,7,Signature SELECT,Sausage,12-16 oz,,$3.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,7,Silva,Linguica Sausage,11 oz,,$5.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,7,Hillshire Farm,Smoked Sausage,12-14 oz,,$5.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,7,Reser's,Main St Bistro Side Dish,17-22 oz,$4.00,2/$8,MULTIBUY,Member Price,NO,,YES,,,4.00,NO
+2025,7,Fage,Greek Yogurt,5.3 oz,$1.33,3/$4,MULTIBUY,Member Price,NO,,YES,,,1.33,NO
+2025,7,Greek Gods,Yogurt,24 oz,,$3.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,7,Califia Farms,Almondmilk/Oatmilk/Barista,32-48 oz,,$3.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,7,Florida's Natural,Orange/Grapefruit Juice,52 oz,,$3.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,7,Starbucks,Iced Coffee,40-48 oz,,$5.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,7,Darigold,Cottage Cheese,24 oz,,$4.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.49,NO
+2025,7,Daisy,Sour Cream Squeeze Dip,14-16 oz,,$3.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.49,NO
+2025,7,Bays,English Muffins,12 oz,$3.00,2/$6,MULTIBUY,Member Price,NO,,YES,,,3.00,NO
+2025,7,Clover,Butter,16 oz,,$4.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.99,NO
+2025,7,I Can't Believe It's Not Butter!,Spread,8-15 oz,,$3.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,7,Simply,Potatoes,20 oz,$3.50,2/$7,MULTIBUY,Member Price,NO,,YES,,,3.50,NO
+2025,7,Silk,Whipping Cream,16 oz,,$4.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.49,NO
+2025,7,Totino's,Party Pizza/Pizza Rolls,10.7-48.8 oz,,$9.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,9.99,NO
+2025,7,Hershey's,Chocolate Frozen Fruit,8 oz,,$6.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,6.99,NO
+2025,7,Stouffer's,Family Size Meal,28-40 oz,,$10.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,10.99,NO
+2025,7,Banquet,Brown N Serve Breakfast Sausages,6.4 oz,$2.50,2/$5,MULTIBUY,Member Price,NO,,YES,,,2.50,NO
+2025,7,O Organics,Fruit Family Size,32 oz,,$8.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,8.99,NO
+2025,7,Pillsbury,Deep Dish Pie Crusts,12 oz,,$4.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.99,NO
+2025,7,Ore-Ida,Fries/Hash Browns/Tater Tots,20-32 oz,,$4.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.99,NO
+2025,7,Green Giant,Riced Veggies,10 oz,$3.00,2/$6,MULTIBUY,Member Price,NO,,YES,,,3.00,NO
+2025,7,Rao's,Entree,8.5-9.5 oz,,$4.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.99,NO
+2025,7,DiGiorno/California Pizza Kitchen,Single Serve Pizza,5.9-9.3 oz,$3.99/ea,MULTIBUY,When Buy 2 Member Price,NO,,YES,,,3.99,NO
+2025,7,InnovAsian,Entree,16-18 oz,,$7.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,7.99,NO
+2025,7,Bridgford,Parkerhouse Style Rolls,25 ct,,$4.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.99,NO
+2025,8,Signature SELECT/O Organics,Coffee,8-12 oz,,$14.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,14.99,NO
+2025,8,Bigelow,Tea,18-20 ct,$3.00,2/$6,MULTIBUY,Member Price,NO,,YES,,,3.00,NO
+2025,8,Langers,Juice,64 oz,$3.00,2/$6,MULTIBUY,Member Price,NO,,YES,,,3.00,NO
+2025,8,Cole's,Wild Mountain Honey,32 oz,,$12.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,12.99,NO
+2025,8,Campbell's,Condensed Soup,10.5 oz,$1.25,4/$5,MULTIBUY,Member Price,NO,,YES,,,1.25,YES
+2025,8,Swanson,Stock or Broth,32 oz,$2.00,2/$4,MULTIBUY,Member Price,NO,,YES,,,2.00,YES
+2025,8,Rao's,Homemade Pasta,16 oz,$3.00,2/$6,MULTIBUY,Member Price,NO,,YES,,,3.00,NO
+2025,8,Snow's,Clams,6.5 oz,,$1.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,1.99,NO
+2025,8,Dole,Pineapples,20 oz,$2.50,2/$5,MULTIBUY,Member Price,NO,,YES,,,2.50,NO
+2025,8,Maruchan,Instant Lunch Noodles,2.75 oz,$1.00,2/$1,MULTIBUY,Member Price,NO,,YES,,,0.50,NO
+2025,8,Sapporo Ichiban,Sriracha Yakisoba/Ramen,5 pk 3.5-3.7 oz,,$4.79/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.79,NO
+2025,8,Vlasic,Pickles,24 oz,,$3.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.49,NO
+2025,8,Lindsay,Pitted Olives,6 oz,$1.49/ea,MULTIBUY,When Buy 2 Member Price,NO,,YES,,,1.49,NO
+2025,8,Pillsbury,Frosting/Cake Mix/Brownie Mix,12-18.4 oz,,$1.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,1.99,YES
+2025,8,Nestle,Baking Morsels,9-12 oz,,$4.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.99,NO
+2025,8,Kraft,Jet-Puffed Marshmallows/Creme,7-10 oz,,$1.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,1.99,NO
+2025,8,Skippy,Peanut Butter,15-16.3 oz,$2.49/ea,MULTIBUY,When Buy 2 Member Price,NO,,YES,,,2.49,NO
+2025,8,Bonne Maman,Preserves,12.7-13 oz,,$6.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,6.49,NO
+2025,8,Open Nature,Granola,11-12.5 oz,,$3.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.49,NO
+2025,8,Terra,Chips,5-7 oz,$3.50,2/$7,MULTIBUY,Member Price,NO,,YES,,,3.50,NO
+2025,8,Juantonio's,Tortilla Chips,11-15 oz,,$2.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.99,NO
+2025,8,Blue Diamond,Almonds,6 oz,$2.49/ea,MULTIBUY,When Buy 3 Member Price,NO,,YES,,,2.49,NO
+2025,8,Keebler,Cookies,8.5-13.6 oz,$3.00,2/$6,MULTIBUY,Member Price,NO,,YES,,,3.00,NO
+2025,8,Pringles,Chips,3.2-5.57 oz,$1.67,3/$5,MULTIBUY,When Buy 3 Member Price,NO,,YES,,,1.67,NO
+2025,8,Harvest,Lindt Bag,5.1 oz,,$5.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,8,Signature SELECT,Mixers/Sparkling Water,Liter,,$0.88/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,0.88,NO
+2025,8,Signature SELECT,Seltzer Water,24 pk 12 oz,,$7.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,7.49,NO
+2025,8,Electrolit,Electrolyte Beverage,21 oz,$3.00,2/$6,MULTIBUY,Member Price,NO,,YES,,,3.00,NO
+2025,8,Glad,Trash Bags,25-40 ct,,$8.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,8.99,NO
+2025,8,Palmolive/Ajax,Dish Soap,32.5-52 oz,,$3.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,8,Glad,Cling Wrap,200 sq ft,,$3.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,8,Tidy Cats,Litter,20 lb,,Buy 2 Save $5,SPEND_GET,with Member Account,NO,,YES,,,varies,NO
+2025,8,Kleenex,Facial Tissue,4 pack,,$6.99/ea,DIGITAL_ONLY,Member Price Digital Coupon,YES,,YES,,,6.99,NO
+2025,8,Blue Buffalo,Dry Dog Food,5 lb,,$19.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,19.99,NO
+2025,8,Blue Nudges,Jerky Cuts,16 ct,,$9.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,9.99,NO
+2025,8,Friskies/Fancy Feast,Cat Food,24 pk/32 ct,,Buy 2 Save $5,SPEND_GET,with Member Account,NO,,YES,,,varies,NO
+2025,9,Frigo,Cheese Heads String Cheese,24 ct,,$8.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,8.99,NO
+2025,9,Frigo,Shredded Parmesan Cheese Cup,10 oz,,$5.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,10,Kerrygold,Cheddar Cheese,7 oz,,$5.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,10,Boursin,Cheese Spread,5.2 oz,,$4.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.99,NO
+2025,10,Armour,Summer Sausage,16 oz,,$6.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,6.99,NO
+2025,10,Philadelphia,Cream Cheese,8 oz Brick,,B1G1 Free,BOGO_FREE,Member Price When Buy 2,NO,,YES,,,varies,YES
+2025,10,Violife,Vegan Cheese,7.05-8 oz,,$4.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.99,NO
+2025,10,Pillsbury,Cinnamon Rolls/Crescents/Pie Crust/Grands,8-16.3 oz,,$2.79/ea,DIGITAL_ONLY,Member Price Digital Coupon,YES,,YES,,,2.79,YES
+2025,10,Pillsbury,Cookie Dough,16-16.5 oz,,$2.99/ea,DIGITAL_ONLY,Member Price Digital Coupon,YES,,YES,,,2.99,NO
+2025,11,Oscar Mayer,Bacon,12 oz,,,STRAIGHT_PRICE,4X Points,NO,,YES,,,varies,NO
+2025,11,Bob Evans,Family Size Side Dish,28-32 oz,,$4.49/ea,STRAIGHT_PRICE,Member Price 4X Points,NO,,YES,,,4.49,NO
+2025,11,Biscoff,Cookies,8.8 oz,$3.00,2/$6,MULTIBUY,Member Price 4X Points,NO,,YES,,,3.00,NO
+2025,11,Best Foods,Mayonnaise,20-30 oz,$5.99,$3.99/ea,DIGITAL_ONLY,Member Price $5.99 -$2.00 Digital Coupon,YES,5.99,YES,$2.00,,3.99,NO
+2025,11,O Organics,Holiday Baking Essentials,10.65-12.5 oz,,$1.00 off,DIGITAL_ONLY,$1 off Digital Coupon,YES,,YES,,,varies,NO
+2025,11,Essentia,Water,12 pk 33.8 oz,,$18.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,18.99,NO
+2025,12,Horizon,Organic Milk,Half gallon,,$6.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,6.49,NO
+2025,12,Heluva Good!,Dip,12 oz,,$2.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.49,NO
+2025,12,Happy Egg,Free Range Eggs,12 ct,,$6.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,6.99,NO
+2025,12,Daisy,Sour Cream,16 oz,$2.50,2/$5,MULTIBUY,Member Price,NO,,YES,,,2.50,NO
+2025,12,Danish Creamery,European Style Butter,8 oz,,$4.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.99,NO
+2025,12,Private Label,Envy Apples,,$2.99/lb,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.99,NO
+2025,12,Lightlife,Organic Tempeh,8 oz,,$2.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.99,NO
+2025,12,Good Sense,Sunflower Seeds,5 oz,$2.00,2/$4,MULTIBUY,Member Price,NO,,YES,,,2.00,NO
+2025,12,Fresh Express,Salad Blends,5-11 oz,$3.00,2/$6,MULTIBUY,Member Price,NO,,YES,,,3.00,NO
+2025,12,Modi,Apple Bites,2 ct,,$5.00/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.00,NO
+2025,12,Calbee,Harvest Snaps,2.5-3.3 oz,$2.00,2/$4,MULTIBUY,Member Price,NO,,YES,,,2.00,NO
+2025,12,Miss Vickie's,Chips,8 oz,,$3.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,12,General Mills,Giant Size Cereal,20-29 oz,,$7.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,7.99,NO
+2025,12,Local Hive,Honey,16 oz,,$8.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,8.99,NO
+2025,12,Krusteaz,Cornbread Mix,15-16 oz,,$2.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.99,NO
+2025,12,Maille,Dijon Mustard,7.3-8.11 oz,,$3.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,12,SUMM!,Spring Rolls/Dumplings,8.8-12.26 oz,,$5.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.49,NO
+2025,12,Alouette,Brie Double Creme,8 oz,,$6.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,6.99,NO
+2025,12,Athenos,Crumbled Feta Cheese,12 oz,,$8.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,8.99,NO
+2025,12,Stella,Cheese Wedge Parmesan/Asiago,8 oz,,$5.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,12,Treasure Cave,Crumbles,5 oz,,$4.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,4.99,NO
+2025,12,Haig's,Tzatziki/Hummus,8 oz,,$3.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.99,NO
+2025,12,Planet Oat,Oatmilk,52 oz,,$2.99/ea,DIGITAL_ONLY,Exclusive Digital Coupon,YES,,YES,,,2.99,NO
+2025,12,Kraft,Grated Parmesan Cheese,8 oz,,$4.99/ea,DIGITAL_ONLY,Exclusive Digital Coupon,YES,,YES,,,4.99,NO
+2025,12,Galbani,Mozzarella/Ricotta Cheese,15-32 oz,,$4.99/ea,DIGITAL_ONLY,Exclusive Digital Coupon,YES,,YES,,,4.99,NO
+2025,12,Kerrygold,Butter,8 oz Sticks/7.5 oz Spread,,$3.99/ea,DIGITAL_ONLY,Exclusive Digital Coupon,YES,,YES,,,3.99,NO
+2025,13,Russell Stover,Holiday Single,1.3 oz,$1.25,4/$5,MULTIBUY,Member Price,NO,,YES,,,1.25,NO
+2025,13,Brach's,Candy Canes,5.3 oz,$2.00,2/$4,MULTIBUY,Member Price,NO,,YES,,,2.00,NO
+2025,13,Kinder Joy,Candy,0.7 oz,$2.00,2/$4,MULTIBUY,Member Price,NO,,YES,,,2.00,NO
+2025,13,Hershey's,King Size Bar,2.25-3.5 oz,,$2.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.49,NO
+2025,13,Wrigley's,Extra or Orbit Gum,14-15 ct,,$1.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,1.99,NO
+2025,13,Andes,Mints,4.67 oz,,$2.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.99,NO
+2025,13,Hershey's,XL Bar,4-4.4 oz,,$3.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,3.49,NO
+2025,13,SweeTarts/Nerds/Trolli,Candy Canes,3.28-5.3 oz,$3.50,2/$7,MULTIBUY,Member Price,NO,,YES,,,3.50,NO
+2025,13,Lindt,Excellence Bar,2.8-3.5 oz,,$5.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.49,NO
+2025,13,M&M's/Dove,Chocolate,8.87-10 oz,,$5.49/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.49,NO
+2025,13,Ghirardelli,Chocolate Candy,5.7-7.9 oz,,$8.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,8.99,NO
+2025,13,Royal Dansk,Butter Cookies,12 oz,,$5.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,13,Betty Crocker,Cake Decor,,,25% off,PERCENT_OFF,Member Price,NO,,YES,,,varies,NO
+2025,13,GoodCook,Kitchen Gadgets,,,B1G1 50% Off,BOGO_PERCENT,Member Price,NO,,YES,,,varies,NO
+2025,13,Handi-Foil,Foil Baking Pans/Roasters,,,B1G1 50% Off,BOGO_PERCENT,Member Price,NO,,YES,,,varies,NO
+2025,13,Signature SELECT,Food Storage,,,B2G1 Free,BOGO_FREE,When Buy 3 Member Price,NO,,YES,,,varies,NO
+2025,13,Christmas,Lighting,,,33% off,PERCENT_OFF,Member Price,NO,,YES,,,varies,NO
+2025,13,Christmas,Home Decor,,,33% off,PERCENT_OFF,Member Price,NO,,YES,,,varies,NO
+2025,13,Holiday,Boxed Cards,,,25% off,PERCENT_OFF,Member Price,NO,,YES,,,varies,NO
+2025,13,Ziploc,Endurables Food Storage Medium 4-Cup,,$14.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,14.99,NO
+2025,13,Holiday,Gift Wrap/Bows/Tags/Tissue,,,B1G1 50% Off,BOGO_PERCENT,Member Price,NO,,YES,,,varies,NO
+2025,13,Holiday,Fragranced Candle,,,B1G1 50% Off,BOGO_PERCENT,Member Price,NO,,YES,,,varies,NO
+2025,13,Holiday,Partyware,,,33% off,PERCENT_OFF,Member Price,NO,,YES,,,varies,NO
+2025,13,Rubbermaid,TakeAlongs Food Storage,,$5.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,13,Holiday,Toys/Games,,,33% off,PERCENT_OFF,Member Price,NO,,YES,,,varies,NO
+2025,13,Duracell,Batteries,8 ct,,$10.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,10.99,NO
+2025,13,3M,Command Hooks,,,B1G1 50% Off,BOGO_PERCENT,Member Price,NO,,YES,,,varies,NO
+2025,13,Christmas,Plush,,,25% off,PERCENT_OFF,Member Price,NO,,YES,,,varies,NO
+2025,13,Christmas,Stocking,,,33% off,PERCENT_OFF,Member Price,NO,,YES,,,varies,NO
+2025,13,Private Label,Popcorn Tin,21 oz,,$10.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,10.99,NO
+2025,13,GoodCook,3-Piece Cookware/All-in-One Pan/12-Piece Knife Block,,,$10.00 off,DIGITAL_ONLY,Exclusive Digital Coupon,YES,,YES,,,varies,NO
+2025,13,GoodCook,Divided Bakeware,,,$5.00 off,DIGITAL_ONLY,Exclusive Digital Coupon Limit 3,YES,,YES,,,varies,NO
+2025,14,Pantene/Head & Shoulders,Shampoo/Conditioner,10.9-17.9 oz,,$7.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,7.99,NO
+2025,14,Garnier Fructis,Shampoo/Conditioner,11.2-12.5 oz,,$6.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,6.99,NO
+2025,14,e.l.f.,Cosmetics,,$12.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,12.99,NO
+2025,14,NatureMade,Vitamins & Supplements,,,B1G1 Free,BOGO_FREE,When Buy 2 Member Price,NO,,YES,,,varies,NO
+2025,14,Mucinex,Fast Max Rapid Clear,16-20 ct,,$18.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,18.99,NO
+2025,14,Alka-Seltzer Plus/Afrin,Cold Medicine,,$10.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,10.99,NO
+2025,14,Airborne,Effervescent Tablets/Gummies,18-32 ct,,$9.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,9.99,NO
+2025,14,5-hour Energy,Shot,1.93 oz,,$2.79/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,2.79,NO
+2025,14,Signature Care/SELECT,Liquid Hand Soap,7.5 oz,$1.50,2/$3,MULTIBUY,Member Price,NO,,YES,,,1.50,NO
+2025,14,Signature Care,Cough Drops,30 ct,$2.00,2/$4,MULTIBUY,Member Price,NO,,YES,,,2.00,NO
+2025,14,Signature Care,Vitamins,,,B1G1 Free,BOGO_FREE,When Buy 2 Member Price,NO,,YES,,,varies,NO
+2025,14,Colgate,Toothpaste Twin Pack,2 pack,$9.99,$7.49/ea,DIGITAL_ONLY,Member Price $9.99 -$5.00 Mfg Digital Coupon When Buy 2,YES,9.99,YES,$2.50,,7.49,NO
+2025,14,Clif,Bars,10 pack,,$12.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,12.99,NO
+2025,14,RXBAR,Bars,5 ct,,$9.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,9.99,NO
+2025,14,Boost,Shakes,6 pk 8 oz,,$9.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,9.99,NO
+2025,14,Method,Body Wash,16 oz,,$7.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,7.99,NO
+2025,14,Old Spice,Deodorant/Body Wash/Hair Care,,$2.00 off,DOLLAR_OFF,When Buy 2 Member Price,NO,,YES,,,varies,NO
+2025,14,O Organics,Baby Food Pouch,3.5-4 oz,$1.25,4/$5,MULTIBUY,Member Price,NO,,YES,,,1.25,NO
+2025,14,Signature SELECT,Baby Wipes,192-216 ct,,$5.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,5.99,NO
+2025,14,Signature SELECT,Supreme Diapers,80-112 ct,,$19.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,19.99,NO
+2025,14,Gatorade Bars/Muscle Milk Shakes/Protein Powder,,,,$25 Spend Save $5,SPEND_GET,with Member Account,NO,,YES,,,varies,NO
+2025,14,Clif/Luna/Builders,Bar,1.59-2.4 oz,$5.00,3/$4,MULTIBUY,Member Price -$1.00 Digital Coupon When Buy 3,YES,5.00,YES,$1.00,,1.33,NO
+2025,14,Peter Rabbit,Pouch,4-4.4 oz,$2.00,2/$4,MULTIBUY,Member Price,NO,,YES,,,2.00,NO
+2025,14,Pampers,Baby Wipes,112-216 ct,,$8.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,8.99,NO
+2025,14,Pampers,Swaddlers Super Pack,38-96 ct,,$34.99/ea,STRAIGHT_PRICE,Member Price,NO,,YES,,,34.99,NO

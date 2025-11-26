@@ -1,0 +1,44 @@
+# Deep Sky CDR Market Dashboard
+
+This directory contains code for retrieving and displaying data on the Deep Sky website about the state of the CDR market. The system uses AWS Lambda functions which run daily to pull data from cdr.fyi via API, and store the data as csv files in an S3 bucket, which are then accessed by the Deep Sky website through presigned urls and used to build interactive charts. 
+
+## System Architecture
+
+###
+1. Lambda functions run on a weekly schedule to retrieve data
+2. Data is processed and stored as CSV files in S3
+3. Website requests data via presigned URL API
+4. Lambda generates temporary URLs for secure data access
+
+### Key Components
+- Config (`config/`)
+- Data Retrieval Scripts (`retrieval/`)
+- Data (`data/`)
+- Util functions used throughout repo (`utils/`)
+- Lambda Function Handlers (`lambdas/`)
+- Deployment Scripts (`deployment/`)
+- Unit Tests (`tests/`)
+- Infrastructure Code (`../../data-science-infrastructure/terraform/`)
+
+
+### Deployment
+There is a test environment and a prod environment. All changes are tested first locally, then in the test environment, and finally pushed to prod which is what affects what appears on the live Deep Sky website.
+
+The deployment script `deployment/deploy.py` handles packaging up the code and pushing it to the correct AWS environment depending on which argument is passed to it: `test` or `prod`.
+
+There is a test webflow page: `https://deepsky.webflow.io/utility-pages/contact-copy` which retrieves its code and data from the AWS test environment. This is used for viewing changes pushed to test. Once the changes are confirmed to be correct and not break anything. The `deployment/deploy.py` script is run again with the `prod` arugment and the live Deep sky partners page retrieves code and data from the prod environment. 
+
+The test AWS infrastructure is managed in `../../data-science-infrastructure/terraform/test/` while the prod infrastructure is managed in `../../data-science-infrastructure/terraform/prod/`. 
+
+## Data
+
+There are 4 tables that make up the CDR.FYI data. Each is pulled and stored in S3, and used for different purposes in the data display. The tables are:
+- Marketplaces
+- Orders
+- Purchasers
+- Suppliers
+
+The dashboard also displays a table from the Circular Carbon Network showing number of companies founded. 
+
+### Total Dollars Spent Note
+As a temporary measure it also scrapes a total dollars spent figure from the front end of CDR.fyi. The CDR.fyi team are in the process of adding an endpoint to retrieve that value via API but it doesn't exist yet. 

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CDR Orders and Deliveries</title>
+    <meta charset="UTF-8">
+    <!-- Include font -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/spacemono/v13/i7dPIFZifjKcF5UAWdDRYE98RXi4EwSsbg.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Add font-display: swap to ensure text remains visible during font loading -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,%°$-" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #FFFFFF;
+            font-family: 'Space Mono', monospace, -apple-system, BlinkMacSystemFont, sans-serif;
+            color: #333333;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 1600px;
+            margin: 0 auto;
+            margin-bottom: 40px;
+            height: 600px;
+        }
+        #status-display {
+            color: #666666;
+            margin-top: 10px;
+            font-size: 14px;
+            text-align: center;
+        }
+        .error-message {
+            color: #DC3545;
+            text-align: center;
+            padding: 20px;
+        }
+        .stats-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            max-width: 1600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .stat-box {
+            text-align: center;
+            padding: 20px;
+            min-width: 200px;
+        }
+        .stat-label {
+            color: #666666;
+            font-size: 20px;
+            text-transform: none;
+            margin-bottom: 10px;
+            text-align: right;
+        }
+        .delivery-percentage {
+            color: #22C55E;
+            font-size: 86px;
+            font-weight: bold;
+            text-align: right;
+        }
+        .total-spent-value {
+            color: #828282;
+            font-size: 86px;
+            font-weight: bold;
+            text-align: right;
+        }
+        .purchasers-count {
+            color: #828282;
+            font-size: 86px;
+            font-weight: bold;
+            text-align: right;
+        }
+        .carbon-pricing-countries-count {
+            color: #828282;
+            font-size: 86px;
+            font-weight: bold;
+            text-align: right;
+        }
+        .global-emissions-coverage {
+            color: #22C55E;
+            font-size: 86px;
+            font-weight: bold;
+            text-align: right;
+        }
+        .data-source {
+            color: #666666;
+            font-size: 14px;
+            margin-top: 10px;
+            text-align: left;
+            max-width: 1600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .chart-subtitle {
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: 300;
+            color: #666666;
+            font-size: 36px;
+            margin-bottom: 20px; /* Reduced from 30px to bring it closer to the chart */
+            text-align: left;
+            clear: both;
+            max-width: 1600px; /* Match the chart container width */
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 0; /* Ensure no left padding */
+        }
+        /* Add margin below last chart */
+        .last-chart-container {
+            margin-bottom: 80px; /* Add more space at the bottom */
+        }
+        
+        /* Ensure animation is defined */
+        @keyframes dealsTickerAnim {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        
+        /* Add a style for toggle containers to ensure consistent spacing */
+        .toggle-wrapper {
+            display: flex;
+            justify-content: flex-end;
+            max-width: 1600px;
+            margin: 0 auto 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- ADD THIS DIV FOR THE DEALS TICKER -->
+
+    <div id="dealsTickerContainer" class="deals-ticker-container">
+    </div>
+    
+    <!-- Stats display above the chart -->
+    <div class="stats-container" style="justify-content: flex-end;">
+        <div class="stat-box">
+            <div class="total-spent-value">--</div>
+            <div class="stat-label">TOTAL SPENT</div>
+        </div>
+        <div class="stat-box">
+            <div class="delivery-percentage">--</div>
+            <div class="stat-label">TONS DELIVERED</div>
+        </div>
+    </div>
+    
+    <!-- First chart subtitle -->
+    <div class="chart-subtitle">
+        <span id="orders-subtitle-technology" class="highlight-text">Carbon removal</span>
+        demand is dwarfing supply
+    </div>
+    
+    <!-- First toggle container -->
+    <div class="toggle-wrapper">
+        <div id="orders-toggle-container"></div>
+    </div>
+    
+    <div class="chart-container">
+        <canvas id="cdr-chart"></canvas>
+    </div>
+
+    <!-- Data source attribution -->
+    <div class="data-source">Last updated: <span data-last-updated>--</span></div>
+    <div class="data-source">Tons of CO2 sold and delivered. Source: cdr.fyi</div>
+
+    <!-- Second chart subtitle -->
+    <div class="chart-subtitle">
+        <span id="purchasers-subtitle-technology" class="highlight-text">Carbon removal</span>
+        unique purchasers over time.
+    </div>
+    
+    <!-- Second toggle container -->
+    <div class="toggle-wrapper">
+        <div id="purchasers-toggle-container"></div>
+    </div>
+    
+    <!-- Stats display for purchasers chart -->
+    <div class="stats-container" style="justify-content: flex-end;">
+        <div class="stat-box">
+            <div class="purchasers-count">--</div>
+            <div class="stat-label">UNIQUE PURCHASERS</div>
+        </div>
+    </div>
+    
+    <div class="chart-container" id="purchasers-chart-container">
+        <canvas id="purchasers-chart"></canvas>
+    </div>
+
+    <!-- Data source attribution -->
+    <div class="data-source">Last updated: <span data-last-updated>--</span></div>
+    <div class="data-source">Cumulative Unique Purchasers of CDR/DAC credits. Source: cdr.fyi</div>
+
+    <!-- Carbon pricing chart -->
+
+
+    <div class="stats-container" style="justify-content: flex-end;">
+        <div class="stat-box">
+            <div class="carbon-pricing-countries-count">--</div>
+            <div class="stat-label">COUNTRIES</div>
+        </div>
+        <div class="stat-box">
+            <div class="global-emissions-coverage">--</div>
+            <div class="stat-label">EMISSIONS COVERED</div>
+        </div>
+    </div>
+
+    <div class="chart-subtitle">
+        Governments are pricing carbon
+    </div>
+
+    <div class="chart-container" id="carbon-pricing-chart-container">
+        <canvas id="carbon-pricing-chart"></canvas>
+    </div>
+
+    <div class="data-source">Last updated: <span data-last-updated>--</span></div>
+    <div class="data-source">Number of countries with carbon pricing policies in force and the share of global emissions covered by these policies. Source: World Bank</div>
+
+
+    <script src="chart_templates.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // --- Initialize Deals Ticker with local path ---
+            let dealsTickerInstance;
+            if (typeof DealsTicker !== 'undefined') {
+                // For local testing, use a local file path instead of the API
+                dealsTickerInstance = new DealsTicker(
+                    'dealsTickerContainer',
+                    null, // No API base URL for local testing
+                    {
+                        useLocalData: true,
+                        localDataPath: '../data/processed/latest_deals'
+                    }
+                );
+                
+                // Override fetchDeals method for local testing
+                dealsTickerInstance.fetchDeals = async function() {
+                    try {
+                        // Use findLatestDateSuffixedFile which already handles finding files with date suffixes
+                        const result = await findLatestDateSuffixedFile('../data/processed/latest_deals');
+                        console.log(`Loading local deals from: ${result.path}`);
+                        
+                        const response = await fetch(result.path);
+                        if (!response.ok) {
+                            throw new Error(`Failed to load local deals: ${response.statusText}`);
+                        }
+                        
+                        const csvText = await response.text();
+                        
+                        // Parse CSV data
+                        const lines = csvText.split('\n').filter(row => row.trim());
+                        if (lines.length < 2) {
+                            throw new Error('CSV data is empty or missing header');
+                        }
+                        
+                        const headers = lines[0].split(',').map(h => h.trim());
+                        const deals = lines.slice(1).map(line => {
+                            const values = line.split(',');
+                            const deal = {};
+                            headers.forEach((header, index) => {
+                                // Skip the first column if it's just an index
+                                if (index === 0 && !isNaN(parseInt(header)) && header === '') {
+                                    return;
+                                }
+                                deal[header || `column${index}`] = values[index] ? values[index].trim() : '';
+                            });
+                            return deal;
+                        });
+                        
+                        // Sort by announcement_date (descending - most recent first)
+                        deals.sort((a, b) => {
+                            const dateA = new Date(a.announcement_date).getTime();
+                            const dateB = new Date(b.announcement_date).getTime();
+                            if (isNaN(dateA) && isNaN(dateB)) return 0;
+                            if (isNaN(dateA)) return 1;
+                            if (isNaN(dateB)) return -1;
+                            return dateB - dateA;
+                        });
+                        
+                        this.lastSuccessfulDeals = deals.slice(0, this.options.itemCount);
+                        return this.lastSuccessfulDeals;
+                        
+                    } catch (error) {
+                        console.error('Error fetching local deals:', error);
+                        return [];
+                    }
+                };
+                
+                // Start the ticker with local data
+                dealsTickerInstance.start();
+                console.log('Deals Ticker initialized with local data for testing');
+            } else {
+                console.error('DealsTicker class not found. Ensure chart_templates.js loaded correctly.');
+            }
+            // --- End Deals Ticker Init ---
+
+            // Verify the ticker container exists and has proper styling
+            const tickerContainer = document.getElementById('dealsTickerContainer');
+            if (tickerContainer) {
+                console.log('Ticker container found with dimensions:', 
+                    tickerContainer.offsetWidth + 'x' + tickerContainer.offsetHeight);
+                
+                // Force the container to be visible if it's not
+                if (getComputedStyle(tickerContainer).display === 'none') {
+                    console.log('Ticker container was hidden, making visible');
+                    tickerContainer.style.display = 'block';
+                }
+            } else {
+                console.error('Ticker container not found in DOM!');
+            }
+
+            // Create a shared state manager
+            const stateManager = new CDRStateManager();
+
+            // Initialize the main CDR chart (as the stats provider)
+            const cdrChart = new CDRChart({
+                csvPath: '../data/processed/orders_for_viz', // Local path
+                toggleContainerId: 'orders-toggle-container', // Updated to specific toggle
+                chartContainerId: 'chart-container',
+                canvasId: 'cdr-chart',
+                statusId: 'status-display',
+                enableToggle: true,
+                theme: 'light',
+                chartType: 'orders', // Explicitly set chartType
+                stateManager: stateManager,
+                isStatsProvider: true  // This chart provides the stats values
+            });
+
+            cdrChart.initialize().then(() => {
+                console.log('Orders chart initialized');
+
+            // Initialize the purchasers chart after the main chart is ready
+            const purchasersChart = new CDRChart({
+                csvPath: '../data/processed/purchasers_for_viz', // Local path
+                toggleContainerId: 'purchasers-toggle-container', // Updated to specific toggle
+                chartContainerId: 'purchasers-chart-container',
+                canvasId: 'purchasers-chart',
+                statusId: 'status-display',
+                title: 'Unique CDR Purchasers',
+                chartType: 'purchasers', // Explicitly set chartType
+                enableToggle: true, // Now creates its own toggle
+                stateManager: stateManager,
+                isStatsProvider: true 
+            });
+
+            purchasersChart.initialize().then(() => {
+                console.log('Purchasers chart initialized');
+
+            const carbonPricingChart = new CDRChart({
+                csvPath: '../data/processed/carbon_pricing',
+                chartContainerId: 'carbon-pricing-chart-container',
+                canvasId: 'carbon-pricing-chart',
+                statusId: 'status-display',
+                title: 'Unique CDR Purchasers',
+                chartType: 'carbonPricing',
+                enableToggle: false, 
+                stateManager: stateManager,
+                isStatsProvider: true 
+            });
+
+            carbonPricingChart.initialize().then(() => {
+                console.log('Carbon pricing chart initialized');
+            });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

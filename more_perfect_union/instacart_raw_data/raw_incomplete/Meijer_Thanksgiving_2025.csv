@@ -1,0 +1,378 @@
+Year,Page,Brand,Product,Size,Base_Price,Promo_Price,Promo_Type,Promo_Details,Digital_Req,Non_Digital_Price,Member_Req,Savings,Discount_Depth,Net_Price,Core_Item
+2025,1,Cool Whip,Frozen Toppings,8 oz,,2,MULTIBUY,2/$4,NO,,NO,,,2,YES
+2025,1,Private Label,Meijer Frozen Grade A Turkey,per lb,0.49,0.32,DIGITAL_ONLY,mPerks -$0.17/lb Limit 1,YES,0.49,YES,0.17,35%,0.32,YES
+2025,1,Private Label,Meijer Fresh Grade A Turkey,per lb,,1.29,STRAIGHT_PRICE,Limit 1,NO,,NO,,,1.29,YES
+2025,1,Pillsbury,Refrigerated Bake Products,7.2-30 oz,,B3G2,MIX_MATCH,Buy 3 Get 2 Free,NO,,NO,,,varies,YES
+2025,1,Kraft,Stove Top Stuffing,6 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,YES
+2025,1,Private Label,Meijer Spiral Sliced Half Ham,Bone in per lb,,2.49,STRAIGHT_PRICE,,NO,,NO,,,2.49,NO
+2025,1,Private Label,Meijer Portion Ham,Bone in per lb,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,1,Russet Potatoes,Russet Potatoes,5 lb bag,,0.99,STRAIGHT_PRICE,,NO,,NO,,,0.99,YES
+2025,1,Del Monte,Canned Vegetables,14.5-15.25 oz,,1,STRAIGHT_PRICE,,NO,,NO,,,1,NO
+2025,1,Specialty Cheese,Specialty Cheese,Deli Dept only,,BOGO 40%,BOGO_PERCENT,Excludes snacking cheese,NO,,NO,,,varies,NO
+2025,1,Bulk,Honeycrisp Apples,per lb,,1.29,STRAIGHT_PRICE,,NO,,NO,,,1.29,NO
+2025,1,Fresh from Meijer,"10"" Pumpkin Pie",31.7 oz,,8.99,STRAIGHT_PRICE,,NO,,NO,,,8.99,NO
+2025,1,Nabisco,Ritz Crackers,8.8-13.7 oz,,3,MULTIBUY,2/$6 when you buy 2 or more,NO,,NO,,,3,NO
+2025,1,Nabisco,Triscuit or Wheat Thins Crackers,6.5-8.5 oz,,3,MULTIBUY,2/$6 when you buy 2 or more,NO,,NO,,,3,NO
+2025,1,Aunt Millie's,Big & Fluffy Rolls,12 ct/18 oz,,3.29,STRAIGHT_PRICE,,NO,,NO,,,3.29,NO
+2025,1,Coca-Cola Pepsi 7UP or Dr Pepper,Products,24 pk/12 oz cans,,8.99,STRAIGHT_PRICE,Plus deposit where applicable,NO,,NO,,,8.99,NO
+2025,1,Private Label,Meijer Disposable Dishes Napkins or Food Storage Bags,varies,,B2G1,MIX_MATCH,Buy 2 Get 1 Free,NO,,NO,,,varies,NO
+2025,1,Private Label,Meijer Spices Extracts or Seasonings,.12-9 oz,,B2G1,MIX_MATCH,Buy 2 Get 1 Free,NO,,NO,,,varies,NO
+2025,1,Tide,Liquid Detergent,73-84 oz,12.99,7.99,DIGITAL_ONLY,mPerks -$5,YES,12.99,YES,5,38%,7.99,NO
+2025,1,Tide,Pods,32-42 ct,12.99,7.99,DIGITAL_ONLY,mPerks -$5,YES,12.99,YES,5,38%,7.99,NO
+2025,1,Tide,Power Pods,25 ct,12.99,7.99,DIGITAL_ONLY,mPerks -$5 Mfr.,YES,12.99,YES,5,38%,7.99,NO
+2025,2,Bulk,Sweet Potatoes,per lb,,0.59,STRAIGHT_PRICE,,NO,,NO,,,0.59,NO
+2025,2,Large Sweet Golden,Pineapples,each,,BOGO $1,BOGO_DOLLAR,,NO,,NO,,,varies,NO
+2025,2,Sweet Seedless,Mandarins,3 lb bag,,BOGO $1,BOGO_DOLLAR,,NO,,NO,,,varies,NO
+2025,2,Fuyu,Persimmons,2 lb pkg,,BOGO $1,BOGO_DOLLAR,,NO,,NO,,,varies,NO
+2025,2,Dole,Chopped or Premium Salad Kits,7.1-13.25 oz,,BOGO $1,BOGO_DOLLAR,,NO,,NO,,,varies,NO
+2025,2,Yellow Onions,Yellow Onions,3 lb bag,,BOGO $1,BOGO_DOLLAR,,NO,,NO,,,varies,NO
+2025,2,Pascal Celery,Pascal Celery,each,,BOGO $1,BOGO_DOLLAR,,NO,,NO,,,varies,NO
+2025,2,Oscar Mayer,Bacon,12-16 oz,,BOGO FREE,BOGO_FREE,,NO,,NO,,,varies,NO
+2025,2,Frederik's by Meijer Fresh,Spiral Sliced Half Ham,per lb Pre-glazed and honey cured,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,NO
+2025,2,Bob Evans,Breakfast Sausage Roll Links or Patties,12-16 oz,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,NO
+2025,2,Bob Evans,Sides or Single Cups,12-24 oz,,3.89,STRAIGHT_PRICE,,NO,,NO,,,3.89,NO
+2025,2,Honeysuckle,Bone-In Turkey Breast,Frozen Reg. 2.49/lb now,,1.25,PERCENT_OFF,50% off per lb,NO,,NO,1.24,50%,1.25,YES
+2025,2,Butterball,Frozen Grade A Turkey,per lb Limit 2,,0.99,STRAIGHT_PRICE,,NO,,NO,,,0.99,YES
+2025,2,Butterball,Fresh Grade A Turkey,per lb Limit 2,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,YES
+2025,2,Certified Angus Beef,New York Strip Roast,per lb Boneless,,11.99,STRAIGHT_PRICE,,NO,,NO,,,11.99,NO
+2025,2,Certified Angus Beef,Prime Rib Roast,per lb Bone in,,14.99,STRAIGHT_PRICE,,NO,,NO,,,14.99,NO
+2025,2,King's Hawaiian,Rolls,12 ct/12 oz Deli Dept only,,3.99,STRAIGHT_PRICE,,NO,,NO,,,3.99,NO
+2025,2,Fresh from Meijer or Cheesecake Factory,Buns or Rolls,4-12 ct/11.2-22.95 oz,,BOGO 30%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,2,Fresh from Meijer,Unfilled Muffins or Mini Muffins,4-12 ct/11.8-14 oz,,BOGO 50%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,3,French's,Fried Onions,6 oz,,3.69,STRAIGHT_PRICE,,NO,,NO,,,3.69,NO
+2025,3,Pepperidge Farm,Stuffing,12 oz,,3,MULTIBUY,2/$6,NO,,NO,,,3,YES
+2025,3,Pepperidge Farm,Swirl Bread,14-16 oz,,3,MULTIBUY,2/$6 when you buy 2 or more,NO,,NO,,,3,NO
+2025,3,Pepperidge Farm,Farmhouse Buns or Dinner Rolls,6-8 ct/13.5-20 oz,,3,MULTIBUY,2/$6 when you buy 2 or more,NO,,NO,,,3,NO
+2025,3,Dasani,Purified Water,32 pk/16.9 oz bottles,,5.99,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2025,3,Pure Leaf,Brewed Tea,6 pk/16.9 oz bottles,,5.99,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2025,3,Daisy,Sour Cream,14-16 oz,,2.29,STRAIGHT_PRICE,,NO,,NO,,,2.29,NO
+2025,3,Private Label,Meijer Cream Cheese,8 oz brick Original or 1/3 less fat,,1.49,STRAIGHT_PRICE,,NO,,NO,,,1.49,YES
+2025,3,Swanson,Broth or Stock,32 oz,,2,MULTIBUY,2/$4,NO,,NO,,,2,YES
+2025,3,Coca-Cola Pepsi 7UP or Dr Pepper,Products,6 pk/16.9 oz bottles,,3.75,MULTIBUY,4/$15 when you buy 4 or more,NO,,NO,,,3.75,NO
+2025,3,Private Label,Meijer Butter Quarters,16 oz Salted or unsalted,,2.49,STRAIGHT_PRICE,,NO,,NO,,,2.49,NO
+2025,3,Chobani,Greek Yogurt,5.3 oz,,1,MULTIBUY,10/$10,NO,,NO,,,1,NO
+2025,3,General Mills,Chex Cereal,12-14 oz box,,2.49,STRAIGHT_PRICE,,NO,,NO,,,2.49,NO
+2025,3,M&M's,Sharing Size Candy,7.4-10.05 oz,,4.49,STRAIGHT_PRICE,,NO,,NO,,,4.49,NO
+2025,3,DiGiorno,Rising Crust Hand Tossed Wood Fired or Pizzeria Thin Frozen Pizza,14-32.5 oz,,4.5,MULTIBUY,2/$9,NO,,NO,,,4.5,NO
+2025,3,Lay's,Potato Chips or Poppables,5-8 oz,,2,MULTIBUY,3/$6 when you buy 3 or more,NO,,NO,,,2,NO
+2025,3,Nestle,Toll House Morsels,9-12 oz,varies,4,MULTIBUY,2/$8 save $1 more with mPerks,YES,4,YES,1,,4,NO
+2025,4,Charmin,Bath Tissue,6 mega rolls Mfr.,7.97,6.97,DIGITAL_ONLY,mPerks -$1,YES,7.97,YES,1,13%,6.97,NO
+2025,4,Quilted Northern,Bath Tissue,12 mega rolls,12.99,10.99,DIGITAL_ONLY,mPerks -$2,YES,12.99,YES,2,15%,10.99,NO
+2025,4,Bounty,Paper Towels,6 mega or 8 triple rolls Mfr.,22.49,19.49,DIGITAL_ONLY,mPerks -$3,YES,22.49,YES,3,13%,19.49,NO
+2025,4,Opti-Free Clear Care Pataday or Systane,Eye Care Products,varies (Excludes travel and trial size),,BOGO 30%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,4,Crest or Oral-B,Toothpastes Mouthwashes or Flosses,varies (Excludes 3D White Brilliance and Gum Detoxify Toothpaste and travel and trial size Mfr.),,B2G1,MIX_MATCH,Buy 2 Get 1 Free,NO,,NO,,,varies,NO
+2025,4,Nature Made,Vitamins Supplements Probiotics or Kids First,varies,,BOGO FREE,BOGO_FREE,,NO,,NO,,,varies,NO
+2025,4,Aussie,Shampoo or Conditioner or Styling Products,3.2-12.1 oz,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2025,4,Olay,Micro-Sculpting Cream,1.7 oz,,24.99,STRAIGHT_PRICE,,NO,,NO,,,24.99,NO
+2025,4,Dove,Body Washes Liquid Hand Soaps or Bar Soaps,varies (Excludes travel and trial size),,B2G1,MIX_MATCH,Buy 2 Get 1 Free,NO,,NO,,,varies,NO
+2025,4,Purina,Dog Chow Dry Dog Food,44 lbs (Excludes high protein),,25.99,STRAIGHT_PRICE,,NO,,NO,,,25.99,NO
+2025,4,Boundless Acres,Dog and Cat Food and Treats,varies,,20% off,PERCENT_OFF,,NO,,NO,,,varies,NO
+2025,4,Blue,Fresh or Dry Dog Food,$60 purchase,,SPEND_GET,Get $10 off instantly when you buy $60,NO,,NO,10,,varies,NO,
+2025,4,Pampers,Jumbo Diapers,Size preemie-7 16-32 ct Baby Dept only Reg. 9.99 ea,18.98,16.98,DIGITAL_ONLY,mPerks -$2 off 2,YES,18.98,YES,2,11%,16.98,NO
+2025,5,Dietz & Watson,Boneless Spiral Ham,per lb Brown sugar & molasses Fresh,,3.99,STRAIGHT_PRICE,,NO,,NO,,,3.99,NO
+2025,5,Kentucky Legend,Half Ham,per lb Boneless Fresh,,3.99,STRAIGHT_PRICE,,NO,,NO,,,3.99,NO
+2025,5,Fresh from Meijer,Boneless Whole Ham,per lb,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,NO
+2025,5,Certified Angus Beef,Top Round Roast,per lb Boneless,,7.99,STRAIGHT_PRICE,,NO,,NO,,,7.99,NO
+2025,5,Fresh from Meijer,96% Lean Ground Beef,per lb Average weight 1 lb,,7.99,STRAIGHT_PRICE,,NO,,NO,,,7.99,NO
+2025,5,Fresh from Meijer,Whole Pork Shoulder Butt Roast,per lb,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,5,Fresh from Meijer,Pork Country Style Ribs,Bone in per lb,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,NO
+2025,5,Private Label,Meijer Ground Beef 1 lb roll or Meijer Breakfast Sausage Rolls,16 oz Fresh,,BOGO 40%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,5,Eckrich,2 Pc. Sausage Rope Smok-Y Links Sausage Links or Li'l Smokies,8.3-14 oz,3.29,2.29,DIGITAL_ONLY,mPerks -$1,YES,3.29,YES,1,30%,2.29,NO
+2025,5,Wright,Bacon,24 oz,8.99,7.99,DIGITAL_ONLY,mPerks -$1,YES,8.99,YES,1,11%,7.99,NO
+2025,5,Hillshire Farm,Lit'l Smokies,12-14 oz,3.5,3,MULTIBUY,2/$7 sale price then 2/$6 final price mPerks -$1 off 2,YES,3.5,YES,0.5,14%,3,NO
+2025,5,Fresh from Meijer Family Pack,Chicken Breasts,per lb All natural,,2.59,STRAIGHT_PRICE,,NO,,NO,,,2.59,NO
+2025,5,Fresh from Meijer Family Pack,Chicken Wings,per lb All natural,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,NO
+2025,5,Frederik's by Meijer,Raw Shrimp,16 oz,,BOGO 50%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,5,Hilton's,Fresh Oysters,8 oz container,,5.99,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2025,5,Frederik's by Meijer,Snow Crab,2 lbs,,23.99,STRAIGHT_PRICE,,NO,,NO,,,23.99,NO
+2025,6,Fresh,Cranberries,12 oz pkg,,0.99,STRAIGHT_PRICE,,NO,,NO,,,0.99,NO
+2025,6,Turnip Mustard or Collard,Greens,Bunch,,1.19,STRAIGHT_PRICE,,NO,,NO,,,1.19,NO
+2025,6,Pomegranates,Pomegranates,each,,2.5,MULTIBUY,2/$5,NO,,NO,,,2.5,NO
+2025,6,California Red Seedless,Grapes,per lb,,1.88,STRAIGHT_PRICE,,NO,,NO,,,1.88,NO
+2025,6,Brussels Sprouts,Brussels Sprouts,1 lb bag,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,NO
+2025,6,Marzetti,Salad Dressings or Veggie Dips,12 oz or 6 pk/1.5 oz or 13 oz,,3.5,MULTIBUY,2/$7,NO,,NO,,,3.5,NO
+2025,6,Earthbound Farm,Organic Salad,4-7 oz,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,NO
+2025,6,Green Cabbage,Green Cabbage,per lb,,0.79,STRAIGHT_PRICE,,NO,,NO,,,0.79,NO
+2025,6,Bulk Sweet,Onions,per lb,,1.29,STRAIGHT_PRICE,,NO,,NO,,,1.29,NO
+2025,6,Bolthouse Farms,Juice,12-15.2 oz,,BOGO $1,BOGO_DOLLAR,,NO,,NO,,,varies,NO
+2025,6,Sambazon,Organic Juice,12 oz,,BOGO $1,BOGO_DOLLAR,,NO,,NO,,,varies,NO
+2025,6,Multicolor,Peppers,3 ct bag,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,NO
+2025,6,Broccoli,Crown,each,,1.59,STRAIGHT_PRICE,,NO,,NO,,,1.59,NO
+2025,6,Wild Wonders Angel Sweet or Campari,Tomatoes,10-16 oz,,BOGO 50%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,7,Fresh from Meijer or Pretzilla Bagels or Frederik's by Meijer,Croissants,4-10 ct/9.2-20 oz,,BOGO 30%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,7,Fresh from Meijer,Dips Pretzel Thins or Cheese Cubes or Trays,7-16 oz Deli Dept only,,BOGO 50%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,7,Lofthouse,Cookies,9.4-15 oz,,BOGO 50%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,7,12 Ct. Regular Size,Decorated Cupcakes,18-35 oz,,8.99,STRAIGHT_PRICE,,NO,,NO,,,8.99,NO
+2025,7,Fresh from Meijer,Cranberry Walnut Relish,16 oz Deli Dept only,,4.49,STRAIGHT_PRICE,,NO,,NO,,,4.49,NO
+2025,7,Panera,Bread Soup,16 oz Deli Dept only,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2025,7,Fresh from Meijer,"8"" Single Layer Carrot Cake",28 oz,,8.99,STRAIGHT_PRICE,,NO,,NO,,,8.99,NO
+2025,7,Crafted Market by Meijer,Pizza,33-37.1 oz Deli Dept only,,8.49,STRAIGHT_PRICE,,NO,,NO,,,8.49,NO
+2025,7,Dietz & Watson,Ham or Chicken,Deli Dept only per lb,,10.49,STRAIGHT_PRICE,,NO,,NO,,,10.49,NO
+2025,7,Dietz & Watson,Cheese,Deli Dept only per lb,,7.49,STRAIGHT_PRICE,,NO,,NO,,,7.49,NO
+2025,7,Margherita,Pre-Sliced Salami or Pepperoni,14-16 oz Deli Dept only,7.99,5.99,DIGITAL_ONLY,mPerks -$2,YES,7.99,YES,2,25%,5.99,NO
+2025,8,Pillsbury,Cake Mix,15.25 oz,,1.49,STRAIGHT_PRICE,,NO,,NO,,,1.49,YES
+2025,8,Pillsbury,Frosting,12-16 oz,,1.49,STRAIGHT_PRICE,,NO,,NO,,,1.49,NO
+2025,8,Betty Crocker Delights,Cake Mix,13.25-14 oz,,1.79,STRAIGHT_PRICE,,NO,,NO,,,1.79,YES
+2025,8,Betty Crocker,Frosting,12-16 oz,,1.79,STRAIGHT_PRICE,,NO,,NO,,,1.79,NO
+2025,8,Betty Crocker,Favorites Brownie Mix,16.3 oz,,1.79,STRAIGHT_PRICE,,NO,,NO,,,1.79,NO
+2025,8,Libby's,100% Pure Pumpkin,15 oz,2,1.5,MULTIBUY,2/$4 sale price then 2/$3 final price mPerks -$1 off 2,YES,2,YES,0.5,25%,1.5,NO
+2025,8,Keebler,Ready Crust or Mini Crusts,6-9 oz or 6 pk/4 oz,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,NO
+2025,8,Private Label,Meijer Gingerbread or Holiday Baking Kits,12.7-35.2 oz,,BOGO 50%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,8,Wilton,Metal Bakeware,varies Reg. $1-44.99 now 70¢-31.49,,30% off,PERCENT_OFF,,NO,,NO,,,varies,NO
+2025,8,Holiday Entertaining,Products,Home Dept only,,BOGO 50%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,8,Private Label,Meijer Pie Fillings,20-21 oz,,BOGO 50%,MIX_MATCH,Mix or Match,NO,,NO,,,varies,NO
+2025,8,Pillsbury Elf on the Shelf,Cake Mixes Brownie Mixes or Frostings,12-18.4 oz,,BOGO 50%,MIX_MATCH,Mix or Match,NO,,NO,,,varies,NO
+2025,8,Duncan Hines Dolly Parton's,Holiday Cookie Mixes,16 oz,,BOGO 50%,MIX_MATCH,Mix or Match,NO,,NO,,,varies,NO
+2025,8,Ghirardelli,Baking Chips,10-12 oz,,BOGO 50%,MIX_MATCH,Mix or Match,NO,,NO,,,varies,NO
+2025,8,Private Label,Meijer Holiday Sprinkles,2.5-12 oz,,BOGO 50%,MIX_MATCH,Mix or Match,NO,,NO,,,varies,NO
+2025,8,Private Label,Meijer Sanding Sugar,21 oz,,BOGO 50%,MIX_MATCH,Mix or Match,NO,,NO,,,varies,NO
+2025,9,Coffee mate,Refrigerated Creamer,32 oz,,3,MULTIBUY,2/$6,NO,,NO,,,3,NO
+2025,9,Simply Drinks Minute Maid Drinks or Gold Peak,Tea,52 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,9,Simply,Juice,46-52 oz,,3.5,MULTIBUY,2/$7,NO,,NO,,,3.5,NO
+2025,9,Private Label,Meijer Shredded Chunk or Sliced Cheese,6-8 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,9,Planet Oat,Oatmilk,52 oz,,2.49,STRAIGHT_PRICE,,NO,,NO,,,2.49,NO
+2025,9,Vital Farms,Large Pasture Raised Eggs,Dozen,,SAVE $1,DOLLAR_OFF,,NO,,NO,1,,varies,NO
+2025,9,Sargento,Shredded or Chunk Cheese,5-8 oz,,2.5,MULTIBUY,2/$5,NO,,NO,,,2.5,NO
+2025,9,Dean's,Dip,16 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,10,Country Crock,Spread,45 oz,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2025,10,I Can't Believe It's Not Butter or Country Crock Plant or Dairy Free Spread or Brummel & Brown,Spread,14-16 oz or 8 oz spray or 15 oz,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,NO
+2025,10,Kerrygold,Irish Butter,8 oz Salted or unsalted,,4.5,MULTIBUY,2/$9,NO,,NO,,,4.5,NO
+2025,10,Birds Eye,Frozen Vegetables,9.5-14.4 oz,,1.67,MULTIBUY,3/$5,NO,,NO,,,1.67,NO
+2025,10,Ore-Ida,Frozen Potatoes,19-32 oz,,4,MULTIBUY,2/$8,NO,,NO,,,4,NO
+2025,10,Hudsonville,Ice Cream,48 oz,,3.99,STRAIGHT_PRICE,,NO,,NO,,,3.99,NO
+2025,10,Marie Callender's,Frozen Pie,25-42 oz,,5.99,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2025,10,Edwards,Frozen Pie,22.4-36 oz,,5.99,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2025,10,Dolly Parton's,Frozen Pie,21.6-32 oz,,5.99,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2025,10,Breyers,Ice Cream,48 oz,,4,MULTIBUY,2/$8,NO,,NO,,,4,NO
+2025,10,Klondike,Ice Cream Bars,4-6 ct/16-27 oz,,4,MULTIBUY,2/$8,NO,,NO,,,4,NO
+2025,10,Talenti,Gelato Sorbetto or Layers,10.3-16 oz,,4,MULTIBUY,2/$8,NO,,NO,,,4,NO
+2025,11,Birds Eye Voila!,Frozen Skillet Meal,35-42 oz,,6.99,STRAIGHT_PRICE,,NO,,NO,,,6.99,NO
+2025,11,Bertolli,Frozen Skillet Meal,22-25 oz,,6.99,STRAIGHT_PRICE,,NO,,NO,,,6.99,NO
+2025,11,Jack's,Frozen Pizzas,13.8-16.6 oz,,3.67,MULTIBUY,3/$11,NO,,NO,,,3.67,NO
+2025,11,El Monterey,Boxed Taquitos Potstickers Dumplings or Wontons,18-24.15 oz,,6.99,STRAIGHT_PRICE,,NO,,NO,,,6.99,NO
+2025,11,Bibigo,Potstickers Dumplings or Wontons,20-24 oz,,6.99,STRAIGHT_PRICE,,NO,,NO,,,6.99,NO
+2025,11,Lean Cuisine,Frozen Meals,5-11.5 oz,,3,MULTIBUY,4/$12,NO,,NO,,,3,NO
+2025,11,Stouffer's,Frozen Meals,8-12.87 oz,,3,MULTIBUY,4/$12,NO,,NO,,,3,NO
+2025,11,Hillshire Farm,Stuffed Croissants or Ciabatta,2 ct/8-10 oz,,5.49,STRAIGHT_PRICE,,NO,,NO,,,5.49,NO
+2025,11,Eggo,Waffles,24 ct/23.2-29.6 oz,,5.99,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2025,11,Jimmy Dean,Frozen Breakfast,12-17 oz,,5.99,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2025,11,Amy's,Frozen Entree or Bowls,7.3-10.3 oz,,5.49,STRAIGHT_PRICE,,NO,,NO,,,5.49,NO
+2025,11,Innovasian,Entree,16-18 oz,,5.49,STRAIGHT_PRICE,,NO,,NO,,,5.49,NO
+2025,11,Private Label,Meijer Frozen Prepared Chicken,22-25.5 oz,,6.99,STRAIGHT_PRICE,,NO,,NO,,,6.99,NO
+2025,11,Totino's,Frozen Pizza Rolls,50 ct/24.46-24.8 oz,,4.5,MULTIBUY,2/$9,NO,,NO,,,4.5,NO
+2025,12,Campbell's,Condensed Soup (Cream of mushroom or chicken 10.5 oz or chicken noodle or tomato 10.75 oz),,1,STRAIGHT_PRICE,,NO,,NO,,,1,1,
+2025,12,Campbell's,Chunky Soup,18.6-19 oz,2,1.25,MULTIBUY,4/$8 sale price then 4/$5 final price mPerks -$3 off 4,YES,2,YES,0.75,38%,1.25,YES
+2025,12,Pacific,Organic Broth,32 oz,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,YES
+2025,12,Glory Foods,Seasoned Vegetables,27 oz,,2,MULTIBUY,2/$4,NO,,NO,,,2,NO
+2025,12,Heinz,HomeStyle Gravy,12 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,12,Bruce's,Cut Yams,40 oz,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,NO
+2025,12,Dole,Canned Pineapple,20 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,12,Del Monte,Canned Fruit,14.5-15.25 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,12,Ocean Spray,Cranberry Sauce,14 oz,,2.49,STRAIGHT_PRICE,,NO,,NO,,,2.49,YES
+2025,12,Ocean Spray,Craisins,5-6 oz,,2.49,STRAIGHT_PRICE,,NO,,NO,,,2.49,NO
+2025,13,Barilla,Pasta,12-16 oz,,1.33,MULTIBUY,3/$4,NO,,NO,,,1.33,NO
+2025,13,Velveeta,Cheese,32 oz,,6.99,STRAIGHT_PRICE,,NO,,NO,,,6.99,NO
+2025,13,Kraft Deluxe,Macaroni & Cheese or Velveeta Shells & Cheese,9.4-14 oz,2.89,1.89,DIGITAL_ONLY,mPerks -$1,YES,2.89,YES,1,35%,1.89,NO
+2025,13,Hellmann's,Mayonnaise,30 oz or Squeeze Bottle 20 oz,5.99,3.99,DIGITAL_ONLY,mPerks -$2,YES,5.99,YES,2,33%,3.99,NO
+2025,13,Kraft,Miracle Whip,30 oz or Squeeze 19 oz,5.49,4.49,DIGITAL_ONLY,mPerks -$1,YES,5.49,YES,1,18%,4.49,NO
+2025,13,Rice-A-Roni or Pasta Roni,Side Dish,4.3-7.2 oz,,1.25,MULTIBUY,4/$5,NO,,NO,,,1.25,NO
+2025,13,Kraft,Salad Dressing,16 oz,,2,MULTIBUY,2/$4,NO,,NO,,,2,NO
+2025,13,Mateo's,Gourmet Salsa,12-16 oz,,3.99,STRAIGHT_PRICE,,NO,,NO,,,3.99,NO
+2025,13,Jarritos,Fiesta Pack,12 ct/12.5 oz Plus deposit where applicable,,9.99,STRAIGHT_PRICE,,NO,,NO,,,9.99,NO
+2025,14,Private Label,Meijer Complete Pancake & Waffle Mix or Syrup,24-32 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,14,Kellogg's,Rice Krispies Treats or Post Fruity Pebbles or Honey Bunches of Oats,7-12 oz box,,2.49,STRAIGHT_PRICE,,NO,,NO,,,2.49,NO
+2025,14,General Mills,Golden Grahams Cocoa Puffs Cereal or Cheerios,8.9-11.7 oz box,,2.49,STRAIGHT_PRICE,,NO,,NO,,,2.49,NO
+2025,14,Kellogg's,Corn Flakes Crispix or Rice Krispies or Frosted Mini Wheats,18-24 oz box,,3.99,STRAIGHT_PRICE,,NO,,NO,,,3.99,NO
+2025,14,Ghirardelli,Brownie Mixes,16-20 oz,,3.5,MULTIBUY,2/$7,NO,,NO,,,3.5,NO
+2025,14,Frederik's by Meijer,Coffee,12 oz bag or Pods 12 ct (Excludes limited edition),,7.49,STRAIGHT_PRICE,,NO,,NO,,,7.49,NO
+2025,14,Betty Crocker Favorites,Cake Mixes,13.25-14.25 oz,1.5,1,MULTIBUY,2/$3 sale price then 2/$2 final price mPerks -$1 off 2,YES,1.5,YES,0.5,33%,1,YES
+2025,14,Folgers,Ground Coffee,19.2-25.9 oz,,11.99,STRAIGHT_PRICE,,NO,,NO,,,11.99,NO
+2025,15,Private Label,Meijer Bagels,6 ct/20 oz,,2,MULTIBUY,2/$4 when you buy 2 or more,NO,,NO,,,2,NO
+2025,15,Aunt Millie's,Breads,20-24 oz,,2,MULTIBUY,2/$4 when you buy 2 or more,NO,,NO,,,2,NO
+2025,15,Entenmann's,Little Bites or Thomas' Bagels or Brownberry Bread,6 ct/7-9.5 oz or 15.5-24 oz,,3,MULTIBUY,2/$6 when you buy 2 or more,NO,,NO,,,3,NO
+2025,15,Planters,Peanuts,12-16 oz,,3,MULTIBUY,2/$6 when you buy 2 or more,NO,,NO,,,3,NO
+2025,15,Werther's or Riesen,Large Bag Candy,28-34 oz,,9.99,STRAIGHT_PRICE,,NO,,NO,,,9.99,NO
+2025,15,Lindt Lindor,Bags or Bars,3.5-15.2 oz,,BOGO 50%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,15,Tony's Chocolonely,Candy Bars,6-6.35 oz,,4,MULTIBUY,2/$8 when you buy 2 or more,NO,,NO,,,4,NO
+2025,15,Holiday Filled,Candy Canes,1.6-3 oz,,20% off,PERCENT_OFF,,NO,,NO,,,varies,NO
+2025,15,Haribo,Peg Bagged Candy,6.3-8 oz,,2.29,STRAIGHT_PRICE,,NO,,NO,,,2.29,NO
+2025,15,Party Size,Bagged Holiday Candy,14-38 oz,,20% off,PERCENT_OFF,,NO,,NO,,,varies,NO
+2025,16,Town House or Club,Crackers,9-13.8 oz,,BOGO FREE,BOGO_FREE,,NO,,NO,,,varies,NO
+2025,16,Simple Mills,Cookies or Crackers,4-5.5 oz,,4.49,STRAIGHT_PRICE,,NO,,NO,,,4.49,NO
+2025,16,Oreo,Cookies,7-14.03 oz,,3.5,MULTIBUY,2/$7 when you buy 2 or more,NO,,NO,,,3.5,NO
+2025,16,Drizzilicious,Mini Rice Cakes,4 oz,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,NO
+2025,16,True Goodness,Gluten Free Rice Crackers,3.5 oz,,2.5,MULTIBUY,2/$5 when you buy 2 or more,NO,,NO,,,2.5,NO
+2025,16,Doritos Tostitos or Fritos or SunChips or Tostitos Dips or Salsas or Lay's Dips,Chips,6-15.5 oz,,B2G1,MIX_MATCH,Buy 2 Get 1 Free,NO,,NO,,,varies,NO
+2025,16,Cheez-It Town House Club or Toasteds,Family Size Crackers,12-21 oz,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2025,16,Pepperidge Farm,Goldfish,4.8-8 oz,,2,MULTIBUY,2/$4 when you buy 2 or more,NO,,NO,,,2,NO
+2025,16,Chex Mix or Bugles,Snacks,7-8 oz,,BOGO FREE,BOGO_FREE,,NO,,NO,,,varies,NO
+2025,16,Pringles,Chips,4.9-5.57 oz,,2,MULTIBUY,3/$6 when you buy 3 or more,NO,,NO,,,2,NO
+2025,17,7UP,Products,12 pk/12 oz cans Plus deposit where applicable,,B2G2,MIX_MATCH,Buy 2 Get 2 Free,NO,,NO,,,varies,NO
+2025,17,Glaceau Smartwater or Core Hydration,Water,6 pk/16.9 oz bottles,,5.99,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2025,17,Coca-Cola Pepsi or Dr Pepper,Products,2 liter Plus deposit where applicable,,2.5,MULTIBUY,2/$5 when you buy 2 or more,NO,,NO,,,2.5,NO
+2025,17,La Croix,Sparkling Water,12 pk/12 oz cans Plus deposit where applicable,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2025,17,Welch's,Sparkling Juice,25.4 oz Plus deposit where applicable,,3.5,MULTIBUY,2/$7 when you buy 2 or more,NO,,NO,,,3.5,NO
+2025,17,Starbucks,Frappuccino Nitro or Double Shot Coffee or Pink Drinks,9.6-15 oz,,3,MULTIBUY,2/$6 when you buy 2 or more,NO,,NO,,,3,NO
+2025,17,Red Bull,Energy Drinks,12 oz can Plus deposit where applicable,,2.67,MULTIBUY,3/$8 when you buy 3 or more,NO,,NO,,,2.67,NO
+2025,18,Private Label,Meijer Ingredient Beans or Black Eyed Peas,15-16 oz,,0.89,STRAIGHT_PRICE,,NO,,NO,,,0.89,NO
+2025,18,Idahoan,Mashed Potatoes or Casseroles,4-4.1 oz,1.25,1,MULTIBUY,4/$5 sale price then 4/$4 final price mPerks -$1 off 4,YES,1.25,YES,0.25,20%,1,NO
+2025,18,Frederik's by Meijer,Olives,8-10 oz,,BOGO 50%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,18,Pepperidge Farm,Cookies,5-8.6 oz,,3.5,MULTIBUY,2/$7 when you buy 2 or more,NO,,NO,,,3.5,NO
+2025,18,Chobani,Coffee Creamers,24 oz,,4.5,MULTIBUY,2/$9,NO,,NO,,,4.5,NO
+2025,18,Snack Size Holiday Bagged Chocolate Candy,Chocolate Candy,7.44-11 oz,,20% off,PERCENT_OFF,,NO,,NO,,,varies,NO
+2025,18,Sweet Loren's,Cookie Dough,9.6-12 oz Refrigerated,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2025,18,Nestle,Refrigerated Cookie Dough,14-16.5 oz,,3.5,MULTIBUY,2/$7,NO,,NO,,,3.5,NO
+2025,18,Lindt or Ghirardelli,Large Holiday Bag,5.7-9 oz,,8.49,STRAIGHT_PRICE,,NO,,NO,,,8.49,NO
+2025,19,Private Label,Meijer Canned Vegetables,14.5-15.25 oz,,0.49,STRAIGHT_PRICE,,NO,,NO,,,0.49,NO
+2025,19,Private Label,Meijer Broth,14.5 oz,,0.69,STRAIGHT_PRICE,,NO,,NO,,,0.69,YES
+2025,19,Private Label,Meijer Stuffing Mix,6 oz,,0.99,STRAIGHT_PRICE,,NO,,NO,,,0.99,YES
+2025,19,Private Label,Meijer Onion or Beefy Onion Recipe Soup & Dip Mix,2-2.2 oz,,0.99,STRAIGHT_PRICE,,NO,,NO,,,0.99,NO
+2025,19,Private Label,Meijer Cocktail Sauce or Chili Sauce,12 oz,,1.29,STRAIGHT_PRICE,,NO,,NO,,,1.29,NO
+2025,19,Private Label,Meijer Canned Cranberry Sauce,14 oz,,1.09,STRAIGHT_PRICE,,NO,,NO,,,1.09,YES
+2025,19,Private Label,Meijer Instant Potatoes,13.75 oz,,1.79,STRAIGHT_PRICE,,NO,,NO,,,1.79,NO
+2025,19,Private Label,Meijer Dip Mix Packets or Ranch Dressing Mix,.7-1.76 oz or 4 pk/4 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,19,Private Label,Meijer Sweet Corn Green Peas Mixed Vegetables or Green Beans,32 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,19,Private Label,Meijer Frozen Garlic Bread Toast or Sticks,10.5-16 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,19,Private Label,Meijer Gravy,18 oz jar,,2.19,STRAIGHT_PRICE,,NO,,NO,,,2.19,NO
+2025,19,Private Label,Meijer French Fried Onions,6 oz,,1.79,STRAIGHT_PRICE,,NO,,NO,,,1.79,NO
+2025,19,Private Label,Meijer Frozen Hash Browns,30-32 oz,,3.49,STRAIGHT_PRICE,,NO,,NO,,,3.49,NO
+2025,19,Private Label,Meijer Spreadable Butter,13-15 oz,,3.79,STRAIGHT_PRICE,,NO,,NO,,,3.79,NO
+2025,19,Private Label,Meijer Bacon,12 oz,,3.89,STRAIGHT_PRICE,,NO,,NO,,,3.89,NO
+2025,19,Fresh from Meijer,Cranberry Walnut Relish,32 oz Deli Dept only,,7.99,STRAIGHT_PRICE,,NO,,NO,,,7.99,NO
+2025,20,Private Label,Meijer Gelatin or Sugar Free Gelatin Mix,.44-3 oz,,0.49,STRAIGHT_PRICE,,NO,,NO,,,0.49,NO
+2025,20,Private Label,Meijer Instant Pudding,1.34-3.9 oz,,0.79,STRAIGHT_PRICE,,NO,,NO,,,0.79,NO
+2025,20,Private Label,Meijer Marshmallows,10-10.5 oz,,1.09,STRAIGHT_PRICE,,NO,,NO,,,1.09,NO
+2025,20,Private Label,Meijer 100% Pure Pumpkin,15 oz,,1.09,STRAIGHT_PRICE,,NO,,NO,,,1.09,NO
+2025,20,Private Label,Meijer Twin Pack Cream Cheese,16 oz,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,YES
+2025,20,Private Label,Meijer Crescent Rolls or Cinnamon Rolls or Biscuits,8-16 oz,,1.49,STRAIGHT_PRICE,,NO,,NO,,,1.49,YES
+2025,20,Private Label,Meijer Pie Crusts or Whipping Cream,15 oz or 8 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,20,Private Label,Meijer Whipped Topping,16 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,YES
+2025,20,Private Label,Meijer Cooking Spray,8 oz,,2.49,STRAIGHT_PRICE,,NO,,NO,,,2.49,NO
+2025,20,Private Label,Meijer Light Brown or Powdered Confectioners Sugar,2 lbs,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,20,Private Label,Meijer Granulated Sugar,4 lbs,,2.89,STRAIGHT_PRICE,,NO,,NO,,,2.89,NO
+2025,20,Private Label,Meijer All Purpose Bleached Flour,5 lbs,,2.19,STRAIGHT_PRICE,,NO,,NO,,,2.19,NO
+2025,20,Private Label,Meijer Cracker Cuts,7 oz,,2.49,STRAIGHT_PRICE,,NO,,NO,,,2.49,NO
+2025,20,Fresh from Meijer,Italian Classic Bread,10 oz Bakery Dept only,,1,STRAIGHT_PRICE,,NO,,NO,,,1,NO
+2025,20,Private Label,Meijer Holiday Candy Canes,12 ct/5.29 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,20,Private Label,Meijer Hot Cocoa Mix,20 oz,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2025,21,Private Label,Meijer Halfmoon Shrimp Ring,10 oz,,5.99,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2025,21,Private Label,Meijer Dinner Rolls,14 oz,,1.99,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2025,21,Fresh from Meijer,Stuffing Starter Butternut Squash and Sweet Potato Chunks,14-16 oz,,SAVE $1,DOLLAR_OFF,,NO,,NO,1,,varies,NO
+2025,21,Private Label,Meijer Meatballs,20-32 oz Frozen,,5.99,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2025,21,Fresh from Meijer,Vegetable Trays or Fruit Trays,22-72 oz,,BOGO 50%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,21,Private Label,Meijer Juice,64 oz,,2.79,STRAIGHT_PRICE,,NO,,NO,,,2.79,NO
+2025,21,Frederik's by Meijer,Artesian or Sparkling Water,6 pk/16.9 oz bottles Plus deposit where applicable,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2025,22,Frederik's by Meijer,Bruschetta,6.7 oz,,2.99,STRAIGHT_PRICE,,NO,,NO,,,2.99,NO
+2025,22,Frederik's by Meijer,Finishing Butter,3.3-3.7 oz,,2.5,MULTIBUY ,2/$5,NO,,NO,,,2.5,NO
+2025,23,Private Label,Potato Chips,7.75,,2,MULTIBUY,2/$4,NO,,NO,,,2,NO
+2025,23,Private Label,Peanut Butter,40oz,,3.49,STRAIGHT_PRICE,,NO,,NO,,,3.49,NO
+2025,26,Bud Light Coors Light or Miller Lite,Beer,24 pk/12 oz cans Limit one Offer valid for in-store purchase only,18.99,13.99,INSTANT_REBATE,$5 mfr's rebate,NO,,NO,5,26%,13.99,NO
+2025,26,Craft Beer,Packs or Single Cans or Bottles,varies,,BOGO 40%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,26,Stella Artois Heineken or Peroni Nastro Azzuro,Beer,12 pk/11.2-12 oz bottles Limit one Offer valid for in-store purchase only,16.99,11.99,INSTANT_REBATE,$5 mfr's rebate,NO,,NO,5,29%,11.99,NO
+2025,26,Michelob Ultra,Beer,24 pk/12 oz cans Limit one Offer valid for in-store purchase only,21.99,15.99,INSTANT_REBATE,$6 mfr's rebate,NO,,NO,6,27%,15.99,NO
+2025,26,Busch Light or Miller High Life,Beer,30 pk/12 oz cans Limit one Offer valid for in-store purchase only,19.99,14.99,INSTANT_REBATE,$5 mfr's rebate,NO,,NO,5,25%,14.99,NO
+2025,26,Cutwater,Cocktails,4 pk/12 oz cans Limit one Offer valid for in-store purchase only,12.99,8.99,INSTANT_REBATE,$4 mfr's rebate,NO,,NO,4,31%,8.99,NO
+2025,26,Corona Extra,Beer,12 pk/12 oz bottles or 12 pk/12 oz cans,,16.99,STRAIGHT_PRICE,,NO,,NO,,,16.99,NO
+2025,26,Corona,Non-Alcohol,12 pk/12 oz bottles,,16.99,STRAIGHT_PRICE,,NO,,NO,,,16.99,NO
+2025,30,Charmin,Bath Tissue,12 mega XL or 9 mega XXL rolls,,17.99,STRAIGHT_PRICE,,NO,,NO,,,17.99,NO
+2025,30,Cottonelle,Bath Tissue,12 mega rolls or Flushable Wipes 8 pk/42 ct or Scott ComfortPlus Bath Tissue 18 mega rolls,12.99,11.99,DIGITAL_ONLY,mPerks -$1,YES,12.99,YES,1,8%,11.99,NO
+2025,30,Angel Soft,Bath Tissue,8 mega rolls,,6.49,STRAIGHT_PRICE,,NO,,NO,,,6.49,NO
+2025,30,Brawny,Paper Towels,6 double rolls,10.49,8.49,DIGITAL_ONLY,mPerks -$2,YES,10.49,YES,2,19%,8.49,NO
+2025,30,Viva,Paper Towels,6 double rolls,10.99,9.99,DIGITAL_ONLY,mPerks -$1,YES,10.99,YES,1,9%,9.99,NO
+2025,30,Puffs,Family Pack Facial Tissue,6 pk Mfr.,9.94,8.44,DIGITAL_ONLY,mPerks -$1.50,YES,9.94,YES,1.5,15%,8.44,NO
+2025,30,Dixie,"10"" Plates or 8.5"" Heavy Duty Plates",64-154 ct,8.99,6.99,DIGITAL_ONLY,mPerks -$2,YES,8.99,YES,2,22%,6.99,NO
+2025,30,Chinet,Plates Bowls Cups or Cutlery,18-96 ct,,6.49,STRAIGHT_PRICE,,NO,,NO,,,6.49,NO
+2025,30,Reynolds Wrap,Aluminum Foil or Hefty Slider Bags,12-75 sq ft or 12-40 ct,,4.5,MULTIBUY,2/$9 when you buy 2 or more,NO,,NO,,,4.5,NO
+2025,30,Reynolds,Turkey Size Oven Bags Slow Cooker or Air Fryer Liners Parchment Popup Sheets Parchment Paper or Plastic Wrap,2-225 ct or 30-50 ct or 45 sq ft,,BOGO 40%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,30,Ziploc,Bags,14-108 ct Sandwich snack freezer or storage,,BOGO 40%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,31,Clorox,Wipes or Toilet Bowl Cleaners or Glad Kitchen Waste Bags,24-75 ct or 34-40 ct/13 gallon,,BOGO 30%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,31,Swiffer,Sweeper Heavy Duty Dry Refills Wet Refills PowerMop Solution or Duster Refills,2-32 ct or 50.6 oz or 6-10 ct Mfr.,9.99,7.99,DIGITAL_ONLY,mPerks -$2,YES,9.99,YES,2,20%,7.99,NO
+2025,31,Mr. Clean,Liquid Cleaner or Magic Eraser,41 oz or 3 ct Mfr.,5.99,4.99,DIGITAL_ONLY,mPerks -$1,YES,5.99,YES,1,17%,4.99,NO
+2025,31,Glade,Automatic Spray Refill,1 ct/6.2 oz (Excludes Fresh Collection),6.99,5.49,DIGITAL_ONLY,mPerks -$1.50,YES,6.99,YES,1.5,21%,5.49,NO
+2025,31,Febreze,Plug Scent Booster Starter Kit,Mfr.,12.99,7.99,DIGITAL_ONLY,mPerks -$5,YES,12.99,YES,5,38%,7.99,NO
+2025,31,Windex Drano or Scrubbing Bubbles,Foam Sprays,20-80 oz (Excludes Easy Clean),,BOGO 30%,BOGO_PERCENT,,NO,,NO,,,varies,NO
+2025,31,Gain,Liquid Detergent or Flings,32-144 oz or 60 ct Mfr.,15.99,12.99,DIGITAL_ONLY,mPerks -$3,YES,15.99,YES,3,19%,12.99,NO
+2025,31,Lysol,Disinfecting Wipes or Laundry Sanitizer,3/80 ct or 90 oz,,12.79,STRAIGHT_PRICE,,NO,,NO,,,12.79,NO
+2025,31,all,Free & Clear Liquid Laundry Detergent or Mighty Packs,80-154 ct,19.99,17.99,DIGITAL_ONLY,mPerks -$2,YES,19.99,YES,2,10%,17.99,NO
+2025,31,Dawn,Ultra Liquid Dish Soap,30.8 oz,4.49,3.99,DIGITAL_ONLY,mPerks -50¢,YES,4.49,YES,0.5,11%,3.99,NO
+2025,31,Finish,Dishwasher Pods Ultimate or Quantum or Power or Jet Dry Rinse,32-62 ct or 38-48 ct or 62 ct or 32 oz,14.49,11.49,DIGITAL_ONLY,mPerks -$3,YES,14.49,YES,3,21%,11.49,NO
+2025,33,Meijer Wellness,Vitamins or Supplements,,,,BOGO_FREE,Buy one get one free of equal or lesser value,NO,,NO,,,varies,NO
+2025,33,Atkins,Products,,,,BOGO_PERCENT,Buy one get one 30% off of equal or lesser value,NO,,NO,30%,,varies,NO
+2025,33,Meijer,Smoking Cessation Patches Gums or Lozenges,,,,BOGO_PERCENT,Buy one get one 40% off of equal or lesser value,NO,,NO,40%,,varies,NO
+2025,33,Sensodyne and Pronamel,Clinical Toothpastes,3.4 oz,,,DOLLAR_OFF,$1 off,NO,,NO,$1.00 ,,varies,NO
+2025,33,Spinbrush,Battery Toothbrushes and Replacement Brush Heads,,,,BOGO_FREE,Buy one get one free of equal or lesser value,NO,,NO,,,varies,NO
+2025,33,ACT,Mouthwashes Toothpastes or Lozenges,,,,BOGO_PERCENT,Buy one get one 40% off of equal or lesser value,NO,,NO,40%,,varies,NO
+2025,33,Meijer,Adult Allergy Relief Products,,,,BOGO_PERCENT,Buy one get one 40% off of equal or lesser value,NO,,NO,40%,,varies,NO
+2025,33,Meijer,Cough Drops,150-200 ct,,,MULTIBUY,2/$12 when you buy 2 or more,NO,,NO,,,6,NO
+2025,33,Advil or Excedrin,Adult Pain Relief Products,,,,BOGO_PERCENT,Buy one get one 30% off of equal or lesser value,NO,,NO,30%,,varies,NO
+2025,34,Native,Deodorants,,,,BOGO_PERCENT,Buy one get one 25% off of equal or lesser value,NO,,NO,25%,,varies,NO
+2025,34,Dove,Deodorants,1.7-5.2 oz,,,MULTIBUY,Buy 2 get 1 free of equal or lesser value,NO,,NO,,,varies,NO
+2025,34,Travel or Trial Size,Products,,,,MULTIBUY,Buy 4 get 1 free of equal or lesser value,NO,,NO,,,varies,NO
+2025,34,Harrys Plus,Razor with 2 Cartridge Refills,,,12.99,STRAIGHT_PRICE,,NO,,NO,,,12.99,NO
+2025,34,Meijer,Disposable Razors,4-20 ct,,,BOGO_PERCENT,Buy one get one 25% off of equal or lesser value,NO,,NO,25%,,varies,NO
+2025,34,Cremo,Shaving Products,,,,BOGO_PERCENT,Buy one get one 30% off of equal or lesser value,NO,,NO,30%,,varies,NO
+2025,34,Secret,Deodorants,2.4-4.1 oz,16,11,DIGITAL_ONLY,2/$16 sale price -$5 off 2 with mPerks = 2/$11,YES,16,NO,$5.00 off 2,,5.5,NO
+2025,34,Meijer,ClearLax Powder,17.9 oz,,11.99,STRAIGHT_PRICE,,NO,,NO,,,11.99,NO
+2025,34,Meijer,Protein Ultra Filtered Milkshakes,12 pk/11 oz,,22.99,STRAIGHT_PRICE,,NO,,NO,,,22.99,NO
+2025,34,Tums Gas-X or Benefiber,Products,,,,BOGO_PERCENT,Buy one get one 30% off of equal or lesser value,NO,,NO,30%,,varies,NO
+2025,34,Ryse,Products,,,,DOLLAR_OFF,$2 off,NO,,NO,$2.00 ,,varies,NO
+2025,35,got2B or Schwarzkopf,Hair Styling or Color Products,,,,INSTANT_REBATE,Get $1 off instantly when you buy two,NO,,NO,$1.00 off 2,,varies,NO
+2025,35,Suave,Hair Care Products,,,2.99+,MULTIBUY,Buy 2 get 1 free of equal or lesser value,NO,,NO,,,varies,NO
+2025,35,RoC,Retinol Correxion Line Smoothing Eye Cream,.5 oz,,21.99,STRAIGHT_PRICE,,NO,,NO,,,21.99,NO
+2025,35,Neutrogena,Facial Skin Care Wipes,25 ct,5.99,4.82,STRAIGHT_PRICE,,NO,,NO,,,4.82,NO
+2025,35,Avene,Skin Care Products,,,,PERCENT_OFF,20% off,NO,,NO,20%,,varies,NO
+2025,35,Hero,Skin Care Products,,,,INSTANT_REBATE,Get $2 off instantly when you buy two,NO,,NO,$2.00 off 2,,varies,NO
+2025,35,Always or Tampax,Pads or Tampons,,11.99,11.44,STRAIGHT_PRICE,,NO,,NO,,,11.44,NO
+2025,35,This is L,Products,,11.49,10.69,STRAIGHT_PRICE,,NO,,NO,,,10.69,NO
+2025,35,Old Spice,Body Wash,30-33.4 oz,,9.99,STRAIGHT_PRICE,,NO,,NO,,,9.99,NO
+2025,35,Softsoap,Liquid Hand Soap,11.25 oz,,,MULTIBUY,2/$5 when you buy 2 or more,NO,,NO,,,2.5,NO
+2025,36,Gold Bond,Hand or Body Lotions,,,,BOGO_PERCENT,Buy one get one 40% off of equal or lesser value,NO,,NO,40%,,varies,NO
+2025,36,LOreal Paris,Skin Care Products,,,,BOGO_PERCENT,Buy one get one 40% off of equal or lesser value,NO,,NO,40%,,varies,NO
+2025,36,CeraVe,Skin Care Products,,,,BOGO_PERCENT,Buy one get one 40% off of equal or lesser value,NO,,NO,40%,,varies,NO
+2025,36,LOreal,Hair Care or Color Products,,,,BOGO_PERCENT,Buy one get one 40% off of equal or lesser value,NO,,NO,40%,,varies,NO
+2025,36,LOreal,Cosmetics,,,,BOGO_PERCENT,Buy one get one 40% off of equal or lesser value,NO,,NO,40%,,varies,NO
+2025,36,Garnier,Facial Skin Care Products,,,,BOGO_PERCENT,Buy one get one 40% off of equal or lesser value,NO,,NO,40%,,varies,NO
+2025,37,Mens or Womens,Fragrances or Body Sprays,,,,BOGO_PERCENT,Buy one get one 50% off of equal or lesser value,NO,,NO,50%,,varies,NO
+2025,37,Meijer,Holiday Hand Soaps,10-16.9 oz,,,BOGO_PERCENT,Buy one get one 30% off of equal or lesser value,NO,,NO,30%,,varies,NO
+2025,37,Vitamasques or ESW,Facial Skin Care Products,,,,BOGO_PERCENT,Buy one get one 50% off of equal or lesser value,NO,,NO,50%,,varies,NO
+2025,37,Burts Bees,Skin Care Products,,,,BOGO_PERCENT,Buy one get one 50% off of equal or lesser value,NO,,NO,50%,,varies,NO
+2025,37,HoMedics,Massagers and Spas,,9.99-104.99,7.99-83.99,PERCENT_OFF,20% off,NO,,NO,20%,,varies,NO
+2025,37,Sally Hansen,Nail Color,,,,BOGO_PERCENT,Buy one get one 40% off of equal or lesser value,NO,,NO,40%,,varies,NO
+2025,38,Serenity Kids Once Upon a Farm or Cerebelly,Single Food Pouches,,,1.95-4.49,MULTIBUY,Buy 12 get 3 free of equal or lesser value,NO,,NO,,,varies,NO
+2025,38,Amara Baby,Organic Snacks,,,5.99,MULTIBUY,2/$10 when you buy 2 or more,NO,,NO,,,5,NO
+2025,38,Similac or Enfamil,Powdered Formula Tubs or Cans,12.1-13.6 oz,21.99-43.99,,SPEND_GET,Save $20 on your next in-store purchase when you buy five,NO,,NO,$20.00 on next purchase,,varies,NO
+2025,38,Diapers or Training Pants,,,6.99-49.99,,SPEND_GET,Save $20 on your next in-store purchase when you buy $75 or more,NO,,NO,$20.00 on next purchase,,varies,NO
+2025,38,Lactation Pre and Post Natal Skin and Breast Care,Products,,2.49-59.99,1.99-47.99,PERCENT_OFF,20% off,NO,,NO,20%,,varies,NO
+2025,38,Ingenuity Bright Starts and Baby Einstein,Products,,3.69-169.99,2.95-135.99,PERCENT_OFF,20% off,NO,,NO,20%,,varies,NO
+2025,39,Pacifiers or Bibs,,,4.39-21.99,,BOGO_PERCENT,Buy one get one 40% off of equal or lesser value,NO,,NO,40%,,varies,NO
+2025,39,Electrolytes,,,4.39-22.99,,BOGO_PERCENT,Buy one get one 40% off of equal or lesser value,NO,,NO,40%,,varies,NO
+2025,39,Baby Bath Toys,,,2.99-19.99,,BOGO_PERCENT,Buy one get one 40% off of equal or lesser value,NO,,NO,40%,,varies,NO
+2025,39,Grinch Peanuts or Rudolph,Plush Toys,,7.99-11.99,,BOGO_PERCENT,Buy one get one 40% off of equal or lesser value,NO,,NO,40%,,varies,NO
+2025,39,Johnsons or Baby Magic,Health or Wellness Products,,2.49-14.99,,BOGO_PERCENT,Buy one get one 30% off of equal or lesser value,NO,,NO,30%,,varies,NO
+2025,40,Bounty Essentials,Paper Towels,6 triple rolls,10.49,9.49,DIGITAL_ONLY,Sale price $10.49 -$1 mPerks = $9.49,YES,10.49,NO,$1.00 ,,9.49,NO
+2025,40,Swiffer,PowerMop Starter Kit,,30.39,22.39,DIGITAL_ONLY,Sale price $30.39 -$8 mPerks = $22.39,YES,30.39,NO,$8.00 ,,22.39,NO
+2025,40,Downy,Liquid Fabric Softener,93-140 oz,12.99,9.99,DIGITAL_ONLY,Sale price $12.99 -$3 mPerks = $9.99,YES,12.99,NO,$3.00 ,,9.99,NO
+2025,40,Gain,Liquid Fabric Softener,140 oz,12.99,9.99,DIGITAL_ONLY,Sale price $12.99 -$3 mPerks = $9.99,YES,12.99,NO,$3.00 ,,9.99,NO
+2025,40,Gain or Downy,Beads,16-18.2 oz,12.99,9.99,DIGITAL_ONLY,Sale price $12.99 -$3 mPerks = $9.99,YES,12.99,NO,$3.00 ,,9.99,NO
+2025,40,Bounce,Sheets,330 ct,12.99,9.99,DIGITAL_ONLY,Sale price $12.99 -$3 mPerks = $9.99,YES,12.99,NO,$3.00 ,,9.99,NO
+2025,40,Mega Sheets,Bounce,180 ct,12.99,9.99,DIGITAL_ONLY,Sale price $12.99 -$3 mPerks = $9.99,YES,12.99,NO,$3.00 ,,9.99,NO
+2025,40,Tide,Detergent Pods,112 ct,27.29,23.29,DIGITAL_ONLY,Sale price $27.29 -$4 mPerks = $23.29,YES,27.29,NO,$4.00 ,,23.29,NO
+2025,40,Tide,Power Pods,63 ct,27.29,23.29,DIGITAL_ONLY,Sale price $27.29 -$4 mPerks = $23.29,YES,27.29,NO,$4.00 ,,23.29,NO
+2025,40,Pantene,Shampoos or Conditioners,16-17.9 oz,13.99,10.99,DIGITAL_ONLY,2/$13.99 sale price -$3 off 2 mPerks = 2/$10.99,YES,13.99,NO,$3.00 off 2,,5.5,NO
+2025,40,Pantene,Styling Products,5.7-8.5 oz,13.99,10.99,DIGITAL_ONLY,2/$13.99 sale price -$3 off 2 mPerks = 2/$10.99,YES,13.99,NO,$3.00 off 2,,5.5,NO
+2025,40,Head and Shoulders,Hair Care Products,10.6-12.5 oz,13.99,10.99,DIGITAL_ONLY,2/$13.99 sale price -$3 off 2 mPerks = 2/$10.99,YES,13.99,NO,$3.00 off 2,,5.5,NO
+2025,40,Herbal Essences,Pure Plants Blend Shampoo or Conditioner,13.5 oz,9.99,6.99,DIGITAL_ONLY,Sale price $9.99 -$3 mPerks = $6.99,YES,9.99,NO,$3.00 ,,6.99,NO
+2025,41,Metamucil,Fiber Gummies,72 ct,,15.49,STRAIGHT_PRICE,Save more with mPerks,NO,,NO,,,15.49,NO
+2025,41,Always,Ultra Thin Pads Maxi Pads or Liners,,17.99,14.99,DIGITAL_ONLY,2/$17.99 sale price -$3 off 2 mPerks = 2/$14.99,YES,17.99,NO,$3.00 off 2,,7.5,NO
+2025,41,Always,Discreet Pads,,14.99,13.99,DIGITAL_ONLY,Sale price $14.99 -$1 mPerks = $13.99,YES,14.99,NO,$1.00 ,,13.99,NO
+2025,41,Venus,Razor Refill Cartridges,4-6 ct,19.99,14.99,DIGITAL_ONLY,Sale price $19.99 -$5 mPerks = $14.99,YES,19.99,NO,$5.00 ,,14.99,NO
+2025,41,Venus,Deluxe Smooth Razor or Refills,2-4 ct,14.99,11.99,DIGITAL_ONLY,Sale price $14.99 -$3 mPerks = $11.99,YES,14.99,NO,$3.00 ,,11.99,NO
+2025,41,Venus,Deluxe Smooth Refill Cartridges,6 ct,27.99,20.99,DIGITAL_ONLY,Sale price $27.99 -$7 mPerks = $20.99,YES,27.99,NO,$7.00 ,,20.99,NO
+2025,41,Olay,Premium Body Wash,20 oz,11.49,10.99,STRAIGHT_PRICE,,NO,,NO,,,10.99,NO
+2025,41,Old Spice,Deodorant,3-5.1 oz,,7.99,STRAIGHT_PRICE,,NO,,NO,,,7.99,NO
+2025,41,Crest,3D White Brilliance or Gum Detoxify Toothpaste,,8.99,4.99,DIGITAL_ONLY,Sale price $8.99 -$4 mPerks = $4.99,YES,8.99,NO,$4.00 ,,4.99,NO
+2025,41,Oral-B,i03 Electric Toothbrushes,,,69.99,STRAIGHT_PRICE,,NO,,NO,,,69.99,NO
+2025,41,Oral-B,i04 Electric Toothbrushes,,,79.99,STRAIGHT_PRICE,,NO,,NO,,,79.99,NO
+2025,41,Oral-B,i05 Electric Toothbrushes,,,99.99,STRAIGHT_PRICE,,NO,,NO,,,99.99,NO
+2025,41,Oral-B,Kids Licensed Battery Toothbrush,1 ct,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2025,41,Crest,3DWhitestrips Age Renew Whitening Kit,21 treatments,,44.99,STRAIGHT_PRICE,,NO,,NO,,,44.99,NO

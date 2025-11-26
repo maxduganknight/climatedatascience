@@ -1,0 +1,15 @@
+numpy
+pandas
+certifi==2025.1.31
+charset-normalizer==3.4.1
+idna==3.10
+requests==2.32.3
+urllib3==2.3.0
+boto3
+beautifulsoup4>=4.9.0
+openpyxl
+fuzzywuzzy
+python-Levenshtein
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib

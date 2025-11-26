@@ -1,0 +1,87 @@
+Year,Page,Brand,Product,Size,Base_Price,Promo_Price,Promo_Type,Promo_Details,Digital_Req,Non_Digital_Price,Member_Req,Savings,Discount_Depth,Net_Price,Core_Item
+2025,1,Sprouts,Organic Whole Turkey (Fresh),per lb,,3.99,STRAIGHT_PRICE,Limit 2 per customer while supplies last,NO,,NO,,,3.99,YES
+2025,1,Sprouts,Organic Whole Turkey (Frozen),per lb,,3.49,STRAIGHT_PRICE,Limit 2 per customer while supplies last,NO,,NO,,,3.49,YES
+2025,1,Organic,Brussels Sprouts or Green Beans,1 lb bag,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,1,Frieda's,Organic Stokes Purple Sweet Potatoes,3 lb bag,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,1,Organic,Pomegranates,each,,3.00,MULTIBUY,2 for $6,NO,,NO,,,3.00,NO
+2025,1,Cuties,California Grown Seedless Mandarins,3 lb bag,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2025,2,Pacific Foods,Organic Soup Chili or Broth,select varieties,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,YES
+2025,2,Sprouts,Uncured Spiral Sliced Quarter Hams,per lb,,5.99,STRAIGHT_PRICE,No sugar added or with glaze - Limit 2 per customer while supplies last,NO,,NO,,,5.99,NO
+2025,2,Vital Farms,Organic Pasture-Raised Eggs,Large grade A dozen,,8.99,STRAIGHT_PRICE,,NO,,NO,,,8.99,NO
+2025,2,Sprouts,All-Natural Antibiotic Free Whole Turkeys,per lb,,2.49,STRAIGHT_PRICE,Limit 2 per customer while supplies last,NO,,NO,,,2.49,YES
+2025,2,All-Natural,100% Grass-Fed Rack of Lamb,per lb,,18.99,STRAIGHT_PRICE,No added hormones or steroids pasture-raised,NO,,NO,,,18.99,NO
+2025,2,Organic,Cranberries,8 oz bag,,2.50,MULTIBUY,2 for $5,NO,,NO,,,2.50,YES
+2025,2,Organic,Russet or Gold Potatoes,8 lb bag,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,YES
+2025,3,Sprouts,Gourmet Uncured Spiral Sliced Ham,per lb,,4.49,STRAIGHT_PRICE,Limit 2 per customer while supplies last,NO,,NO,,,4.49,NO
+2025,3,All-Natural,Pork Shoulder Roast or Boneless Half Loin,per lb,,15% OFF,PERCENT_OFF,15% off regular retail - price on package reflects discount,NO,,NO,,15%,,NO
+2025,3,Colossal,Phosphate-Free Cooked Shrimp,16/20 ct,,10.99,STRAIGHT_PRICE,Also available in 2 lb bag,NO,,NO,,,10.99,NO
+2025,3,Sprouts,Fresh Organic Stuffing Cubes,per lb,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,YES
+2025,3,Hope Tree,Wines,750 ml,,5.00,MULTIBUY,4 for $20,NO,,NO,,,5.00,NO
+2025,3,Sprouts,Organic Broth,32 fl oz,,2.50,MULTIBUY,2 for $5,NO,,NO,,,2.50,YES
+2025,3,Sprouts,Stuffing,10 oz,,20% OFF,PERCENT_OFF,20% off regular retail,NO,,NO,,20%,,YES
+2025,3,Olipop,Prebiotic Soda,12 fl oz,,1.67,MULTIBUY,3 for $5 +CRV in CA,NO,,NO,,,1.67,NO
+2025,3,Sprouts,Gluten Free Stuffing or Turkey Gravy,12 oz or 12 fl oz,,20% OFF,PERCENT_OFF,20% off regular retail,NO,,NO,,20%,,YES
+2025,3,Sprouts,Organic Turkey Gravy,17.6 oz,,3.50,MULTIBUY,2 for $7,NO,,NO,,,3.50,NO
+2025,3,Sprouts,Organic Canned Cranberry Sauce or Pumpkin,14 or 15 oz,,2.50,MULTIBUY,2 for $5,NO,,NO,,,2.50,YES
+2025,4,Sprouts,Plant-Based Holiday Sides,16 oz,,8.99,STRAIGHT_PRICE,Limited time only - Everyday low price,NO,,NO,,,8.99,NO
+2025,4,Truwhip,Frozen Whipped Topping,9-10 oz,,2.99,STRAIGHT_PRICE,Everyday low price,NO,,NO,,,2.99,YES
+2025,4,Alden's,Organic Ice Cream,48 fl oz,,8.99,STRAIGHT_PRICE,,NO,,NO,,,8.99,NO
+2025,4,Sprouts,In-House Prepared Sides,per lb,,6.99-9.49,STRAIGHT_PRICE,Everyday low price,NO,,NO,,,6.99-9.49,NO
+2025,4,Stahlbush Island Farms,Frozen Vegetables,10 oz,,3.50,MULTIBUY,2 for $7,NO,,NO,,,3.50,NO
+2025,4,Alexia,Frozen Vegetable Sides,9-12 oz,,5.99,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2025,4,Kettle & Fire,Bone Broth,32 oz,,9.99,STRAIGHT_PRICE,,NO,,NO,,,9.99,YES
+2025,4,Sprouts,Extra Virgin Olive Oil,1 L,,14.99,STRAIGHT_PRICE,,NO,,NO,,,14.99,NO
+2025,5,Organic,Broccolette,,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,5,Organic,Red or Yellow Onions,5 lb bag,,5.99,STRAIGHT_PRICE,Everyday low price,NO,,NO,,,5.99,NO
+2025,5,Organic,Bell Peppers 2ct or Mini Cucumbers,1 lb bag,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,5,Sunset,Snacking Tomatoes,1.5 lb bowl,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,5,Organic,Asparagus,per lb,,3.98,STRAIGHT_PRICE,,NO,,NO,,,3.98,NO
+2025,5,Organic,Sweet Potatoes,4 ct tray,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,5,Sprouts,Pumpkin or Apple Pie,8 in,,6.00,MULTIBUY,2 for $12,NO,,NO,,,6.00,NO
+2025,5,Sprouts,Gluten Free Pies,11 oz,,6.00,MULTIBUY,2 for $12 - Cherry or Dutch Apple,NO,,NO,,,6.00,NO
+2025,5,Sprouts,Organic Artisan Sourdough or Ciabatta Bread,14 oz,,5.00,MULTIBUY,2 for $10,NO,,NO,,,5.00,NO
+2025,6,Enzymedica,Digestive Health Support,select varieties,,20% OFF,PERCENT_OFF,20% off regular retail,NO,,NO,,20%,,NO
+2025,6,Organic,Honeycrisp or Granny Smith Apples,4 ct compostable packaging,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,6,California Grown Organic,Red Seedless Grapes,per lb,,3.48,STRAIGHT_PRICE,,NO,,NO,,,3.48,NO
+2025,6,Organic,Fuyu or Hachiya Persimmons,each,,1.50,MULTIBUY,2 for $3,NO,,NO,,,1.50,NO
+2025,6,Blueberries Raspberries or Blackberries,Berries,6 oz / 5.6 oz,,3.00,MULTIBUY,2 for $6,NO,,NO,,,3.00,NO
+2025,6,Driscoll's,Sweetest Batch Blueberries,11 oz,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,6,Navel,Oranges,per lb,,1.50,MULTIBUY,2 lbs for $3,NO,,NO,,,1.50,NO
+2025,7,Various,Plant-Based Frozen Holiday Roasts,14.1-43.2 oz,,30% OFF,PERCENT_OFF,30% off regular retail - Gardein Tofurky Field Roast Big Mountain Foods Vegetarian Plus,NO,,NO,,30%,,NO
+2025,7,Sprouts,Organic Olives Tapenade or Pickles,select varieties,,15% OFF,PERCENT_OFF,15% off regular retail,NO,,NO,,15%,,NO
+2025,7,Bulk,Snack Mixes,select varieties,,15% OFF,PERCENT_OFF,15% off regular retail,NO,,NO,,15%,,NO
+2025,7,Bulk,Spices or Baking Essentials,select varieties,,25% OFF,PERCENT_OFF,25% off regular retail,NO,,NO,,25%,,NO
+2025,7,Sprouts,Organic Nuts,10-12 oz,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,8,All-Natural,Grass-Fed 85% or Grain-Fed 93% Lean Ground Beef,per lb,,8.49,STRAIGHT_PRICE,Grass-fed sold in 2 lb package Grain-fed sold in 1 lb package,NO,,NO,,,8.49,NO
+2025,8,All-Natural,Angus Beef 100% Grass-Fed Steaks or Roast,per lb,,10% OFF,PERCENT_OFF,10% off regular retail - price on package reflects discount,NO,,NO,,10%,,NO
+2025,8,All-Natural,100% Grass-Fed Boneless Lamb Leg,per lb,,8.99,STRAIGHT_PRICE,Fresh pasture-raised no added hormones or steroids,NO,,NO,,,8.99,NO
+2025,8,Sprouts,Boneless Skinless Chicken Thighs or Thin Sliced Breasts,value pack per lb,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2025,8,Jones Dairy Farm,Breakfast Sausage Links,5-7 oz,,3.50,MULTIBUY,2 for $7,NO,,NO,,,3.50,NO
+2025,8,Swaggerty's Farm,All Items,,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,8,Thick-Sliced,Smoked Bacon,per lb,,5.99,STRAIGHT_PRICE,Old-fashioned hickory or applewood,NO,,NO,,,5.99,NO
+2025,9,Sprouts,Organic Sparkling Apple Cider,25.36 fl oz,,4.50,MULTIBUY,2 for $9,NO,,NO,,,4.50,NO
+2025,9,Simply Organic,Mixes Spices or Extracts,select varieties,,35% OFF,PERCENT_OFF,35% off regular retail,NO,,NO,,35%,,NO
+2025,9,Sprouts,Organic Sugar,24-64 oz,,15% OFF,PERCENT_OFF,15% off regular retail,NO,,NO,,15%,,NO
+2025,9,Sprouts,Organic Canned Beans or Vegetables,14.5-15.5 oz,,1.67,MULTIBUY,3 for $5,NO,,NO,,,1.67,NO
+2025,9,Fresh Market,Bounty Bouquet,each,,15.99,STRAIGHT_PRICE,Everyday low price,NO,,NO,,,15.99,NO
+2025,9,Fresh Market,Deluxe Holiday Bouquet,each,,24.99,STRAIGHT_PRICE,Everyday low price,NO,,NO,,,24.99,NO
+2025,9,Sprouts,Frozen Seafood,6-32 oz,,10% OFF,PERCENT_OFF,10% off regular retail,NO,,NO,,10%,,NO
+2025,9,Wild North Atlantic,Raw Lobster Tails,3.75 oz,,8.99,STRAIGHT_PRICE,,NO,,NO,,,8.99,NO
+2025,10,Oh Puree!,Mashed Potatoes,all items,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,YES
+2025,10,Golden Farms,Gluten-Free Crispy Onions,8 oz,,4.99,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2025,10,Sprouts,Crackers,4.4-16 oz,,3.00,MULTIBUY,2 for $6,NO,,NO,,,3.00,NO
+2025,10,Sprouts,Cornbread Mix,12 oz,,2.50,MULTIBUY,2 for $5,NO,,NO,,,2.50,NO
+2025,10,Waterloo,Sparkling Water,8 pk 12 fl oz,,4.50,MULTIBUY,2 for $9,NO,,NO,,,4.50,NO
+2025,10,Chosen Foods,Dressing Sauce Mayonnaise Hazelnut Spread or Avocado Oil,select varieties,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,11,Natural Delights,Organic Pitted or Whole Medjool Dates,12 oz,,9.99,STRAIGHT_PRICE,,NO,,NO,,,9.99,NO
+2025,11,Bulk,Whole Raw Roasted Salted or Unsalted Cashews,per lb,,8.99,STRAIGHT_PRICE,,NO,,NO,,,8.99,NO
+2025,11,Heirloom,Organic Packaged Coffee,12 oz,,15.99,STRAIGHT_PRICE,,NO,,NO,,,15.99,NO
+2025,11,Garden of Life,Seasonal Wellness Support,select varieties,,20% OFF,PERCENT_OFF,20% off regular retail,NO,,NO,,20%,,NO
+2025,11,Seed,DS-01 Probiotic,28-60 caps,,20% OFF,PERCENT_OFF,20% off regular retail,NO,,NO,,20%,,NO
+2025,12,New Chapter,Every Man's or Woman's One Daily Multivitamin 55+,48 v-tabs,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,12,Wiley's Finest,Fish Oil,60 softgels,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,12,Giovanni,All Items,,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,12,Mary Ruth's,3-in-1 Daily Probiotics,30 caps,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,12,Grüns,Nutrition Superfood Greens Gummies,112 chews,,BOGO 50%,BOGO_PERCENT,Buy one get one 50% off regular retail,NO,,NO,,25%,,NO
+2025,12,Sukin,All Items,,,20% OFF,PERCENT_OFF,20% off regular retail,NO,,NO,,20%,,NO
+2025,12,Burt's Bees,Cosmetics Facial or Baby Care,select varieties,,20% OFF,PERCENT_OFF,20% off regular retail,NO,,NO,,20%,,NO

@@ -1,0 +1,80 @@
+# CDR Mapper - Data Layer Definitions
+# Define all available data layers for visualization
+
+layers:
+  storage:
+    basaltic:
+      name: "Storage Potential: Mineralization"
+      description: "In-situ mineralization potential in volcanic and plutonic rocks"
+      source: "GLiM (Hartmann & Moosdorf, 2012)"
+      data_path: "cdr_mapper/storage/glim/LiMW_GIS 2015.gdb"
+      loader: "storage.BasalticLoader"
+      # Tiered filtering system (recommended)
+      # Enables fine-grained filtering with subclass-level exclusions
+      use_tiered_filtering: true
+      # Legacy filtering (will be used if use_tiered_filtering=false)
+      lithology_codes: ["vb", "vi", "pb"]
+      color: "#3F6B6F"
+      opacity: 0.8
+      enabled_by_default: true
+      rasterize: true
+      raster_resolution: 0.05
+
+    sedimentary:
+      name: "Storage Potential: Sedimentary"
+      description: "Sequestration potential in deep saline aquifers"
+      source: "GLiM (Hartmann & Moosdorf, 2012)"
+      data_path: "cdr_mapper/storage/glim/LiMW_GIS 2015.gdb"
+      loader: "storage.SedimentaryLoader"
+      use_tiered_filtering: false
+      lithology_codes: ["ss"]
+      color: "#E9A12E"
+      opacity: 0.8
+      enabled_by_default: true
+      rasterize: true
+      raster_resolution: 0.05
+
+    sedimentary_thickness:
+      name: "Storage Potential: Sedimentary Thickness"
+      description: "Sediment thickness indicates potential sedimentary storage capacity"
+      source: "CDR Primer Chapter 3 (Pilorge et al., 2020)"
+      data_path: "cdr_mapper/storage/pilorge/Primer-data-sharing/SedimThicknessLastMasters_IDW_3km.tif"
+      loader: "storage.SedimentaryThicknessLoader"
+      min_thickness: 500 # meters, minimum viable thickness for CO2 storage
+      downsample_factor: 3 # Reduce resolution by 3x for performance (3km → 9km effective resolution)
+      # Kearns et al. offshore accessibility criteria
+      apply_offshore_mask: true # Apply practical offshore accessibility filters
+      max_offshore_distance_miles: 200 # Maximum distance from shore (Kearns criterion #2)
+      min_landmass_km2: 10000 # Minimum landmass size to define "shore" (excludes small islands)
+      latitude_bounds: [-90.0, 90.0] # No latitude filtering (keep polar regions)
+      # Color scheme
+      thresholds: [1000, 2000, 5000] # meters
+      colors: ["#FEF0D9", "#FC8D59", "#B30000"]
+      opacity: 0.5
+      enabled_by_default: false
+
+  energy:
+    solar:
+      name: "Solar PV Potential"
+      description: "Photovoltaic power output potential (kWh/kWp/day)"
+      source: "Global Solar Atlas 2.0 (Solargis)"
+      data_path: "cdr_mapper/energy/solar/World_PVOUT_GISdata_LTAy_AvgDailyTotals_GlobalSolarAtlas-v2_GEOTIFF/PVOUT.tif"
+      loader: "energy.SolarLoader"
+      thresholds: [2.0, 3.0, 4.0, 5.0, 6.0]
+      colors: ["#FBE9C8", "#F4D6A3", "#E8A33D", "#C27D1B", "#8B5A0F"]
+      opacity: 0.6
+      enabled_by_default: false
+
+    geothermal:
+      name: "Geothermal Potential"
+      description: "Enhanced geothermal system viability (drilling depth to 150°C)"
+      source: "IHFC Global Heat Flow Database 2024"
+      data_path: "cdr_mapper/energy/geothermal/IHFC_global/IHFC_2024_GHFDB.xlsx"
+      loader: "energy.GeothermalLoader"
+      thresholds: [4, 6, 8]
+      colors: ["#8B2323", "#C94545", "#DE8A80", "#F2C4BE"]
+      opacity: 0.7
+      enabled_by_default: false
+      target_temp: 150
+      surface_temp: 15
+      thermal_conductivity: 2.5

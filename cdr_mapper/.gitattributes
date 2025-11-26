@@ -1,0 +1,2 @@
+data/cache/energy filter=lfs diff=lfs merge=lfs -text
+data/cache/storage filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Test</title>
+    <meta charset="UTF-8">
+    <!-- Preload the font files to ensure they're available before rendering -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/spacemono/v13/i7dPIFZifjKcF5UAWdDRYE98RXi4EwSsbg.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Add font-display: swap to ensure text remains visible during font loading -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,%°$-" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script>
+        // Set global Chart.js defaults for consistent font rendering
+        Chart.defaults.font.family = "'Space Mono', monospace, -apple-system, BlinkMacSystemFont, sans-serif";
+        Chart.defaults.color = '#918F90';
+    </script>
+    <style>
+        @font-face {
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/spacemono/v13/i7dPIFZifjKcF5UAWdDRYE98RXi4EwSsbg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        
+        * {
+            font-family: 'Space Mono', monospace, -apple-system, BlinkMacSystemFont, sans-serif;
+            text-transform: uppercase;
+        }
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #111111;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-bottom: 40px;
+            height: 500px !important;
+            width: 100%;
+        }
+        canvas {
+            height: 100% !important;
+            width: 100% !important;
+        }
+        .metrics-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .metric-display {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-radius: 8px;
+            min-width: calc(50% - 60px);
+            box-sizing: border-box;
+        }
+        .large-number {
+            font-family: 'Space Mono', monospace;
+            font-size: 48px;
+            font-weight: bold;
+            color: #EC6252;
+        }
+        .unit {
+            font-family: 'Space Mono', monospace;
+            font-size: 16px;
+            color: #918F90;
+            margin-top: 8px;
+        }
+        .metric-label {
+            font-family: 'Space Mono', monospace;
+            font-size: 14px;
+            color: #918F90;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        .chart-wrapper {
+            position: relative;
+            margin-bottom: 60px; /* Increased to accommodate the update text */
+        }
+        
+        .update-text {
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 14px;
+            color: #918F90;
+            text-transform: none;
+            position: absolute;
+            bottom: -30px;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="news-ticker-container">
+        <div id="newsTicker"></div>
+    </div>
+    <div class="metrics-container">
+        <div class="metric-display">
+            <div class="metric-label">ATMOSPHERIC CO₂ CONCENTRATION</div>
+            <div id="co2_ppm_latest_value" class="large-number">--</div>
+            <div class="unit">PPM</div>
+        </div>
+        <div class="metric-display">
+            <div class="metric-label">ANNUAL TEMPERATURE ANOMALY</div>
+            <div id="era5_t2m_anom_year_latest_value" class="large-number">--</div>
+            <div class="unit">°C</div>
+        </div>
+        <div class="metric-display">
+            <div class="metric-label">BILLION DOLLAR DISASTERS</div>
+            <div id="noaa_billion_latest_value" class="large-number">--</div>
+            <div class="unit">NUMBER OF EVENTS</div>
+        </div>
+        <div class="metric-display">
+            <div class="metric-label">HOME INSURANCE PREMIUM</div>
+            <div id="home_insurance_premium_latest_value" class="large-number">--</div>
+            <div class="unit">PRODUCER PRICE INDEX</div>
+        </div>
+        <div class="metric-display">
+            <div class="metric-label">SEA LEVEL RISE</div>
+            <div id="aviso_slr_latest_value" class="large-number">--</div>
+            <div class="unit">MM</div>
+        </div>
+
+        <div class="metric-display">
+            <div class="metric-label">ARCTIC SEA ICE</div>
+            <div id="arctic_sea_ice_latest_value" class="large-number">--</div>
+            <div class="unit">MILLION SQ KM</div>
+        </div>
+        <div class="metric-display">
+            <div class="metric-label">DAILY SEA SURFACE TEMPERATURE ANOMALY</div>
+            <div id="era5_sst_anom_month_day_latest_value" class="large-number">--</div>
+            <div class="unit">°C</div>
+        </div>
+        <div class="metric-display">
+            <div class="metric-label">DAILY AIR TEMPERATURE ANOMALY</div>
+            <div id="era5_t2m_anom_month_day_latest_value" class="large-number">--</div>
+            <div class="unit">°C</div>
+        </div>
+        <div class="metric-display" style="visibility: hidden"></div>
+    </div>
+    <div class="chart-wrapper">
+        <div class="chart-container">
+            <canvas id="era5_t2m_anom_year"></canvas>
+        </div>
+        <div class="update-text" id="era5_t2m_anom_year_last_update"></div>
+    </div>
+
+    <div class="chart-wrapper">
+        <div class="chart-container">
+            <canvas id="arctic_sea_ice"></canvas>
+        </div>
+        <div class="update-text" id="arctic_sea_ice_last_update"></div>
+    </div>    
+
+    <div class="chart-wrapper">
+        <div class="chart-container">
+            <canvas id="aviso_slr"></canvas>
+        </div>
+        <div class="update-text" id="aviso_slr_last_update"></div>
+    </div>
+
+    <div class="chart-wrapper">
+        <div class="chart-container">
+            <canvas id="co2_ppm"></canvas>
+        </div>
+        <div class="update-text" id="co2_ppm_last_update"></div>
+    </div>
+
+    <div class="chart-wrapper">
+        <div class="chart-container">
+            <canvas id="home_insurance_premium"></canvas>
+        </div>
+        <div class="update-text" id="home_insurance_premium_last_update"></div>
+    </div>
+
+    <div class="chart-wrapper">
+        <div class="chart-container">
+            <canvas id="noaa_billion"></canvas>
+        </div>
+        <div class="update-text" id="noaa_billion_last_update"></div>
+    </div>
+
+    <div class="chart-wrapper">
+        <div class="chart-container">
+            <canvas id="era5_sst_anom_month_day"></canvas>
+        </div>
+        <div class="update-text" id="era5_sst_anom_month_day_last_update"></div>
+    </div>
+
+    <div class="chart-wrapper">
+        <div class="chart-container">
+            <canvas id="era5_t2m_anom_month_day"></canvas>
+        </div>
+        <div class="update-text" id="era5_t2m_anom_month_day_last_update"></div>
+    </div>
+
+    <script>
+        const ROOT_PATH = '../';
+        let chartsInstance;
+
+        // Font loading check
+        document.fonts.ready.then(() => {
+            console.log('All fonts are loaded and ready');
+        });
+
+        // Check if Space Mono is loaded
+        function checkFontLoaded() {
+            return document.fonts.check("12px 'Space Mono'");
+        }
+
+        async function loadChartTemplates() {
+            try {
+                console.log('Loading local chart templates...');
+                // Simply create and append the script tag
+                const script = document.createElement('script');
+                script.src = 'chart_templates.js';
+                
+                // Wait for script to load before continuing
+                await new Promise((resolve, reject) => {
+                    script.onload = resolve;
+                    script.onerror = reject;
+                    document.head.appendChild(script);
+                });
+                
+                console.log('Chart templates loaded successfully');
+                
+                // Wait for fonts to load before initializing charts
+                if (!checkFontLoaded()) {
+                    console.log('Waiting for Space Mono font to load...');
+                    await document.fonts.ready;
+                    console.log('Fonts loaded, initializing charts');
+                }
+                
+                await initializeCharts();
+                
+            } catch (error) {
+                console.error('Error in loadChartTemplates:', error);
+            }
+        }
+
+        async function initializeCharts() {
+            try {
+                console.log('Initializing charts...');
+                // Make sure this URL points to the root where local_server.py is running
+                const baseUrl = 'http://localhost:8000/data/processed';
+                chartsInstance = new DeepSkyCharts(baseUrl, { is_local: true });
+                
+                // Check for new versions first
+                console.log('Checking for new dataset versions...');
+                const hasNewVersions = await chartsInstance.checkForNewVersions();
+                if (hasNewVersions) {
+                    console.log('New dataset versions found, cache will be updated');
+                }
+                
+                // Load local dataset_dir.json
+                const configResponse = await fetch(`../config/dataset_dir.json?_=${new Date().getTime()}`);
+                if (!configResponse.ok) {
+                    throw new Error(`HTTP error! status: ${configResponse.status}`);
+                }
+                const datasetConfig = await configResponse.json();
+                
+                console.log('Full dataset config:', datasetConfig);
+
+                const chartConfigs = Object.entries(datasetConfig).map(([key, config]) => {
+                    const chartConfig = {
+                        canvasId: key,
+                        type: config.chart_type,
+                        filename: `${key}_*.csv`,  
+                        y_axis_unit: config.y_axis_unit,
+                        x_var: config.x_axis_unit,
+                        color: 'rgb(59, 130, 246)',
+                        y_var: config.chart_y_var || 'value'
+                    };
+                    console.log(`Chart config for ${key}:`, chartConfig);
+                    return chartConfig;
+                });
+
+                console.log('Chart configs created:', chartConfigs);
+                
+                // Use createChartsProgressively instead of createCharts
+                await chartsInstance.createChartsProgressively(chartConfigs);
+                
+                // No need to call updateDisplayValues here anymore
+                // as it's handled inside createChartsProgressively
+                
+                // Add periodic version check (every 5 minutes in local development)
+                setInterval(async () => {
+                    console.log('Checking for dataset updates...');
+                    chartsInstance.forceVersionCheck = true;
+                    const hasUpdates = await chartsInstance.checkForNewVersions();
+                    if (hasUpdates) {
+                        console.log('New dataset versions available! Reloading...');
+                        window.location.reload();
+                    }
+                }, 5 * 60 * 1000); // Check every 5 minutes in local mode
+            } catch (error) {
+                console.error('Error in initializeCharts:', error);
+            }
+        }
+
+        // This handles checking for updates when the tab becomes visible again
+        let lastUpdateCheck = Date.now();
+        const UPDATE_CHECK_INTERVAL = 60 * 1000; // 1 minute for local testing
+        
+        document.addEventListener('visibilitychange', async () => {
+            if (document.visibilityState === 'visible' && chartsInstance) {
+                const now = Date.now();
+                if (now - lastUpdateCheck > UPDATE_CHECK_INTERVAL) {
+                    console.log('Page visible, checking for updates...');
+                    lastUpdateCheck = now;
+                    chartsInstance.forceVersionCheck = true;
+                    const hasUpdates = await chartsInstance.checkForNewVersions();
+                    if (hasUpdates) {
+                        console.log('Found new data versions, refreshing page...');
+                        window.location.reload();
+                    }
+                }
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', loadChartTemplates);
+    </script>
+</body>
+</html>

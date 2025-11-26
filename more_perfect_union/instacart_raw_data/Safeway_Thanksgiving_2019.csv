@@ -1,0 +1,289 @@
+Year,Page,Brand,Product,Size,Base_Price,Promo_Price,Promo_Type,Promo_Details,Digital_Req,Non_Digital_Price,Member_Req,Savings,Discount_Depth,Net_Price,Core_Item
+2019,1,Honeysuckle White,Fresh Turkey,10-22 lb,,$0.99/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,0.99,YES
+2019,1,Signature Farms,Turkey Frozen,10-15.5 lb,,$5.99/ea,STRAIGHT_PRICE,Club Price Limit 1 w $25 min,NO,,YES,,,5.99,YES
+2019,1,Signature Farms,Turkey Frozen,16.01-22 lb,,$7.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,7.99,YES
+2019,1,USDA Choice,Boneless Beef NY Strip Roast,,,$6.99/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,6.99,NO
+2019,1,Cuties,Clementines,3 lb,,$2.97/ea,STRAIGHT_PRICE,Club Price Limit 4,NO,,YES,,,2.97,NO
+2019,1,Private Label,Green Asparagus,,,$1.88/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,1.88,NO
+2019,1,Philadelphia,Brick Cream Cheese,8 oz,,B1G2 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,YES
+2019,1,Nabisco,Ritz Crackers,6-13.7 oz,,B1G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,1,Haagen-Dazs,Ice Cream,14 oz,,B1G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,1,Starbucks,Coffee,12 oz/10 ct K-Cup,,$5.99/ea,MIX_MATCH,When Buy 4,NO,,YES,,,5.99,NO
+2019,1,Private Label,Fresh Baked Pumpkin Pie,11 inch,,$8.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,8.99,NO
+2019,1,Corona/Sierra Nevada/Angry Orchard/Truly/Stella,Beer,12 pk,,$11.99/ea,MULTIBUY,When Buy 2,NO,,YES,,,11.99,NO
+2019,1,Dreyers,Ice Cream,1.5 qt,,B1G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,2,Foster Farms,Turkey,10-22 lb,,$1.99/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,1.99,YES
+2019,2,Butterball,Fresh Turkey,10-22 lb,,$2.19/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.19,YES
+2019,2,Signature SELECT,Classic Ham Bone-In Shank,,,$1.99/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,1.99,NO
+2019,2,Signature SELECT,Spiral Sliced Ham,,,$2.49/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.49,NO
+2019,2,Hormel,Always Tender Marinated Pork,1.15-1.5 lb,,$6.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,6.99,NO
+2019,2,USDA Choice,Chuck Cross Rib Roast,,,$4.99/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,4.99,NO
+2019,2,USDA Choice,Beef Ribeye Roast Bone-In,,,$8.99/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,8.99,NO
+2019,2,Open Nature,Boneless Pork Top Loin Roast,,,$2.99/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.99,NO
+2019,2,Private Label,Fresh Atlantic Salmon,7 oz,,$5.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.99,NO
+2019,2,Private Label,Fresh Petrale Sole Fillets,,,$12.99/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,12.99,NO
+2019,2,Van de Kamp's,Seafood Selections,15.1-24.6 oz,,B1G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,2,Sea Cuisine,Selections,9-10.75 oz,,$7.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,7.99,NO
+2019,2,Private Label,Jumbo Cooked Shrimp,21-25 ct,,$8.99/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,8.99,NO
+2019,2,Private Label,Dungeness Crab Sections,,,$8.99/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,8.99,NO
+2019,2,Waterfront Bistro,Shrimp Ring,4 oz,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,2,Waterfront Bistro,Smoked Salmon,4 oz,,$8.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,8.99,NO
+2019,2,Signature Kitchen's,Meatballs,20-24 oz,$3.50,2/$7,MULTIBUY,Club Price,NO,,YES,,,3.50,NO
+2019,2,Bob Evans,Side Dishes,20-24 oz,,$2.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.99,NO
+2019,2,Oscar Mayer,Deli Shaved Lunchmeat,7-9 oz,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,2,Oscar Mayer,Carving Board Lunchmeat,7.5 oz,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,2,Open Nature,Meatballs/Sausage,12-14 oz,$3.99,2/$8,MULTIBUY,When Buy 2,NO,,YES,,,4.00,NO
+2019,2,Johnsonville,Ground Sausage,16 oz,,$2.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.99,NO
+2019,2,Johnsonville,Breakfast Sausage,9-12 oz,,$2.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.99,NO
+2019,2,Oscar Mayer,Bacon,12-16 oz,,B1G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,3,Jennie-O,Oven Ready Homestyle Turkey,12 lb,,$29.99/ea,STRAIGHT_PRICE,Low Price Every Day,NO,,NO,,,29.99,YES
+2019,3,Farmers,Double Smoked Bacon,,,$4.99/lb,STRAIGHT_PRICE,Butcher Block,NO,,NO,,,4.99,NO
+2019,3,Smithfield,Spiral Sliced Ham w Glaze,,,$3.99/lb,STRAIGHT_PRICE,Every Day,NO,,NO,,,3.99,NO
+2019,3,Hillshire Farm,Lit'l Smokies,12-14 oz,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,3,Hillshire Farm,Sausage,13-14 oz,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,3,King's Hawaiian,Rolls,12 ct,$3.50,2/$7,MULTIBUY,Club Price,NO,,YES,,,3.50,NO
+2019,3,Hormel,Party Trays,28 oz,,$8.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,8.99,NO
+2019,3,Signature Kitchens,Chicken Nuggets,48 oz,$4.50,2/$9,MULTIBUY,Club Price,NO,,YES,,,4.50,NO
+2019,3,Boar's Head,Sweet Slice Holiday Ham Gift Box,,,$39.99/ea,STRAIGHT_PRICE,,NO,,NO,,,39.99,NO
+2019,3,Private Label,Traditional Turkey Dinner,Serves 6-8,,$49.99/ea,BUNDLE,Turkey+Stuffing+Potatoes+Cranberry+Gravy,NO,,NO,,,49.99,NO
+2019,3,Private Label,Spiral Ham Dinner,Serves 8-10,,$54.99/ea,BUNDLE,Ham+Scalloped+Sweet Potatoes+Green Bean+Apples,NO,,NO,,,54.99,NO
+2019,3,Private Label,Prime Rib Dinner,Serves 5-6,,$69.99/ea,BUNDLE,Prime Rib+Scalloped+Sweet Potatoes+Green Bean+Apples,NO,,NO,,,69.99,NO
+2019,3,Signature Cafe,Cranberry Sauce/Spiced Apples,14-16 oz,,$5.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,5.99,NO
+2019,3,Signature Cafe,Holiday Sides,24-32 oz,,$7.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,7.99,NO
+2019,3,Private Label,Large Gold Pineapple,,,$3.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,3.99,NO
+2019,3,POM Wonderful,Large Pomegranates,$3.00,2/$6,MULTIBUY,Every Day,NO,,NO,,,3.00,NO
+2019,3,Private Label,Radishes/Green Onions,,,$0.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,0.99,NO
+2019,3,Signature Farms,Cranberries,32 oz,,$5.00/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,5.00,NO
+2019,3,Signature SELECT,Traditional Stuffing Mix,12 oz,,$2.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.99,NO
+2019,3,Jessie Lord,Baked Pies,8 inch,,$5.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,5.99,NO
+2019,3,Private Label,Fresh Baked Dinner Rolls,20 ct,,$5.00/ea,STRAIGHT_PRICE,,NO,,NO,,,5.00,NO
+2019,3,Private Label,Fresh Baked Butterflake Rolls,10-12 ct,$3.00,2/$6,MULTIBUY,Club Price,NO,,YES,,,3.00,NO
+2019,3,Woodbridge/Apothic,Wine,750ml-1.5L,$13.99,$6.99/ea,MULTIBUY,When Buy 2,NO,,YES,50%,,6.99,NO
+2019,3,De Loach,Wine,750 ml,$11.99,$5.99/ea,MULTIBUY,When Buy 2,NO,,YES,50%,,5.99,NO
+2019,3,Jack Daniel's,Whiskey,750 ml,$24.99,$12.49/ea,MULTIBUY,When Buy 2,NO,,YES,50%,,12.49,NO
+2019,3,Crown Royal,Whiskey,750 ml,$14.99,$7.49/ea,MULTIBUY,When Buy 2,NO,,YES,50%,,7.49,NO
+2019,4,Gold Medal,Flour,5 lb,,$1.99/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,1.99,NO
+2019,4,C&H,Sugar,4 lb,,$1.99/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,1.99,NO
+2019,4,Hershey's,Baking Chips,8-12 oz,,$2.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,2.49,NO
+2019,4,O Organics,Broth,32 oz,,$1.99/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,1.99,NO
+2019,4,O Organics,Canned Pumpkin,29 oz,,$2.99/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,2.99,NO
+2019,4,Betty Crocker,Frosting or Cake Mix,12-16.25 oz,,$0.99/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,0.99,YES
+2019,4,Hunt's,Tomatoes,14.5 oz,,$0.99/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,0.99,NO
+2019,4,Carr's,Crackers,4.25-7.05 oz,,$2.99/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,2.99,NO
+2019,4,Planters,Peanuts,16 oz,,$2.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,2.49,NO
+2019,4,O Organics,Variety Beans,15 oz,,$0.99/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,0.99,NO
+2019,4,Nonni's,Biscotti,4.25-6.88 oz,,$2.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,2.49,NO
+2019,4,Idahoan,Potatoes,1.5-4.1 oz,,$0.88/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,0.88,YES
+2019,4,Pepperidge Farm,Stuffing,12-14 oz,,$2.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,2.49,NO
+2019,4,Cool Whip,Whipped Topping,8 oz,,$1.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,1.49,YES
+2019,4,Kellogg's,Eggo Waffles,24.6-29.6 oz,,$4.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,4.49,NO
+2019,4,Sara Lee,NY Style Cheesecake,30 oz,,$5.99/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,5.99,NO
+2019,4,Doritos/Sun Chips,Chips,6-7 oz,,$1.99/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,1.99,NO
+2019,4,Califia,Almondmilk,48 oz,,$3.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,3.49,NO
+2019,4,Reddi Wip,Cream Topping,6.5 oz,,$2.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,2.49,NO
+2019,4,Mrs. Cubbison's,Croutons,5 oz,,$1.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,1.49,NO
+2019,4,Signature SELECT,Gravy,10.5 oz,,$1.25/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,1.25,NO
+2019,4,Lipton/Pure Leaf,Tea,12-pack 16.9 oz,,$4.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,4.49,NO
+2019,4,Reynolds,Oven Turkey Bags,2 ct,,$2.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,2.49,NO
+2019,4,Reynolds,Slow Cooker Liner Bags,4 ct,,$2.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,2.49,NO
+2019,4,Hefty,Trash Bags,18-45 ct,,$7.99/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,7.99,NO
+2019,4,Reynolds Wrap,Aluminum Foil,35-75 sq ft,,$3.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,3.49,NO
+2019,4,Glad,Press N Seal/Cling Wrap,200 sq ft,,$3.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,3.49,NO
+2019,4,Ghirardelli,Chocolate Squares,4.1-5.32 oz,,$2.99/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,2.99,NO
+2019,4,Ferrero Rocher,Chocolates,1.3 oz,,$1.00/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,1.00,NO
+2019,4,Duracell,Batteries,6-8 ct,,$6.99/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,6.99,NO
+2019,4,Vanity Fair,Napkins,40-94 ct,,$4.49/ea,MIX_MATCH,Buy 4 Red Tags,NO,,YES,,,4.49,NO
+2019,4,Coca-Cola/7UP/Pepsi,Soda,12 pk 12 oz,$4.49,3/$10,MULTIBUY,When Buy 3,YES,,YES,,,3.33,NO
+2019,4,Jimmy Dean,Sausage Rolls,16 oz,,$2.49/ea,STRAIGHT_PRICE,Clip or Click,NO,,YES,,,2.49,NO
+2019,4,Celery,Celery,,,$0.39/ea,STRAIGHT_PRICE,Clip or Click Limit 2,NO,,YES,,,0.39,NO
+2019,4,Challenge/Danish Creamery,Butter Quarters,16 oz,,$2.99/ea,STRAIGHT_PRICE,Clip or Click,NO,,YES,,,2.99,NO
+2019,4,Lucerne,Chunk/Shredded/Sliced Cheese,6-8 oz,,$1.99/ea,STRAIGHT_PRICE,Clip or Click,NO,,YES,,,1.99,NO
+2019,4,Signature Farms,Thick Cut Bacon,3 lb,$9.99,$3.33/lb,STRAIGHT_PRICE,Clip or Click,NO,,YES,,,3.33,NO
+2019,4,C&W,Frozen Vegetables,12 oz,,$0.99/ea,MULTIBUY,When Buy 3,NO,,YES,,,0.99,NO
+2019,5,Stove Top,Stuffing Mix,6 oz,,$0.99/ea,DIGITAL_ONLY,Clip or Click Limit 4,YES,,YES,,,0.99,YES
+2019,5,Del Monte,Canned Vegetables,14.5-15.25 oz,,$0.79/ea,DIGITAL_ONLY,Clip or Click,YES,,YES,,,0.79,NO
+2019,5,Martinelli's,Sparkling Apple Cider,25.4 oz,,$1.99/ea,DIGITAL_ONLY,Clip or Click Limit 4,YES,,YES,,,1.99,NO
+2019,5,Signature Cafe,Roasted Turkey Breast,24 oz,,$6.99/ea,DIGITAL_ONLY,Clip or Click Limit 2,YES,,YES,,,6.99,NO
+2019,5,Sara Lee,Oven Fresh Pies,34 oz,,$2.99/ea,DIGITAL_ONLY,Clip or Click,YES,,YES,,,2.99,NO
+2019,5,Stouffer's,Party Size Lasagna,57-96 oz,,$9.99/ea,DIGITAL_ONLY,Clip or Click,YES,,YES,,,9.99,NO
+2019,5,Signature Cafe,Chicken Tenders/BBQ Rib Tips,,,$5.00/lb,STRAIGHT_PRICE,Club Price Friday Nov 22,NO,,YES,,,5.00,NO
+2019,5,Waterfront Bistro,Large Raw Shrimp,11-40 ct 2 lb,,$5.00/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.00,NO
+2019,5,Wild Caught,Lobster Tail,3 oz,,$5.00/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.00,NO
+2019,5,Foster Farms,Frozen Chicken,18-32 oz,,$5.00/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.00,NO
+2019,5,Cooked Perfect,Meatballs,,,$5.00/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.00,NO
+2019,5,Private Label,Fresh Sushi,,,$5.00/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.00,NO
+2019,5,Private Label,Dozen Donuts or Bagels,,,$5.00/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.00,NO
+2019,5,Oroweat,Buttermilk/12 Grain Bread,24 oz,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,5,Private Label,Coffee Cake,,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,5,Signature Farms,Russet Potatoes,5 lb,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,YES
+2019,5,Large Hass,Avocados,$1.67,3/$5,MULTIBUY,Club Price,NO,,YES,,,1.67,NO
+2019,5,Nabisco,Ritz Toasted Chips,4.5-8.1 oz,$1.67,3/$5,MULTIBUY,Club Price,NO,,YES,,,1.67,NO
+2019,5,Frito-Lay,Sabritas Chips,6.5-9.25 oz,$1.67,3/$5,MULTIBUY,Club Price,NO,,YES,,,1.67,NO
+2019,5,Juanita's,Tortilla Chips,11-15 oz,$1.67,3/$5,MULTIBUY,Club Price,NO,,YES,,,1.67,NO
+2019,5,Tazo,Tea,20 ct,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,5,Lipton,Tea,75-100 ct,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,5,Pompeian,Olive Oil,24 oz,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,5,Dennison's,Chili with Beans,15 oz,$1.00,5/$5,MULTIBUY,Club Price,NO,,YES,,,1.00,NO
+2019,5,Puffs,Facial Tissue,48-64 ct,$1.25,4/$5,MULTIBUY,Club Price,NO,,YES,,,1.25,NO
+2019,5,Chex Mix/Gardetto's/Bugles,Snack Mix,6.8-8.75 oz,$1.25,4/$5,MULTIBUY,Club Price,NO,,YES,,,1.25,NO
+2019,5,Ajax/Palmolive Ultra,Liquid Dish Soap,20-28 oz,$1.67,3/$5,MULTIBUY,Club Price,NO,,YES,,,1.67,NO
+2019,5,Pepsi,Soda,6-pk 7.5 oz/$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,5,Tropicana,Orange Juice,89 oz,,$5.00/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.00,NO
+2019,5,Skippy,Peanut Butter,40 oz,,$5.00/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.00,NO
+2019,5,Open Nature,Lamb Loin Chops/Leg of Lamb,,,$5.00/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.00,NO
+2019,6,Nestle Toll House,Baking Chips,12 oz,$3.00,2/$6,MULTIBUY,Club Price,NO,,YES,,,3.00,NO
+2019,6,Ocean Spray,Canned Cranberry Sauce,14 oz,$2.00,2/$4,MULTIBUY,Club Price,NO,,YES,,,2.00,YES
+2019,6,Princella,Sweet Yams,29 oz,,$2.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.99,NO
+2019,6,Marie Callender's,Pie Shells,9 inch,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,6,Starbucks,Hot Cocoa,8 pack,,$5.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.99,NO
+2019,6,Comstock,Pie Filling,21 oz,,$2.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.99,NO
+2019,6,Libby's,Canned Pumpkin,29-30 oz,,$2.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.99,NO
+2019,6,Eagle Brand,Sweetened Condensed Milk,14 oz,,$2.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.99,NO
+2019,6,Kraft,Jet-Puffed Marshmallows,16 oz,,$1.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,1.99,NO
+2019,6,Best Foods,Mayonnaise,20-30 oz,,B1G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,6,McCormick,Dry Gravy Mix,.75-1 oz,$1.00,5/$5,MULTIBUY,Club Price,NO,,YES,,,1.00,NO
+2019,6,Fever-Tree,Mixers,4 pk 6.8 oz,,$4.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,4.99,NO
+2019,6,Perrier/San Pellegrino,Sparkling Water,750ml-25.3 oz,$1.25,4/$5,MULTIBUY,Club Price,NO,,YES,,,1.25,NO
+2019,6,Swanson,Broth,32 oz,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,YES
+2019,6,French's,Fried French Onions,6 oz,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,6,Signature SELECT,Snack Barrels,17-28 oz,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,6,Kettle,Potato Chips,5-8.5 oz,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,6,Late July,Multigrain Snack Chips,5.5-6 oz,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,6,Charmin,Ultra Bath Tissue,6-12 rolls,$10.99,$9.99/ea,DIGITAL_ONLY,-$1.00 Digital Coupon,YES,10.99,YES,$1.00,,9.99,NO
+2019,6,Bounty,Mega Paper Towels,6 rolls,$10.99,$9.99/ea,DIGITAL_ONLY,-$1.00 Digital Coupon,YES,10.99,YES,$1.00,,9.99,NO
+2019,6,Gain,Liquid Laundry Detergent,150 oz,$14.99,$13.99/ea,DIGITAL_ONLY,-$1.00 Digital Coupon,YES,14.99,YES,$1.00,,13.99,NO
+2019,6,Cascade,Action Pacs,36-60 ct,$11.99,$10.99/ea,DIGITAL_ONLY,-$1.00 Digital Coupon,YES,11.99,YES,$1.00,,10.99,NO
+2019,6,Safeway SELECT,Paper Towels,6-8 rolls,$4.99,$3.99/ea,DIGITAL_ONLY,-$1.00 Digital Coupon,YES,4.99,YES,$1.00,,3.99,NO
+2019,6,Signature Care,Bath Tissue,4-12 rolls,$4.99,$3.99/ea,DIGITAL_ONLY,-$1.00 Digital Coupon,YES,4.99,YES,$1.00,,3.99,NO
+2019,6,Swiffer,Refills,3-16 ct,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,6,Drano,Max,32 oz,,$4.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,4.99,NO
+2019,6,Scrubbing Bubbles,Cleaners,1-34 oz,,$2.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.99,NO
+2019,6,Clorox,Wipes,33-75 ct,,$2.49/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.49,NO
+2019,6,Mr. Clean,Household Cleaning,,B1G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,6,Febreze,Air Care,.06-8.8 oz,,$2.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.99,NO
+2019,7,L'Oreal Paris,Cosmetics Hair Skin Care,,,Buy 3 Save $3,SPEND_GET,Mix Match,NO,,YES,,,varies,NO
+2019,7,Betty Crocker,Cake Decor,,,25% off,PERCENT_OFF,Club Price,NO,,YES,,,varies,NO
+2019,7,Private Label,Holiday Gift Bags/Box Cards,,,30% off,PERCENT_OFF,Club Price,NO,,YES,,,varies,NO
+2019,7,Private Label,Holiday Home Decorations,,,30% off,PERCENT_OFF,Club Price,NO,,YES,,,varies,NO
+2019,7,Signature SELECT,Giftwrap/Holiday Lights,,,30% off,PERCENT_OFF,Club Price,NO,,YES,,,varies,NO
+2019,7,Dial,Body Wash/Bar/Refill Soap,16-52 oz,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,7,Vaseline,Intensive Care Lotion,13.5-20.3 oz,,$5.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.99,NO
+2019,7,Suave,Hair Care,15 oz,$1.00,10/$10,MULTIBUY,Club Price,NO,,YES,,,1.00,NO
+2019,7,Nature's Bounty/Osteo Bi-Flex,Vitamins,,B1G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,7,Signature SELECT,Sherpa Throws,50x60 in,,30% off,PERCENT_OFF,Club Price,NO,,YES,,,varies,NO
+2019,7,Gatorade,Protein Bars,2.8 oz,$1.33,3/$4,MULTIBUY,Club Price,NO,,YES,,,1.33,NO
+2019,7,Quest,Nutrition Bars,2.12 oz,$1.67,3/$5,MULTIBUY,Club Price,NO,,YES,,,1.67,NO
+2019,7,Mucinex,Cold Medicine,14-20 ct,$13.49,$11.49/ea,DIGITAL_ONLY,-$2.00 Digital Coupon,YES,13.49,YES,$2.00,,11.49,NO
+2019,7,American Crew/TIGI/Matrix/RUSK/Biolage,Hair Care,,,B1G1 50% Off,BOGO_PERCENT,Club Price,NO,,YES,,,varies,NO
+2019,8,Febreze/Glade/Air Wick/Enviroscent,Holiday Air Care,,,$10 Reward,SPEND_GET,Buy 3 Get $10 Reward,NO,,NO,,,varies,NO
+2019,8,Good Cook/Touch/T-Fal,Kitchen Gadgets,,,B1G1 50% Off,BOGO_PERCENT,Mix Match,NO,,YES,,,varies,NO
+2019,8,Kinder,Bueno,1.5 oz,$1.25,4/$5,MULTIBUY,+Free Kinder Joy when Buy 1,NO,,YES,,,1.25,NO
+2019,8,Lindt,Chocolate Bar,1 ct,$1.00,5/$5,MULTIBUY,Club Price,NO,,YES,,,1.00,NO
+2019,8,Bakeware/Cookware,Various,,,B1G1 50% Off,BOGO_PERCENT,Club Price,NO,,YES,,,varies,NO
+2019,8,Anchor Hocking,Glass Bakeware,,,B1G1 50% Off,BOGO_PERCENT,Club Price,NO,,YES,,,varies,NO
+2019,8,Handi-Foil,Foilware,,,B1G1 50% Off,BOGO_PERCENT,Club Price,NO,,YES,,,varies,NO
+2019,8,Hershey,Christmas Candy Bag,9-11 oz,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,8,Ghirardelli,Christmas Candy Bag,5.7-9 oz,,$5.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.99,NO
+2019,8,Ferrero Rocher,Chocolates,9.1-10.6 oz,,$9.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,9.99,NO
+2019,8,Private Label,Holiday Toys/Plush,,,30% off,PERCENT_OFF,Club Price,NO,,YES,,,varies,NO
+2019,8,Good Cook,Quick Baste Roaster,1 ct,,$9.99/ea,STRAIGHT_PRICE,While supplies last,NO,,NO,,,9.99,NO
+2019,8,Ziploc,Food Storage,,,B1G1 50% Off,BOGO_PERCENT,Club Price,NO,,YES,,,varies,NO
+2019,9,Ghirardelli,Baking Chips,10-12 oz,$3.00,2/$6,MULTIBUY,Club Price,NO,,YES,,,3.00,NO
+2019,9,Hershey's,Baking Cocoa,8 oz,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,9,Carnation,Evaporated Milk,12 oz,$1.50,2/$3,MULTIBUY,Club Price,NO,,YES,,,1.50,NO
+2019,9,Open Nature,Baking Nuts Pecans,16 oz,,$4.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,4.99,NO
+2019,9,Peet's,Coffee,54 ct,,$29.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,29.99,NO
+2019,9,O Organics,Tea,20 ct,,$2.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,2.99,NO
+2019,9,Quaker,Instant Oatmeal,11.8-15.1 oz,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,9,Kellogg's,Cereal,10.5-18 oz,,$1.99/ea,MULTIBUY,When Buy 4,NO,,YES,,,1.99,NO
+2019,9,Gatorade,Sports Drink,8-pk 12 oz,,$9.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,9.99,NO
+2019,9,Ocean Spray,Cranberry Juice Cocktail,64 oz,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,9,Tree Top,Apple Juice,64 oz,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,9,Rockstar,Energy Drinks,16 oz,,B1G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,9,Starbucks,Beverages,4 pk 5.9 oz,,$5.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.99,NO
+2019,9,Bai,Beverages,18 oz,$1.67,3/$5,MULTIBUY,Club Price,NO,,YES,,,1.67,NO
+2019,9,Arrowhead,Spring Water,24 pk 16.9 oz,$3.33,3/$10,MULTIBUY,Club Price,NO,,YES,,,3.33,NO
+2019,9,Arrowhead,Sparkling Water,8 pk,,$3.33,3/$10,MULTIBUY,Club Price,NO,,YES,,,3.33,NO
+2019,9,Lindt,Chocolate Bar,2.8-4.4 oz,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,9,Muscle Milk,Nutrition Bars,4 pk,,$5.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.99,NO
+2019,9,Clif/Luna,Nutrition Bars,6 pack,,$5.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.99,NO
+2019,9,Frito-Lay,Party Size Chips,10.5-20 oz,$4.00,2/$8,MULTIBUY,Club Price,NO,,YES,,,4.00,NO
+2019,9,Doritos,Tortilla Chips,9.25-11.25 oz,$3.00,2/$6,MULTIBUY,Club Price,NO,,YES,,,3.00,NO
+2019,9,Casa Sanchez,Tortilla Chips,14 oz,$3.00,2/$6,MULTIBUY,Club Price,NO,,YES,,,3.00,NO
+2019,9,O Organics,Popcorn,4-6 oz,$1.67,3/$5,MULTIBUY,Club Price,NO,,YES,,,1.67,NO
+2019,9,Pringles,Chips,4.8-5.5 oz,$1.25,4/$5,MULTIBUY,Club Price,NO,,YES,,,1.25,NO
+2019,9,Cheez-It,Crackers,8.7-12.4 oz,,B1G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,9,Nabisco,Nilla Wafers,11 oz,$3.33,3/$10,MULTIBUY,Club Price,NO,,YES,,,3.33,NO
+2019,9,Nabisco,Honey Maid Grahams,7-14.4 oz,$3.33,3/$10,MULTIBUY,Club Price,NO,,YES,,,3.33,NO
+2019,9,Lindsay,Pitted Olives,2.25-6 oz,,B1G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,9,Heinz,Home Style Gravy,12 oz,,$2.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.99,NO
+2019,9,Signature SELECT,Brown N Serve Rolls,12 oz,$2.00,2/$4,MULTIBUY,Club Price,NO,,YES,,,2.00,NO
+2019,9,Annie's,Macaroni & Cheese,6 oz,,B1G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,9,Betty Crocker,Potatoes,4.5-5 oz,$1.50,2/$3,MULTIBUY,Club Price,NO,,YES,,,1.50,NO
+2019,9,Knorr,Rice/Pasta Sides,4.3-5.7 oz,$1.25,4/$5,MULTIBUY,Club Price,NO,,YES,,,1.25,NO
+2019,9,Barilla,Pasta,8-16 oz,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,9,Bertolli,Pasta Sauce,15-24 oz,$2.50,2/$5,MULTIBUY,Club Price,NO,,YES,,,2.50,NO
+2019,9,Dole,Fruit Bowls,12 pk 4 oz,,$7.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,7.99,NO
+2019,9,Rosarita,Beans,15-16 oz,$1.00,10/$10,MULTIBUY,Club Price,NO,,YES,,,1.00,NO
+2019,9,Pepperidge Farm,Entertainment Cookies,10.8-13.25 oz,,$5.49/ea,DIGITAL_ONLY,Clip or Click,YES,,YES,,,5.49,NO
+2019,9,Alfaro's,Artesano Rolls/Bread,18-20 oz,,$2.99/ea,DIGITAL_ONLY,Clip or Click,YES,,YES,,,2.99,NO
+2019,9,Dole,Mandarin Oranges,15 oz,,$1.49/ea,DIGITAL_ONLY,Clip or Click,YES,,YES,,,1.49,NO
+2019,9,Dole,Pineapples,20 oz,,$1.49/ea,DIGITAL_ONLY,Clip or Click,YES,,YES,,,1.49,NO
+2019,9,Tillamook,Ice Cream,1.75 qt,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,9,Umpqua,Ice Cream,1.75 qt,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,9,Signature SELECT,Power Bowls,10.25-11 oz,$3.50,2/$7,MULTIBUY,Club Price,NO,,YES,,,3.50,NO
+2019,9,Ben & Jerry's,Ice Cream,4-6 ct,$3.50,2/$7,MULTIBUY,Club Price,NO,,YES,,,3.50,NO
+2019,9,Klondike,Novelties,4-6 ct,$3.50,2/$7,MULTIBUY,Club Price,NO,,YES,,,3.50,NO
+2019,9,Michael Angelo's,Large Family Meals,46 oz,,$9.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,9.99,NO
+2019,9,DiGiorno/California Pizza Kitchen,Pizza,10.75-31 oz,$5.50,2/$11,MULTIBUY,Club Price,NO,,YES,,,5.50,NO
+2019,9,Green Giant,Frozen Box Vegetables,7-10 oz,,B1G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,9,Banquet,Breakfast Sausage,6.4 oz,,$0.99/ea,DIGITAL_ONLY,Clip or Click,YES,,YES,,,0.99,NO
+2019,9,Open Nature,Ice Cream Pint,,$2.88/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.88,NO
+2019,9,Duraflame,Firelogs,6 pack,,$21.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,21.99,NO
+2019,9,Kingsford,Match Light/Charcoal,12-16 lb,,$9.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,9.99,NO
+2019,9,Bounce,Dryer Fabric Sheets,240 ct,,$9.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,9.99,NO
+2019,9,Downy,Liquid Fabric Softener,103 oz,,$9.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,9.99,NO
+2019,9,Ziploc,Storage/Freezer Bags,10-45 ct,,$3.00/ea,DIGITAL_ONLY,Clip or Click,YES,,YES,,,3.00,NO
+2019,9,Arm & Hammer,Cat Litter,14-20 lb,,$7.49/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,7.49,NO
+2019,9,Sensodyne,Toothpaste,3-4 oz,,$5.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,5.99,NO
+2019,9,Dial,Liquid Hand Soap,7.5 oz,$1.00,10/$10,MULTIBUY,Club Price,NO,,YES,,,1.00,NO
+2019,9,Halls/Ricola,Cough Drops,19-30 ct,,$1.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,1.99,NO
+2019,10,Private Label,Sweet Potatoes/Red Golden Yams,,,$0.99/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,0.99,NO
+2019,10,Large Hass,Avocados,$2.00,2/$4,MULTIBUY,Club Price,NO,,YES,,,2.00,NO
+2019,10,O Organics,Fresh Herbs,.66 oz,$1.50,2/$3,MULTIBUY,Club Price,NO,,YES,,,1.50,NO
+2019,10,Large Honeycrisp,Apples,,,$2.49/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.49,NO
+2019,10,Private Label,Navel Oranges,,,$1.49/lb,STRAIGHT_PRICE,Every Day,NO,,NO,,,1.49,NO
+2019,10,Fresh Express,Salad Kits/Blends,5-11.9 oz,$3.33,3/$10,MULTIBUY,When Buy 3,NO,,YES,,,3.33,NO
+2019,10,Taylor Farms,Chopped Kits,9.25-13.5 oz,$3.33,3/$10,MULTIBUY,When Buy 3,NO,,YES,,,3.33,NO
+2019,10,O Organics,Salad Blends,5 oz,,$5.00/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,5.00,NO
+2019,10,Organic,Celery,,,$1.79/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,1.79,NO
+2019,10,Premium Red/Green,Seedless Grapes,,,$2.99/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,2.99,NO
+2019,10,Sweet Yellow,Onions,,,$0.99/lb,STRAIGHT_PRICE,Every Day,NO,,NO,,,0.99,NO
+2019,10,Extra Large,Russet Potatoes,,,$0.99/lb,STRAIGHT_PRICE,Every Day,NO,,NO,,,0.99,YES
+2019,10,Green Giant,Green Beans,24 oz,,$5.00/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,5.00,NO
+2019,10,O Organics,Baby Peeled Carrots,2 lb,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,10,Private Label,Freshly Prepared Stuffing Mix,20 oz,,$3.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,3.99,NO
+2019,10,Debi Lilly Design,Victorian Rose Bouquet,,,$14.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,14.99,NO
+2019,10,Debi Lilly Design,Hydrangea,3 stems,,$7.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,7.99,NO
+2019,10,Private Label,Artisan Fresh Fruit Tart,3 inch,,$19.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,19.99,NO
+2019,10,Private Label,Gourmet Bar Cakes,,,$13.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,13.99,NO
+2019,10,Debi Lilly Design,Lux Thankful Bouquet,,,$39.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,39.99,NO
+2019,10,Debi Lilly Design,Phalaenopsis Orchid,6 inch,,$24.99/ea,STRAIGHT_PRICE,Every Day,NO,,NO,,,24.99,NO
+2019,10,Signature SELECT,Snack Bites,,$3.00,2/$6,MULTIBUY,Club Price,NO,,YES,,,3.00,NO
+2019,10,Signature Cafe,Soup,24 oz,,$4.99/ea,MULTIBUY,When Buy 2,NO,,YES,,,4.99,NO
+2019,10,Private Label,Scalloped Potatoes/Mac & Cheese Squares,,,$4.99/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,4.99,NO
+2019,10,Signature Cafe,Dips,10-16 oz,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,10,Alouette,Cheese Spread,5-6.5 oz,,$3.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.99,NO
+2019,10,Primo Taglio,Brie,8 oz wedge,,$8.99/lb,STRAIGHT_PRICE,Club Price,NO,,YES,,,8.99,NO
+2019,10,Kaukauna,Cheese Balls,10 oz,,$4.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,4.99,NO
+2019,10,Sabra,Guacamole/Hummus,8-10 oz,,B2G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,10,Lucerne,Whipping Cream,Pint,$3.00,2/$6,MULTIBUY,Club Price,NO,,YES,,,3.00,NO
+2019,10,Organic Valley,Grassmilk Half & Half,Pint,,$3.00/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,3.00,NO
+2019,10,Coffee-mate,Creamers,32 oz,$3.00,2/$6,MULTIBUY,Club Price,NO,,YES,,,3.00,NO
+2019,10,Dannon,Greek Yogurt,4 pk 5.3 oz,$3.50,2/$7,MULTIBUY,Club Price,NO,,YES,,,3.50,NO
+2019,10,Lucerne,Egg Nog,Quart,,$2.49/ea,DIGITAL_ONLY,Clip or Click,YES,,YES,,,2.49,NO
+2019,10,Simply,Smoothies/Juice,32-52 oz,$3.00,2/$6,MULTIBUY,Club Price,NO,,YES,,,3.00,NO
+2019,10,Daisy,Sour Cream,16 oz,,$1.99/ea,STRAIGHT_PRICE,Club Price,NO,,YES,,,1.99,NO
+2019,10,Simply,Potatoes,20 oz,,B1G1 Free,BOGO_FREE,Club Price,NO,,YES,,,varies,NO
+2019,10,Pillsbury,Cinnamon Rolls,12-13 oz,,$1.99/ea,DIGITAL_ONLY,Clip or Click,YES,,YES,,,1.99,YES
+2019,10,Pillsbury,Pie Crust,14.1 oz,,$1.99/ea,DIGITAL_ONLY,Clip or Click,YES,,YES,,,1.99,NO

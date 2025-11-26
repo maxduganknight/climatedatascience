@@ -1,0 +1,50 @@
+[
+  {
+    "name": "orders",
+    "raw_filename": "cdr_fyi_orders.csv",
+    "api_table": "orders",
+    "processor_func_name": "process_orders_data",
+    "output_filename_base": "orders_for_viz",
+    "requires_raw": ["orders"]
+  },
+  {
+    "name": "purchasers",
+    "raw_filename": "cdr_fyi_purchasers.csv",
+    "api_table": "purchasers",
+    "processor_func_name": "process_purchasers_data",
+    "output_filename_base": "purchasers_for_viz",
+    "requires_raw": ["purchasers", "orders"]
+  },
+  {
+    "name": "suppliers",
+    "raw_filename": "cdr_fyi_suppliers.csv",
+    "api_table": "suppliers",
+    "processor_func_name": "process_suppliers_data",
+    "output_filename_base": "suppliers_for_viz",
+    "requires_raw": ["suppliers", "orders"]
+  },
+  {
+    "name": "marketplaces",
+    "raw_filename": "cdr_fyi_marketplaces.csv",
+    "api_table": "marketplaces",
+    "processor_func_name": null,
+    "output_filename_base": null,
+    "requires_raw": []
+  },
+  {
+    "name": "latest_deals",
+    "raw_filename": null,
+    "api_table": null,
+    "processor_func_name": "process_latest_deals",
+    "output_filename_base": "latest_deals",
+    "requires_raw": ["orders", "purchasers", "suppliers"]
+  },
+  {
+    "name": "carbon_pricing",
+    "raw_filename": "worldbank_carbon_pricing.xlsx",
+    "api_table": null,
+    "processor_func_name": "process_carbon_pricing_data",
+    "output_filename_base": "carbon_pricing",
+    "requires_raw": ["carbon_pricing"]
+  }
+]

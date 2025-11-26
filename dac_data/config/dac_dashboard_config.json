@@ -1,0 +1,106 @@
+{
+  "temperature": {
+    "display_name": "Temperature",
+    "display_unit": "°C",
+    "data_unit": "celsius",
+    "formatter": "decimal",
+    "decimal_places": 1,
+    "bidirectional": true,
+    "min_valid_value": -50,
+    "max_valid_value": 60,
+    "live_animation": false
+  },
+  "humidity": {
+    "display_name": "Humidity",
+    "display_unit": "%",
+    "data_unit": "percent",
+    "formatter": "integer",
+    "bidirectional": true,
+    "min_valid_value": 0,
+    "max_valid_value": 100,
+    "live_animation": false
+  },
+  "air_quality": {
+    "display_name": "Air Quality",
+    "display_unit": "AQI",
+    "data_unit": "AQI",
+    "formatter": "integer",
+    "bidirectional": true,
+    "min_valid_value": 0,
+    "max_valid_value": 500,
+    "live_animation": false
+  },
+  "ambient_co2": {
+    "display_name": "Ambient CO2",
+    "display_unit": "ppm",
+    "data_unit": "ppm",
+    "formatter": "integer",
+    "bidirectional": true,
+    "min_valid_value": 300,
+    "max_valid_value": 600,
+    "live_animation": false
+  },
+  "liquefaction_flow": {
+    "display_name": "Liquefaction Flow",
+    "display_unit": "kg/h",
+    "data_unit": "kg/h",
+    "formatter": "decimal",
+    "decimal_places": 1,
+    "bidirectional": true,
+    "min_valid_value": 0,
+    "max_valid_value": 1000,
+    "live_animation": true,
+    "animation_variance": 0.04,
+    "highlight_zeros": true
+  },
+  "tank_flow": {
+    "display_name": "Tank Flow",
+    "display_unit": "kg/h",
+    "data_unit": "kg/h",
+    "formatter": "decimal",
+    "decimal_places": 1,
+    "bidirectional": true,
+    "min_valid_value": 0,
+    "max_valid_value": 1000,
+    "live_animation": true,
+    "animation_variance": 0.04,
+    "highlight_zeros": true
+  },
+  "storage_flow": {
+    "display_name": "Storage Flow",
+    "display_unit": "kg/h",
+    "data_unit": "kg/h",
+    "formatter": "integer",
+    "bidirectional": true,
+    "min_valid_value": 0,
+    "max_valid_value": 1000,
+    "live_animation": true,
+    "animation_variance": 0.03,
+    "highlight_zeros": true
+  },
+  "removal_efficiency": {
+    "display_name": "Removal Efficiency",
+    "display_unit": "%",
+    "data_unit": "percent",
+    "formatter": "decimal",
+    "decimal_places": 2,
+    "bidirectional": true,
+    "min_valid_value": 0,
+    "max_valid_value": 100,
+    "live_animation": true,
+    "animation_variance": 0.02
+  },
+  "tonnes_removed_total": {
+    "display_name": "Total Removed To Date",
+    "display_unit": "tonnes",
+    "data_unit": "tonnes",
+    "formatter": "decimal",
+    "decimal_places": 7,
+    "bidirectional": false,
+    "min_valid_value": 1,
+    "max_valid_value": 1000000,
+    "live_animation": true,
+    "animation_variance": 0.02,
+    "highlight_milestones": [10, 50, 100, 500, 1000]
+  }
+}

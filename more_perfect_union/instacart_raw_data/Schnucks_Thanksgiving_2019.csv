@@ -1,0 +1,71 @@
+Year,Page,Brand,Product,Size,Base_Price,Promo_Price,Promo_Type,Promo_Details,Digital_Req,Non_Digital_Price,Member_Req,Savings,Discount_Depth,Net_Price,Core_Item
+2019,1,Full Circle,Organic Vegetables,14.5-15.25 oz can,,1.19,STRAIGHT_PRICE,,NO,,NO,,,1.19,NO
+2019,1,Full Circle,Organic Gluten Free French Fried Onions,6 oz can,,2.59,STRAIGHT_PRICE,,NO,,NO,,,2.59,NO
+2019,1,Amy's,Organic Soups,14-14.5 oz can,,2.5,MULTIBUY,2 for $5,NO,,NO,,,2.5,NO
+2019,1,Aleia's,Gluten Free Savory Stuffing,10 oz pkg,,4.5,MULTIBUY,2 for $9,NO,,NO,,,4.5,NO
+2019,1,Full Circle,Organic Broth,32 oz pkg,,0,MULTIBUY,3 for $5,NO,,NO,,,1.67,YES
+2019,1,Boar's Head,Sweet Slice Half Ham,,,,BUNDLE,Free Ham Glaze with purchase,NO,,NO,,,34.99,NO
+2019,1,Gain,Laundry Detergent,42 ct pkg or 100 oz bottle,,10.99,STRAIGHT_PRICE,,NO,,NO,,,10.99,NO
+2019,1,Downy/Bounce,Fabric Softener,240 ct box or 103 oz bottle,,10.99,STRAIGHT_PRICE,,NO,,NO,,,10.99,NO
+2019,1,Purina ONE,Dry Dog Food,12-16.5 lb bag,,22.99,STRAIGHT_PRICE,,NO,,NO,,,22.99,NO
+2019,1,Glad,Trash Bags,28-80 ct box,,7.99,STRAIGHT_PRICE,,NO,,NO,,,7.99,NO
+2019,1,Dixie,Plates,18-50 ct pkg,,2.5,MULTIBUY,2 for $5,NO,,NO,,,2.5,NO
+2019,1,7Up/Ski/RC Cola/Diet Rite,Soda - 12 pack,12 pack 12 oz cans or 8 pack 12 oz bottles,,,BOGO_FREE,Buy 2 Get 1 Free,NO,,NO,,,3.66,NO
+2019,1,Coca-Cola,Soda 2-liter,2 liter bottle,,1.79,STRAIGHT_PRICE,,NO,,NO,,,1.79,NO
+2019,1,Powerade,Sports Drink,32 oz bottle,,0.89,STRAIGHT_PRICE,,NO,,NO,,,0.89,NO
+2019,2,Birds Eye,Super Food Vegetable Pasta/Roasted or Mashed Veggies,10-15 oz pkg,,3.5,MULTIBUY,2 for $7,NO,,NO,,,3.5,NO
+2019,2,Marie Callender's,Small Pot Pies,10 oz box,,1.79,STRAIGHT_PRICE,,NO,,NO,,,1.79,NO
+2019,2,TGI Fridays/Ore-Ida,Appetizers or Bagel Bites,25.3 oz box or 40 ct box,,7.99,STRAIGHT_PRICE,,NO,,NO,,,7.99,NO
+2019,2,Edwards,Pies,17.78-36 oz box,,5.99,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2019,2,Klondike,Ice Cream Bars,6-12 ct pkg,,3.99,STRAIGHT_PRICE,,NO,,NO,,,3.99,NO
+2019,2,Chicken of the Sea,Chunk Light Tuna,5 oz can,,0.89,STRAIGHT_PRICE,,NO,,NO,,,0.89,NO
+2019,2,Kraft/Velveeta,Macaroni & Cheese or Shells & Cheese Cups,1.9-2.39 oz cup,,1.25,MULTIBUY,4 for $5,NO,,NO,,,1.25,NO
+2019,2,Hormel,Compleats,7.5 oz pkg,,2,MULTIBUY,3 for $6,NO,,NO,,,2,NO
+2019,2,Hidden Valley,Ranch Salad Dressing,20-24 oz bottle,,3.5,MULTIBUY,2 for $7,NO,,NO,,,3.5,NO
+2019,2,Pet,Evaporated Milk,12 oz can,,1.25,MULTIBUY,4 for $5,NO,,NO,,,1.25,NO
+2019,2,Skippy,Peanut Butter,15-16.3 oz jar,,2,MULTIBUY,2 for $4,NO,,NO,,,2,NO
+2019,2,International Delight,Coffee Creamer,48 oz bottle,,4,MULTIBUY,2 for $8,NO,,NO,,,4,NO
+2019,3,Jays Krunchers/Snyder's,Pretzels,8-8.5 oz bag or 12-19.2 oz bag,,2.5,MULTIBUY,2 for $5,NO,,NO,,,2.5,NO
+2019,3,Nabisco,Ritz Toasted Chips,7.1-8.1 oz bag,,2,MULTIBUY,2 for $4,NO,,NO,,,2,NO
+2019,3,Private Label,Popcorn Tins,1 ct tin,,5,STRAIGHT_PRICE,,NO,,NO,,,5,NO
+2019,3,General Mills,Chex Mix/Gardetto's/Bugles,7-8.75 oz bag,1.25,0.99,MULTIBUY,When You Buy 4 or $1.25 Each,NO,1.25,NO,0.26,21%,0.99,NO
+2019,3,On The Border,Tortilla Chips,8-12 oz bag,,2.69,STRAIGHT_PRICE,,NO,,NO,,,2.69,NO
+2019,3,Frito-Lay,Simply Cheetos Puffs,7.5-8.5 oz bag,,3,MULTIBUY,2 for $6,NO,,NO,,,3,NO
+2019,3,Nabisco,Snack Crackers (Wheat Thins/Triscuit/Good Thins),3.5-9.1 oz box,,,MULTIBUY,2 for $5,NO,,NO,,,2.5,NO
+2019,3,Russell Stover,Chocolate,9.99-9.4 oz box,,,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,,,4.99,NO
+2019,3,Sara Lee,Artesano Bakery Rolls,15-18 oz pkg,,,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2019,3,Hostess,Donettes,9.5-10.75 oz bag,,,MULTIBUY,2 for $4,NO,,NO,,,2,NO
+2019,3,Entenmann's,Little Bites,4.99-5 ct box,,,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,,,2.5,NO
+2019,3,Thomas',English Muffins,6 ct pkg,,,MULTIBUY,2 for $5,NO,,NO,,,2.5,NO
+2019,3,Dave's Killer Bread,Organic Bread,24-27 oz loaf,,,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2019,4,Bolthouse Farms,Juice,15.2 oz bottle,,,MULTIBUY,4 for $10,NO,,NO,,,2.5,NO
+2019,4,Ocean Spray,Craisins,5-6 oz pkg,,,MULTIBUY,2 for $6,NO,,NO,,,3,YES
+2019,4,Schnucks,Lemonade or Tea,52 oz bottle,,,MULTIBUY,2 for $4,NO,,NO,,,2,NO
+2019,4,Schnucks,Chunk Cheese,16 oz pkg,,,MULTIBUY,2 for $6,NO,,NO,,,3,NO
+2019,4,Marie's,Market Reserve Salad Dressings,11.5-12 oz bottle or jar,,,MULTIBUY,3 for $10,NO,,NO,,,3.33,NO
+2019,4,Schnucks,Half & Half,32 oz carton,,,STRAIGHT_PRICE,,NO,,NO,,,2.49,NO
+2019,4,Schnucks,Peanut Butter,64 oz jar,,,STRAIGHT_PRICE,,NO,,NO,,,4.49,NO
+2019,4,Schnucks,Clover Honey,8 oz bottle,,,MULTIBUY,2 for $4,NO,,NO,,,2,NO
+2019,4,Schnucks,Tortillas,10 ct pkg,,,STRAIGHT_PRICE,,NO,,NO,,,0.99,NO
+2019,4,Schnucks,Whipped Topping,13 oz canister,,,STRAIGHT_PRICE,,NO,,NO,,,3.49,YES
+2019,4,TopCare,Body Lotion,24.5 oz bottle,,,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2019,4,TopCare,Sleep-Aid,32-48 ct pkg,,,MULTIBUY,2 for $9,NO,,NO,,,4.5,NO
+2019,4,TopCare,Maximum Strength Acid Reducer,18 ct pkg,,,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2019,4,Dole,Bountiful Kits,4.29-8.4-10 oz bag,,,BOGO_FREE,Buy 1 Get 1 Free,NO,,NO,,,2.15,NO
+2019,4,Simply Done,Aluminum Foil,75 sq ft roll,,,STRAIGHT_PRICE,,NO,,NO,,,2.99,NO
+2019,4,Simply Done,Foam Compartment Trays,20 ct pkg,,,STRAIGHT_PRICE,,NO,,NO,,,1.99,NO
+2019,4,Simply Done,Party Cups,100 ct pkg,,,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2019,4,Simply Done,Cutlery,192 ct pkg,,,STRAIGHT_PRICE,,NO,,NO,,,7.99,NO
+2019,5,Private Label,Fresh Boneless Center Cut Pork Chops,Value Pack,,,STRAIGHT_PRICE,,NO,,NO,,,2.49,NO
+2019,5,Perdue,Ground Chicken,16 oz pkg,,,STRAIGHT_PRICE,,NO,,NO,,,3.89,NO
+2019,5,Schnucks,Pork Sausage Rolls,16 oz roll,,,MULTIBUY,2 for $5,NO,,NO,,,2.5,NO
+2019,5,Jennie-O,Oven Ready Boneless Turkey Breast,2.75 lb pkg,,,STRAIGHT_PRICE,,NO,,NO,,,9.99,YES
+2019,5,Lightlife,Plant-Based Burger,8 oz pkg,,,STRAIGHT_PRICE,,NO,,NO,,,4.99,NO
+2019,5,Jimmy Dean,Simple Scrambles,5.35 oz cup,,,MULTIBUY,2 for $5,NO,,NO,,,2.5,NO
+2019,5,Oscar Mayer,Bacon,12-16 oz pkg,,,STRAIGHT_PRICE,,NO,,NO,,,5.99,NO
+2019,5,Rosina,Meatballs,20-26 oz pkg,,,STRAIGHT_PRICE,,NO,,NO,,,5.49,NO
+2019,5,Lunchables,Fun Packs,8-10.7 oz pkg,,,MULTIBUY,2 for $5,NO,,NO,,,2.5,NO
+2019,5,Private Label,Cod Loins,,,,STRAIGHT_PRICE,,NO,,NO,,,7.99,NO
+2019,5,Private Label,Cooked Shrimp,71-90 ct,,,STRAIGHT_PRICE,,NO,,NO,,,7.99,NO
+2019,6,Kraft,Shredded Cheese (including Taco Bell),7-8 oz pkg,,,PERCENT_OFF,40% off,YES,,NO,,,varies,NO
+2019,7,Private Label,Cover Page - No Promotions,,,,,,NO,,NO,,,,NO
